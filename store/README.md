@@ -190,7 +190,7 @@ language before submitting. Short, sort and voice titles are Xbox fields: leave 
 
 - **Product type:** Durable. **Product ID:** `karpo-pro`. **Lifetime:** Forever.
 - **Content type:** Electronic software download.
-- **Price:** $4.99 (the person, 2026-11-22: "you should price it at 5usd"). The site (karpo.app) still says $15 in every language and should say the same.
+- **Price:** $4.99 (the person, 2026-11-22: "you should price it at 5usd"). The site (karpo.app) says the same in every language.
 - **Listing, per language:** `addOn.title` (100), `addOn.description` (200), icon `pro-300x300.png`.
 - **Keywords:** `addOn.keywords` (10 × 30).
 
