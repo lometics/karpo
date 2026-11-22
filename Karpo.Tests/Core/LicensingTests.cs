@@ -246,4 +246,18 @@ public sealed class LicensingTests
         Assert.NotNull(LicenseGate.Layouts(Free, 5));
         Assert.Null(LicenseGate.Layouts(Pro, 5));
     }
+
+    /// <summary>
+    /// §715, docs\widgets.md section 10: what the Store is handed is a list Windows made (WindowsStrings.Of),
+    /// never a collection expression, an array or a List. In the native build each of those throws
+    /// (InvalidCastException, "Failed to create a CCW"): asking for Pro's price did, in the Store's package
+    /// only, and no price was shown. No test can watch it fail, so the source is read.
+    /// </summary>
+    [Fact]
+    public void TheStoreIsHandedListsWindowsMade()
+    {
+        var source = RepoSource.Read("Karpo.Dock", "StoreLicense.cs");
+        Assert.Contains("GetStoreProductsAsync(WindowsStrings.Of(", source);
+        Assert.DoesNotMatch(@"Async\(\s*(\[|new)", source);
+    }
 }

@@ -25,9 +25,15 @@ if (!exported || !existsSync(exported)) {
   process.exit(1);
 }
 
+// Languages Karpo speaks that the Store has no listing for. Partner Center refuses the whole column ("400" on
+// importlisting/…/languagecode/my-mm, 2026-11-22) and stops the import there, leaving every language after it
+// unsaved; the package still declares the language, and the Store shows such a person another listing.
+const unlisted = new Set(["my-mm"]);
+
 const listings = readdirSync(join(repo, "store", "listing"))
   .filter((f) => f.endsWith(".json"))
-  .map((f) => ({ code: f.slice(0, -5), ...JSON.parse(readFileSync(join(repo, "store", "listing", f), "utf8")) }));
+  .map((f) => ({ code: f.slice(0, -5), ...JSON.parse(readFileSync(join(repo, "store", "listing", f), "utf8")) }))
+  .filter((l) => !unlisted.has(l.language));
 
 /** A picture of the language's own set, copied into the import folder; its path there. */
 function picture(lang, file) {

@@ -43498,3 +43498,37 @@ desktop corner never had this: it puts the bars back itself for 600 ms after its
 - Themia's widgets, lifted for Show desktop, go directly above the desktop and under every other window (its [S-33f]), so the
   bars put back are over them without either program answering the other.
 - Tests: `BarKeeperTests.ShowDesktopRaisingTheDesktopOverABarIsSeenAndAClickOnTheWallpaperIsNot`.
+
+## §715 The Store's Karpo, run in its package for the first time: Pro's price (2026-11-22)
+
+The person turned Developer Mode on so that the package could be run before it is handed in ("you can also turn on test
+mode"). `Add-AppxPackage -Register artifacts\package\layout\AppxManifest.xml`, started by its package, on the person's PC
+with their own settings.
+
+- **One fault, found in karpo.log.** ⚙ › Karpo Pro asked the Store for Pro's price and got none: "license: Pro's price:
+  InvalidCastException: Failed to create a CCW for object of type '<>z__ReadOnlySingleElementList`1[System.String]'".
+  `GetStoreProductsAsync(["Durable"], [id])` handed Windows a managed collection, which section 10 forbids in the native
+  build; a `List<string>` in its place threw the same, as section 10 says it would. A managed build never shows it, and an
+  unpackaged Karpo never asks. What is handed over now is a list Windows made (`WindowsStrings.Of`: a `DataPackage`'s
+  `FileTypes`, an `IVector<String>` that is filled and never used for anything else).
+- **The smoke check asks too, where it can.** In its package (`Karpo.exe --smoke` through the package's alias,
+  `%LOCALAPPDATA%\Microsoft\WindowsApps\Karpo.exe`) it says "store: Pro's price …", having asked as the menu asks. Without
+  a package it says nothing of it, as before. Run so on 2026-11-22 it threw nothing and was told no price: the add-on is
+  not published yet, so the Store lists none.
+- **What held**, each read from the processes, the registry and karpo.log rather than looked at:
+  - the dock and its guard both run with the package's identity; the Windows taskbar is hidden while they do;
+  - the Store answers: "license: app active False, 0 add-on licence(s), Pro not owned", Free (StoreFree), and a purchase
+    begun from the menu ended NotPurchased (the add-on is not published yet);
+  - the package's startup task is Enabled after the first start;
+  - the dock ended from outside comes back through its package ("started by its package"), with its identity;
+  - a program started by ShellExecuteEx from inside the package has no package identity (tried from a PowerShell run in
+    the package's context, `Invoke-CommandInDesktopPackage`, which starts things as `Launch` does), so what a person
+    opens from the bar is an ordinary app;
+  - the package removed while Karpo runs: the dock is told the session is ending, puts the Windows taskbar back and
+    ends; the guard tries once more 20 s later, finds no package, and ends. Nothing of Karpo runs afterwards and the
+    startup task is gone. The settings in `%LOCALAPPDATA%\Karpo` stay, as they are the person's and not the package's.
+- **Not tried**: a purchase that goes through (there is nothing to buy until the add-on is published), and a start by the
+  startup task at sign-in.
+
+Tests: LicensingTests.TheStoreIsHandedListsWindowsMade (the source: a call of the Store is handed `WindowsStrings.Of`, nothing
+managed).

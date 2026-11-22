@@ -16,6 +16,7 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using Karpo.Core;
+using Karpo.Dock.Native;
 using Windows.Services.Store;
 
 namespace Karpo.Dock;
@@ -152,7 +153,10 @@ public sealed class StoreLicense : IDisposable
         }
         try
         {
-            var result = await Context().GetStoreProductsAsync(["Durable"], [StoreIds.ProAddOn]);
+            // docs\widgets.md section 10, §715: nothing managed crosses to Windows in the native build, not a
+            // collection expression, an array or a List (each throws InvalidCastException, no CCW, and the price
+            // never came). What is handed over are lists Windows made itself.
+            var result = await Context().GetStoreProductsAsync(WindowsStrings.Of("Durable"), WindowsStrings.Of(StoreIds.ProAddOn));
             if (result.ExtendedError is { } error)
             {
                 Troubles.Note("license: the Store listed no Pro add-on", error);

@@ -121,6 +121,15 @@ internal static unsafe class Smoke
         using (var license = StoreLicense.ForThisProcess())
         {
             Line(report, $"license: {license.Status.Tier} ({license.Status.Basis}), built for {StoreLicense.Channel() ?? "no one in particular"}");
+            if (license.CanPurchase)
+            {
+                // §715: in its package (Karpo.exe --smoke through the package's alias) the Store is asked for Pro's
+                // price as ⚙ › Karpo Pro asks it: the one call of the Store that a native build once could not make.
+                var asked = license.ProPriceAsync();
+                Line(report, asked.Wait(TimeSpan.FromSeconds(20))
+                    ? $"store: Pro's price {asked.Result ?? "not told: the Store lists no such add-on (not published yet), or a line above says why"}"
+                    : "store: Pro's price not answered in 20 s");
+            }
         }
         // §713: whether this build was given Google's client secret, without which it offers no Google account.
         Line(report, $"accounts: Google sign-in {(Karpo.Accounts.AccountSignIn.CanSignIn(Karpo.Accounts.AccountKind.Google) ? "built in" : "left out")}");
