@@ -43527,6 +43527,10 @@ with their own settings.
   - the package removed while Karpo runs: the dock is told the session is ending, puts the Windows taskbar back and
     ends; the guard tries once more 20 s later, finds no package, and ends. Nothing of Karpo runs afterwards and the
     startup task is gone. The settings in `%LOCALAPPDATA%\Karpo` stay, as they are the person's and not the package's.
+- **The first version in the Store is 1.0.1.** The package first handed to Partner Center was 1.0.0, built before this
+  fault was found. Partner Center takes no second package of the same name and version, and saves no submission without
+  a package, so the mended one could not take its place under that number. `v1.0.1` is the tag; the pipeline's package of
+  that tag is the one uploaded.
 - **Not tried**: a purchase that goes through (there is nothing to buy until the add-on is published), and a start by the
   startup task at sign-in.
 
