@@ -1,0 +1,2322 @@
+{
+  "version": 37,
+  "startWithWindows": false,
+  "hoverFlyouts": false,
+  "previews": false,
+  "material": "auto",
+  "opacity": 70,
+  "onlineUpdateMinutes": 15,
+  "screens": [
+    {
+      "id": "stage",
+      "name": "Stage",
+      "enabled": true,
+      "activeLayoutId": "site",
+      "edge": "bottom"
+    }
+  ],
+  "defaultLayoutId": "site",
+  "layouts": [
+    {
+      "id": "site",
+      "name": "Work",
+      "icon": "",
+      "type": "taskbar",
+      "size": 72,
+      "islands": [
+        {
+          "id": "start",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "pinExplorer",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.Windows.Explorer",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "pinChrome",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "pinOutlook",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "mail",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "mail",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "mail",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "mailLine",
+                    "kind": "mail"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "meeting",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "meeting",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "meeting",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "meetingLine",
+                    "kind": "meeting"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "meetingActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "sports",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "sportsTable",
+                    "kind": "sportsTable",
+                    "sports": {
+                      "sport": "soccer",
+                      "league": "eng.1",
+                      "team": "359",
+                      "name": "Arsenal",
+                      "abbreviation": "ARS"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "sportsTeam",
+                    "kind": "sports",
+                    "sports": {
+                      "sport": "soccer",
+                      "league": "eng.1",
+                      "team": "359",
+                      "name": "Arsenal",
+                      "abbreviation": "ARS"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "sportsFixtures",
+                    "kind": "sportsFixtures",
+                    "sports": {
+                      "sport": "soccer",
+                      "league": "eng.1",
+                      "team": "359",
+                      "name": "Arsenal",
+                      "abbreviation": "ARS"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "markets",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              },
+              {
+                "kind": "markets",
+                "options": {},
+                "market": {
+                  "symbol": "MSFT",
+                  "range": "1d"
+                }
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "mMsft",
+                    "kind": "markets",
+                    "height": {
+                      "fixed": true,
+                      "cells": 6
+                    },
+                    "market": {
+                      "symbol": "MSFT",
+                      "range": "ytd"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "mSp",
+                    "kind": "markets",
+                    "height": {
+                      "fixed": true,
+                      "cells": 6
+                    },
+                    "market": {
+                      "symbol": "^GSPC",
+                      "range": "1y",
+                      "label": "S&P 500"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "mBtc",
+                    "kind": "markets",
+                    "height": {
+                      "fixed": true,
+                      "cells": 6
+                    },
+                    "market": {
+                      "symbol": "BTC-USD",
+                      "range": "1mo",
+                      "label": "Bitcoin"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "mFx",
+                    "kind": "markets",
+                    "height": {
+                      "fixed": true,
+                      "cells": 6
+                    },
+                    "market": {
+                      "symbol": "EURCHF=X",
+                      "range": "5d",
+                      "label": "EUR / CHF"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "weather",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "weather",
+                "options": {},
+                "weather": {
+                  "place": "Zürich",
+                  "latitude": 47.3769,
+                  "longitude": 8.5417,
+                  "useDeviceLocation": false,
+                  "isSet": true
+                }
+              },
+              {
+                "kind": "airQuality",
+                "options": {
+                  "width": "compact"
+                },
+                "weather": {
+                  "place": "Zürich",
+                  "latitude": 47.3769,
+                  "longitude": 8.5417,
+                  "useDeviceLocation": false,
+                  "isSet": true
+                }
+              }
+            ],
+            "face": {
+              "kind": "weather",
+              "options": {},
+              "weather": {
+                "place": "Zürich",
+                "latitude": 47.3769,
+                "longitude": 8.5417,
+                "useDeviceLocation": false,
+                "isSet": true
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "skyNow",
+                    "kind": "weatherNow",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skyHours",
+                    "kind": "weatherHours",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skyAir",
+                    "kind": "airQuality",
+                    "height": {
+                      "fixed": true,
+                      "cells": 4
+                    },
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skyDiv",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skySun",
+                    "kind": "sun",
+                    "height": {
+                      "fixed": true,
+                      "cells": 4
+                    },
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skySunrise",
+                    "kind": "sunrise",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skyDaylight",
+                    "kind": "daylight",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "skySunset",
+                    "kind": "sunset",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "medium"
+            ]
+          }
+        },
+        {
+          "id": "pc",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              },
+              {
+                "kind": "cpu",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "pcDrive",
+                    "kind": "drive",
+                    "size": "full",
+                    "drive": {
+                      "letter": "C:",
+                      "label": "Windows"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcDownloads",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": true,
+                      "cells": 12
+                    },
+                    "pin": {
+                      "target": "{files}\\Downloads",
+                      "name": "Downloads",
+                      "icon": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcDocuments",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": true,
+                      "cells": 12
+                    },
+                    "pin": {
+                      "target": "{files}\\Documents",
+                      "name": "Documents",
+                      "icon": ""
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "pcCpu",
+                    "kind": "performance",
+                    "height": {
+                      "fixed": true,
+                      "cells": 5
+                    },
+                    "reading": "cpu",
+                    "style": "graph",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcMemory",
+                    "kind": "performance",
+                    "height": {
+                      "fixed": true,
+                      "cells": 5
+                    },
+                    "reading": "memory",
+                    "style": "graph",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcGpu",
+                    "kind": "performance",
+                    "height": {
+                      "fixed": true,
+                      "cells": 5
+                    },
+                    "reading": "gpu",
+                    "style": "graph",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcDisk",
+                    "kind": "performance",
+                    "height": {
+                      "fixed": true,
+                      "cells": 5
+                    },
+                    "reading": "disk",
+                    "style": "graph",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcNetwork",
+                    "kind": "performance",
+                    "height": {
+                      "fixed": true,
+                      "cells": 5
+                    },
+                    "reading": "network",
+                    "style": "graph",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "pcActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "desk",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "deskNote",
+                    "kind": "note",
+                    "height": {
+                      "fixed": true,
+                      "cells": 8
+                    },
+                    "note": {
+                      "note": "trip"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskTodo",
+                    "kind": "todo",
+                    "height": {
+                      "fixed": true,
+                      "cells": 12
+                    },
+                    "todo": {
+                      "list": "groceries"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "deskNewYork",
+                    "kind": "clock",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "Eastern Standard Time",
+                      "label": "New York"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskTokyo",
+                    "kind": "clock",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "Tokyo Standard Time",
+                      "label": "Tokyo"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskTimer",
+                    "kind": "timer",
+                    "height": {
+                      "fixed": true,
+                      "cells": 2
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskStopwatch",
+                    "kind": "stopwatch",
+                    "height": {
+                      "fixed": true,
+                      "cells": 2
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskAlarm",
+                    "kind": "alarm",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "alarm": {
+                      "time": "06:45",
+                      "on": true,
+                      "name": "Morning run"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "deskFocus",
+                    "kind": "focus",
+                    "height": {
+                      "fixed": true,
+                      "rows": 3
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "quick",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "wifi",
+                "options": {}
+              },
+              {
+                "kind": "sound",
+                "options": {}
+              }
+            ],
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "qsWifi",
+                    "kind": "wifiSwitch",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    },
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "qsBluetooth",
+                    "kind": "bluetoothSwitch",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    },
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "qsToggles",
+                    "kind": "toggles",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "toggles": {
+                      "shown": [
+                        "airplaneMode",
+                        "vpn",
+                        "energySaver",
+                        "nightLight",
+                        "mobileHotspot",
+                        "nearbyShare"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "qsBrightness",
+                    "kind": "brightness",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "qsVolume",
+                    "kind": "soundVolume",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "qsActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "allSettings"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "clock",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "dateTime",
+                "options": {
+                  "seconds": "windows"
+                }
+              },
+              {
+                "kind": "notifications",
+                "options": {
+                  "count": false
+                }
+              }
+            ],
+            "face": {
+              "kind": "dateTime",
+              "options": {
+                "seconds": "windows"
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "week",
+                    "kind": "weekView",
+                    "height": {
+                      "fixed": true,
+                      "cells": 29
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "calActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "clockMail",
+                    "kind": "mail",
+                    "height": {
+                      "fixed": true,
+                      "cells": 19
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "clockTodo",
+                    "kind": "todo",
+                    "height": {
+                      "fixed": true,
+                      "cells": 12
+                    },
+                    "todo": {
+                      "list": "groceries"
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "widest",
+              "medium"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "name": "Extras",
+      "icon": "",
+      "type": "taskbar",
+      "size": 72,
+      "islands": [
+        {
+          "id": "start",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "windows",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "xCpu",
+                    "kind": "cpuDetails"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xMemory",
+                    "kind": "memoryDetails"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xLock",
+                    "kind": "lock"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xSleep",
+                    "kind": "sleep"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xRestart",
+                    "kind": "restart"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xShutDown",
+                    "kind": "shutDown"
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "xDesktops",
+                    "kind": "desktops"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xSearch",
+                    "kind": "winSearch"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xSnip",
+                    "kind": "snippingTool"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xNight",
+                    "kind": "nightLight"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "xDark",
+                    "kind": "darkMode"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "kit",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "kA0",
+                    "kind": "timeHeader"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kA1",
+                    "kind": "dateHeader"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kA2",
+                    "kind": "calendar"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kA3",
+                    "kind": "layout"
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "kB0",
+                    "kind": "narrator"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB1",
+                    "kind": "magnifier"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB2",
+                    "kind": "colorFilters"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB3",
+                    "kind": "liveCaptions"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB4",
+                    "kind": "stickyKeys"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB5",
+                    "kind": "monoAudio"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kB6",
+                    "kind": "security"
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "kC0",
+                    "kind": "airplaneMode"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC1",
+                    "kind": "gameMode"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC2",
+                    "kind": "project"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC3",
+                    "kind": "cast"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC4",
+                    "kind": "nearbyShare"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC5",
+                    "kind": "mobileHotspot"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC6",
+                    "kind": "windowsSettings"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC7",
+                    "kind": "taskView"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC8",
+                    "kind": "hibernate"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "kC9",
+                    "kind": "signOut"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "scores",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {},
+                "glyph": ""
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": ""
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "sNba",
+                    "kind": "sports",
+                    "sports": {
+                      "sport": "basketball",
+                      "league": "nba",
+                      "team": "",
+                      "name": "",
+                      "abbreviation": ""
+                    }
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "sGpu",
+                    "kind": "gpuDetails"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "sDisk",
+                    "kind": "diskDetails"
+                  }
+                }
+              ],
+              [
+                {
+                  "island": {
+                    "id": "sNews",
+                    "kind": "rss",
+                    "height": {
+                      "fixed": true,
+                      "cells": 24
+                    },
+                    "rss": {
+                      "address": "https://www.nasa.gov/news-release/feed/",
+                      "title": "NASA News"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "evening",
+      "name": "Evening",
+      "icon": "",
+      "type": "dock",
+      "size": 84,
+      "islands": [
+        {
+          "id": "eveningStart",
+          "kind": "start",
+          "section": "middle"
+        },
+        {
+          "id": "eveningPinChrome",
+          "kind": "pin",
+          "section": "middle",
+          "pin": {
+            "target": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "pinSpotify",
+          "kind": "pin",
+          "section": "middle",
+          "pin": {
+            "target": "shell:AppsFolder\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "pinWhatsApp",
+          "kind": "pin",
+          "section": "middle",
+          "pin": {
+            "target": "shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "eveningWeather",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "weather",
+              "options": {},
+              "weather": {
+                "place": "Zürich",
+                "latitude": 47.3769,
+                "longitude": 8.5417,
+                "useDeviceLocation": false
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "eveningWeatherNow",
+                    "kind": "weatherNow",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningWeatherHours",
+                    "kind": "weatherHours",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningWeatherDays",
+                    "kind": "weatherDays",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "eveningQuick",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "wifi",
+                "options": {}
+              },
+              {
+                "kind": "sound",
+                "options": {}
+              }
+            ],
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "eveningQsWifi",
+                    "kind": "wifiSwitch",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    },
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningQsBluetooth",
+                    "kind": "bluetoothSwitch",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    },
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningQsToggles",
+                    "kind": "toggles",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "toggles": {
+                      "shown": [
+                        "airplaneMode",
+                        "vpn",
+                        "energySaver",
+                        "nightLight",
+                        "mobileHotspot",
+                        "nearbyShare"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningQsBrightness",
+                    "kind": "brightness",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningQsVolume",
+                    "kind": "soundVolume",
+                    "height": {
+                      "fixed": true,
+                      "rows": 1
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningQsActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "allSettings"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "eveningClock",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "dateTime",
+              "options": {
+                "seconds": "windows"
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "eveningWeek",
+                    "kind": "weekView",
+                    "height": {
+                      "fixed": true,
+                      "rows": 10
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "eveningCalActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "wide"
+            ]
+          }
+        },
+        {
+          "id": "eveningLayouts",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "layout",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "eveningLayoutLine",
+                    "kind": "layout"
+                  }
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "name": "Focus",
+      "icon": "",
+      "type": "taskbar",
+      "size": 72,
+      "islands": [
+        {
+          "id": "focusStart",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "focusPinExplorer",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.Windows.Explorer",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "focusPinChrome",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "focusPinOutlook",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "focusPinSpotify",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "focusPinWhatsApp",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "focusLayouts",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "layout",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "focusLayoutLine",
+                    "kind": "layout"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "timer",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "timer",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "timerLine",
+                    "kind": "timer",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "slim",
+      "name": "Slim",
+      "icon": "",
+      "type": "taskbar",
+      "size": 40,
+      "islands": [
+        {
+          "id": "slimComboStart",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "slimComboPinExplorer",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.Windows.Explorer",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "slimComboPinChrome",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "slimComboPinOutlook",
+          "kind": "pin",
+          "section": "start",
+          "pin": {
+            "target": "shell:AppsFolder\\Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows",
+            "name": "",
+            "icon": ""
+          }
+        },
+        {
+          "id": "slimComboMail",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "mail",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboMailLine",
+                    "kind": "mail"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboMeeting",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "glyph": "",
+            "face": {
+              "kind": "meeting",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboMeetingLine",
+                    "kind": "meeting"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboMeetingActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboFiles",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboFilesDrive",
+                    "kind": "drive",
+                    "size": "full",
+                    "drive": {
+                      "letter": "C:",
+                      "label": "Windows"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboFilesDiv1",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboFilesDownloads",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": true,
+                      "rows": 6
+                    },
+                    "pin": {
+                      "target": "{files}\\Downloads",
+                      "name": "Downloads",
+                      "icon": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboFilesDiv2",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboFilesDocuments",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": true,
+                      "rows": 6
+                    },
+                    "pin": {
+                      "target": "{files}\\Documents",
+                      "name": "Documents",
+                      "icon": ""
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboPc",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboPcCpu",
+                    "kind": "performance",
+                    "reading": "cpu",
+                    "style": "graph",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboPcMemory",
+                    "kind": "performance",
+                    "reading": "memory",
+                    "style": "graph",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboPcGpu",
+                    "kind": "performance",
+                    "reading": "gpu",
+                    "style": "graph",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboPcDisk",
+                    "kind": "performance",
+                    "reading": "disk",
+                    "style": "graph",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboPcNetwork",
+                    "kind": "performance",
+                    "reading": "network",
+                    "style": "graph",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboPcActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboSky",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "weather",
+                "options": {},
+                "weather": {
+                  "place": "Zürich",
+                  "latitude": 47.3769,
+                  "longitude": 8.5417,
+                  "useDeviceLocation": false,
+                  "isSet": true
+                }
+              },
+              {
+                "kind": "airQuality",
+                "options": {
+                  "width": "compact"
+                },
+                "weather": {
+                  "place": "Zürich",
+                  "latitude": 47.3769,
+                  "longitude": 8.5417,
+                  "useDeviceLocation": false,
+                  "isSet": true
+                }
+              }
+            ],
+            "face": {
+              "kind": "weather",
+              "options": {},
+              "weather": {
+                "place": "Zürich",
+                "latitude": 47.3769,
+                "longitude": 8.5417,
+                "useDeviceLocation": false,
+                "isSet": true
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboSkyNow",
+                    "kind": "weatherNow",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkyHours",
+                    "kind": "weatherHours",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkyAir",
+                    "kind": "airQuality",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkyDiv",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkySun",
+                    "kind": "sun",
+                    "height": {
+                      "fixed": true,
+                      "rows": 2
+                    },
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkySunrise",
+                    "kind": "sunrise",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkyDaylight",
+                    "kind": "daylight",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboSkySunset",
+                    "kind": "sunset",
+                    "size": "compact",
+                    "weather": {
+                      "place": "Zürich",
+                      "latitude": 47.3769,
+                      "longitude": 8.5417,
+                      "useDeviceLocation": false,
+                      "isSet": true
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "medium"
+            ]
+          }
+        },
+        {
+          "id": "slimComboWorld",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "icon",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "icon",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboWorldZurich",
+                    "kind": "clock",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "W. Europe Standard Time",
+                      "label": "Zurich"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboWorldNewYork",
+                    "kind": "clock",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "Eastern Standard Time",
+                      "label": "New York"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboWorldTokyo",
+                    "kind": "clock",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "Tokyo Standard Time",
+                      "label": "Tokyo"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboControls",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "wifi",
+                "options": {}
+              },
+              {
+                "kind": "sound",
+                "options": {}
+              }
+            ],
+            "face": {
+              "kind": "wifi",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboControlsClock",
+                    "kind": "clock",
+                    "size": "full",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsDiv",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsWifi",
+                    "kind": "wifiSwitch",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsBluetooth",
+                    "kind": "bluetoothSwitch",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsGame",
+                    "kind": "gameMode",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsToggles",
+                    "kind": "toggles",
+                    "toggles": {
+                      "shown": [
+                        "keepAwake",
+                        "nightLight",
+                        "airplaneMode",
+                        "bluetooth",
+                        "sound",
+                        "microphone"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsBrightness",
+                    "kind": "brightness",
+                    "size": "compact"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsVolume",
+                    "kind": "soundVolume",
+                    "size": "compact"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboControlsActions",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "allSettings"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "slimComboToday",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "glyph": "",
+            "faces": [
+              {
+                "kind": "dateTime",
+                "options": {
+                  "seconds": "windows"
+                }
+              },
+              {
+                "kind": "notifications",
+                "options": {
+                  "count": false
+                }
+              }
+            ],
+            "face": {
+              "kind": "dateTime",
+              "options": {
+                "seconds": "windows"
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "slimComboTodayAgenda",
+                    "kind": "calendar",
+                    "height": {
+                      "fixed": true,
+                      "rows": 7
+                    },
+                    "calendar": {
+                      "feedUrl": "",
+                      "showNextEvent": true,
+                      "refreshMinutes": 30
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboTodayDiv",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboTodayHeader",
+                    "kind": "dateHeader",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboTodayMonth",
+                    "kind": "calendar",
+                    "style": "month",
+                    "height": {
+                      "fixed": true,
+                      "rows": 7
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "slimComboTodayFocus",
+                    "kind": "focus",
+                    "countdown": {
+                      "minutes": 30,
+                      "name": ""
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "medium"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

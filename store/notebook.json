@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "lists": [
+    {
+      "id": "groceries",
+      "name": "Weekend",
+      "items": [
+        { "id": "t1", "text": "Book the train to Lugano", "done": true, "created": "2026-11-02T08:00:00+01:00", "finished": "2026-11-03T09:00:00+01:00" },
+        { "id": "t2", "text": "Pack the climbing shoes", "done": false, "created": "2026-11-02T08:01:00+01:00" },
+        { "id": "t3", "text": "Pick up the cake for Mia", "done": false, "created": "2026-11-02T08:02:00+01:00" },
+        { "id": "t4", "text": "Water the plants", "done": true, "created": "2026-11-02T08:03:00+01:00", "finished": "2026-11-04T19:00:00+01:00" },
+        { "id": "t5", "text": "Call the dentist back", "done": false, "created": "2026-11-02T08:04:00+01:00" }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "trip",
+      "title": "Ticino",
+      "body": "Friday: train at 17:32\n\n- Hotel Lungolago, check-in from 3 pm\n- Lunch at Grotto Sasso\n- Monte Brè on Sunday if it's sunny",
+      "modified": "2026-11-05T18:20:00+01:00"
+    }
+  ]
+}

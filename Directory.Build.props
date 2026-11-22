@@ -1,0 +1,26 @@
+<Project>
+  <!--
+    What this PC alone knows and the repository does not: Local.Build.props beside this file, where there is one
+    (.gitignore keeps it out). Today that is Google's client secret (Karpo.Accounts.csproj, docs\widgets.md §713).
+  -->
+  <Import Project="$(MSBuildThisFileDirectory)Local.Build.props" Condition="Exists('$(MSBuildThisFileDirectory)Local.Build.props')" />
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <!--
+    The publisher, as the website (lometics.com) writes it: every assembly's attributes, and the
+    version resource the SDK copies onto each exe, so Explorer's Details tab names Lometics.
+  -->
+  <PropertyGroup>
+    <Product>Karpo</Product>
+    <Company>Lometics GmbH</Company>
+    <Authors>Lometics GmbH</Authors>
+    <Copyright>© $([System.DateTime]::Now.Year) Lometics GmbH</Copyright>
+  </PropertyGroup>
+</Project>

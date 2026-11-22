@@ -1,0 +1,194 @@
+{
+  "language": "sw-ke",
+  "title": "Karpo",
+  "shortDescription": "Upau wa kazi wa Windows, pamoja na siku yako ndani yake. Ona mkutano wako ujao, barua pepe mpya, hali ya hewa na muziki wako kwa mtazamo mmoja, na ufungue folda zilizojaa wijeti kwa mbofyo mmoja. Bure kuanza, bila matangazo, bila akaunti.",
+  "description": [
+    "Karpo ni upau wa kazi kwa Windows 11 na Windows 10 unaoonekana kama ule unaokuja na Windows. Tofauti ni hii: siku yako iko ndani yake. Mkutano wako ujao, barua pepe zako mpya zaidi, hali ya hewa, muziki wako na jinsi Kompyuta yako inavyofanya kazi kwa bidii vinakaa kando ya programu zako, na kila kimoja hufunguka kwa mbofyo.",
+    "",
+    "SIKU YAKO, MOJA KWA MOJA KWENYE UPAU WA KAZI",
+    "• Mkutano wako ujao pamoja na hesabu ya kurudi nyuma, na kitufe cha kujiunga",
+    "• Barua pepe mpya zinapoingia, pamoja na idadi ya ambazo hazijasomwa",
+    "• Wiki yako yote kwa mbofyo mmoja kutoka kwenye saa",
+    "• Akaunti za Microsoft (Outlook.com, Microsoft 365), akaunti yoyote ya barua pepe ya IMAP, na kalenda na anwani za CalDAV na CardDAV kama iCloud, Fastmail au Nextcloud",
+    "",
+    "UNACHOANGALIA SIKU NZIMA, KWA MTAZAMO MMOJA",
+    "• Hali ya hewa sasa, kila saa na kwa wiki",
+    "• Muziki wako, wenye kucheza, kusitisha na kuruka moja kwa moja kwenye upau wa kazi",
+    "• Kichakataji, kumbukumbu, michoro, mtandao na diski, pamoja na grafu hai",
+    "• Saa za miji mingine, vipima muda na kengele",
+    "• Hisa, milisho ya RSS, arifa, faili zako za karibuni",
+    "• Wi-Fi, Bluetooth, kiwango cha sauti, mwangaza na betri",
+    "",
+    "FOLDA UNAZOJAZA WIJETI",
+    "Kusanya wijeti katika folda kwenye upau wa kazi. Mbofyo mmoja huifungua kama dashibodi yako ndogo: saa za miji mitatu, ajenda ya leo, kikasha chako na utabiri. Bofya mahali pengine na inatoweka.",
+    "",
+    "MPANGILIO KWA KILA SEHEMU YA SIKU YAKO",
+    "Upau kamili wa kazi kwa kazini pamoja na kalenda na barua zako. Gati la jioni lenye muziki na hali ya hewa. Kipima muda pekee unapohitaji kuzingatia. Badilisha kwa mibofyo miwili, au ipe kila skrini mpangilio wake.",
+    "",
+    "KWENYE KILA SKRINI, KWENYE UKINGO WOWOTE",
+    "Karpo huweka upau wa kazi kwenye kila kifuatiliaji. Kila mmoja unaweza kukaa chini, juu, kushoto au kulia, na mpangilio wake.",
+    "",
+    "IFANYE YAKO",
+    "Bofya kulia upau wa kazi na uchague Hariri. Ongeza wijeti kutoka kwenye orodha, ziburute pale unapozitaka, na ubadilishe ukubwa na mwonekano wake moja kwa moja kwenye upau wa kazi. Kila mpangilio uko hapo pia, ndani ya upau wa kazi wenyewe.",
+    "",
+    "INAONEKANA KAMA WINDOWS",
+    "Anza, utafutaji, programu zako zilizobandikwa na zilizo wazi, trei ya mfumo na saa vinaonekana na kufanya kazi kama vya Windows yenyewe. Karpo hufuata mandhari yako ya mwanga au giza, rangi yako ya msisitizo na ukubwa wa maandishi yako.",
+    "",
+    "FARAGHA TANGU MWANZO",
+    "Karpo haina matangazo, haina ufuatiliaji, haina takwimu za matumizi na haina akaunti. Inasoma tu barua na kalenda yako: haiwezi kutuma barua pepe wala kubadilisha tukio. Kuingia kwako kumesimbwa na Windows kwa ajili ya mtumiaji wako wa Windows pekee, na data yako inabaki kwenye Kompyuta yako. Karpo haina seva zake yenyewe.",
+    "",
+    "NYEPESI KWA KOMPYUTA YAKO",
+    "Karpo huonyesha upau wake wa kazi sehemu ndogo ya sekunde baada ya kuanza na hutumia kumbukumbu na nishati kidogo sana usipouangalia, kwa hivyo Kompyuta yako inabaki na kasi na betri yako inadumu.",
+    "",
+    "DAIMA NI CHAGUO LAKO",
+    "Funga Karpo wakati wowote na upau wa kazi wa Windows unarudi kama ulivyokuwa. Anza na utafutaji vinabaki kuwa vya Windows yenyewe.",
+    "",
+    "BURE KUANZA",
+    "Kila wijeti na kila mpangilio uko katika toleo la bure, na hadi wijeti 20 kwa kila mpangilio na mipangilio 2. Karpo Pro, ununuzi mmoja ndani ya Karpo kupitia Microsoft Store, huondoa vikomo vyote viwili milele. Bila usajili wa kulipia.",
+    "",
+    "Katika lugha 40. Data ya hali ya hewa kutoka Open-Meteo.com."
+  ],
+  "features": [
+    "Mkutano wako ujao na barua pepe mpya moja kwa moja kwenye upau wa kazi",
+    "Wiki yako yote kwa mbofyo mmoja kutoka kwenye saa",
+    "Hali ya hewa sasa, kila saa na kwa wiki",
+    "Cheza, sitisha na uruke muziki wako bila kufungua programu",
+    "Grafu hai za kichakataji, kumbukumbu, michoro, mtandao na diski",
+    "Folda zinazofungua dashibodi yako ndogo ya wijeti",
+    "Mipangilio ya kazi, jioni na kuzingatia, inayobadilishwa kwa mibofyo miwili",
+    "Upau wa kazi kwenye kila kifuatiliaji, chini, juu, kushoto au kulia",
+    "Ongeza, buruta na badilisha ukubwa wa wijeti moja kwa moja kwenye upau wa kazi",
+    "Saa za miji mingine, vipima muda, kengele na hisa",
+    "Wi-Fi, Bluetooth, kiwango cha sauti, mwangaza na betri kwa mtazamo mmoja",
+    "Inafanya kazi na akaunti za Microsoft, barua pepe ya IMAP na kalenda za CalDAV na CardDAV",
+    "Inaonekana kama Windows na hufuata mandhari na rangi yako ya msisitizo",
+    "Inasoma tu barua na kalenda yako; data yako inabaki kwenye Kompyuta yako",
+    "Bila matangazo, bila ufuatiliaji, bila akaunti",
+    "Nyepesi kwa kumbukumbu na betri",
+    "Upau wa kazi wa Windows unarudi ulivyokuwa unapofunga Karpo",
+    "Katika lugha 40"
+  ],
+  "keywords": [
+    "upau wa kazi",
+    "wijeti za upau wa kazi",
+    "kalenda kwenye upau",
+    "wijeti ya hali ya hewa",
+    "upau wima",
+    "skrini nyingi",
+    "gati"
+  ],
+  "minimumHardware": [
+    "Windows 10 toleo la 2004 au baadaye, biti 64 (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Upau wa kazi wa Windows, pamoja na siku yako.",
+      "sub": "Mkutano wako ujao na barua pepe mpya kando ya programu zako, wiki na kikasha chako kwa mbofyo mmoja.",
+      "caption": "Upau wa kazi wa Karpo wenye mkutano ujao na barua ambazo hazijasomwa kando ya programu, na wiki, kikasha na orodha ya mambo ya kufanya vimefunguliwa kutoka kwenye saa."
+    },
+    {
+      "shot": "tour",
+      "label": "Upau",
+      "headline": "Kila unachoangalia, kwenye upau mmoja.",
+      "sub": "Hali ya hewa, faili zako, mipangilio ya haraka na siku yako: kitufe kwa kila kimoja, kando ya programu zako.",
+      "caption": "Upau wa kazi wa Karpo wenye lebo: programu zako, barua mpya, mkutano ujao, faili na hifadhi, hali ya hewa na hewa, mipangilio ya haraka na siku yako.",
+      "callouts": [
+        "Programu zako",
+        "Barua mpya",
+        "Mkutano ujao",
+        "Kompyuta yako",
+        "Hali ya hewa na hewa",
+        "Folda",
+        "Mipangilio ya haraka",
+        "Siku yako"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Mbofyo mmoja",
+      "headline": "Kila kitufe hufungua zaidi.",
+      "sub": "Kila kitufe kwenye upau hufungua kinachoendana nacho: utabiri, faili zako, siku yako, Kompyuta yako.",
+      "caption": "Folda zilizofunguliwa kutoka upau wa kazi wa Karpo: mikutano ijayo, mipangilio ya haraka, habari, maji kujaa na kupwa na hali ya hewa ya wiki."
+    },
+    {
+      "shot": "files",
+      "label": "Kompyuta yako",
+      "headline": "Faili zako na Kompyuta yako, kwa mbofyo mmoja.",
+      "sub": "Nafasi tupu, faili zako mpya zaidi na grafu hai za kichakataji, kumbukumbu na mtandao. Bila Kichunguzi, bila Kidhibiti cha Kazi.",
+      "caption": "Folda iliyofunguliwa kutoka upau wa kazi: nafasi tupu kwenye hifadhi, vipakuliwa na hati mpya zaidi, na grafu hai za kichakataji, kumbukumbu, michoro, diski na mtandao.",
+      "callouts": [
+        "Nafasi tupu kwenye hifadhi",
+        "Vipakuliwa vipya zaidi",
+        "Folda yoyote unayopenda",
+        "Grafu hai"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Akaunti",
+      "headline": "Kalenda, barua na anwani zako.",
+      "sub": "Ingia kwa Microsoft, au ongeza akaunti yoyote ya IMAP, CalDAV au CardDAV.",
+      "caption": "Akaunti ambazo Karpo huunganisha nazo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Mikutano ya Teams, Zoom, Google Meet na Webex kwa mbofyo mmoja.",
+      "callouts": [
+        "Kalenda",
+        "Anwani",
+        "Barua",
+        "Kazi za To Do",
+        "Jiunge kwa mbofyo mmoja"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Folda",
+      "headline": "Folda unazojaza wijeti.",
+      "sub": "Mbofyo mmoja hufungua dashibodi yako ndogo.",
+      "caption": "Folda iliyofunguliwa kama dashibodi: saa na kipima muda, mwezi na ajenda ya leo, hali ya hewa na jua, barua zako na faili zilizo katika Vipakuliwa.",
+      "callouts": [
+        "Saa za miji mingine",
+        "Mikutano ya leo",
+        "Mvua kila saa",
+        "Barua mpya zaidi",
+        "Vipakuliwa vya karibuni"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Wijeti",
+      "headline": "Zaidi ya wijeti 100.",
+      "sub": "Kalenda, barua, hali ya hewa, hisa, faili, vipima muda, mipangilio ya haraka na Kompyuta yako. Kwenye upau wa kazi au katika folda.",
+      "caption": "Wijeti za Karpo: saa za siku, hali ya hewa ya wiki, ubora wa hewa, hali ya nishati, mwaka, hisa, anwani, mambo ya kufanya, madokezo, kengele, vipima muda, betri, mipangilio ya haraka, faili na PC."
+    },
+    {
+      "shot": "side",
+      "label": "Popote",
+      "headline": "Kwenye ukingo wowote wa skrini yako.",
+      "sub": "Chini, juu, kushoto au kulia, na kwenye kila kifuatiliaji ulicho nacho.",
+      "caption": "Upau wa kazi wa Karpo kwenye ukingo wa kushoto wa skrini, na hali ya hewa, ubora wa hewa na mwendo wa jua vimefunguliwa kando yake."
+    },
+    {
+      "shot": "looks",
+      "label": "Mwonekano wako",
+      "headline": "Ifanye ionekane unavyopenda.",
+      "sub": "Rangi na fonti zako kwenye upau na katika kila folda, au mojawapo ya paleti za Karpo.",
+      "caption": "Skrini moja kwa mionekano minne, iliyokatwa kando kwa kando: ya Windows yenyewe na paleti za Karpo Paper, Harbor na Bloom."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Wijeti na mipangilio mingi kadiri unavyopenda. Ununuzi mmoja, wako milele, pamoja na masasisho ya bure kwa toleo hili kubwa. Bila usajili wa kulipia.",
+    "keywords": [
+      "karpo pro",
+      "wijeti bila kikomo",
+      "mipangilio bila kikomo",
+      "upau wa kazi",
+      "pro"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "language": "ro-ro",
+  "title": "Karpo",
+  "shortDescription": "Bara de activități Windows, cu toată ziua ta la vedere. Vezi dintr-o privire următoarea întâlnire, e-mailurile noi, vremea și muzica și deschizi cu un clic foldere pline de widgeturi. Începi gratuit, fără reclame și fără cont.",
+  "description": [
+    "Karpo este o bară de activități pentru Windows 11 și Windows 10 care arată exact ca cea care vine cu Windows. Diferența: ziua ta e pe ea. Următoarea întâlnire, cele mai noi e-mailuri, vremea, muzica ta și cât de mult muncește PC-ul tău stau chiar lângă aplicații, și fiecare se deschide cu un clic.",
+    "",
+    "ZIUA TA, DIRECT ÎN BARA DE ACTIVITĂȚI",
+    "• Următoarea întâlnire, cu numărătoare inversă și un buton ca să intri în ea",
+    "• E-mailurile noi imediat ce sosesc, cu numărul celor necitite",
+    "• Toată săptămâna ta, la un clic pe ceas",
+    "• Conturi Microsoft (Outlook.com, Microsoft 365), orice cont de e-mail IMAP și calendare și contacte CalDAV și CardDAV, precum iCloud, Fastmail sau Nextcloud",
+    "",
+    "CE VERIFICI TOATĂ ZIUA, DINTR-O PRIVIRE",
+    "• Vremea acum, pe ore și pe toată săptămâna",
+    "• Muzica ta, cu redare, pauză și piesa următoare direct în bara de activități",
+    "• Procesor, memorie, grafică, rețea și discuri, cu grafice în timp real",
+    "• Ceasuri pentru alte orașe, temporizatoare și alarme",
+    "• Acțiuni, fluxuri RSS, notificări și cele mai noi fișiere",
+    "• Wi-Fi, Bluetooth, volum, luminozitate și baterie",
+    "",
+    "FOLDERE PE CARE LE UMPLI CU WIDGETURI",
+    "Adună widgeturi într-un folder pe bara de activități. Un clic și se deschide ca propriul tău mic dashboard: ceasuri pentru trei orașe, agenda de azi, inboxul și prognoza. Dai clic în altă parte și dispare.",
+    "",
+    "UN ASPECT PENTRU FIECARE PARTE A ZILEI",
+    "O bară de activități completă pentru lucru, cu calendarul și e-mailul. Un dock pentru seară, cu muzica și vremea. Doar un temporizator când vrei să te concentrezi. Schimbi din două clicuri sau dai fiecărui ecran aspectul lui.",
+    "",
+    "PE FIECARE ECRAN, PE ORICE MARGINE",
+    "Karpo pune o bară de activități pe fiecare monitor. Fiecare poate sta jos, sus, la stânga sau la dreapta, cu propriul aspect.",
+    "",
+    "FĂ-L AL TĂU",
+    "Dă clic dreapta pe bara de activități și alege Editare. Adaugă widgeturi din listă, trage-le unde vrei și schimbă-le dimensiunea și stilul direct pe bară. Toate setările sunt tot acolo, în bara de activități.",
+    "",
+    "ARATĂ CA WINDOWS",
+    "Start, căutarea, aplicațiile fixate și deschise, zona de notificări și ceasul arată și funcționează exact ca în Windows. Karpo urmează tema ta luminoasă sau întunecată, culoarea de accent și dimensiunea textului.",
+    "",
+    "GÂNDIT PENTRU CONFIDENȚIALITATE",
+    "Karpo nu are reclame, urmărire, analize sau cont. Doar citește e-mailul și calendarul tău: nu poate trimite un e-mail și nici modifica un eveniment. Datele tale de conectare sunt criptate de Windows doar pentru utilizatorul tău Windows, iar datele tale rămân pe PC-ul tău. Karpo nu are servere proprii.",
+    "",
+    "UȘOR PENTRU PC-UL TĂU",
+    "Karpo își afișează bara la o fracțiune de secundă după pornire și folosește foarte puțină memorie și energie cât timp nu te uiți la ea, așa că PC-ul rămâne rapid, iar bateria ține mai mult.",
+    "",
+    "ALEGEREA E MEREU A TA",
+    "Ieși din Karpo oricând și bara de activități Windows revine exact cum era. Start și căutarea rămân cele din Windows.",
+    "",
+    "ÎNCEPI GRATUIT",
+    "Toate widgeturile și toate setările sunt în versiunea gratuită, cu până la 20 de widgeturi per aspect și 2 aspecte. Karpo Pro, o singură achiziție în Karpo prin Microsoft Store, ridică ambele limite pentru totdeauna. Fără abonament.",
+    "",
+    "În 40 de limbi. Date meteo de la Open-Meteo.com."
+  ],
+  "features": [
+    "Următoarea întâlnire și e-mailurile noi direct în bara de activități",
+    "Toată săptămâna, la un clic pe ceas",
+    "Vremea acum, pe ore și pe toată săptămâna",
+    "Redare, pauză și piesa următoare, fără să deschizi aplicația",
+    "Grafice în timp real pentru procesor, memorie, grafică, rețea și discuri",
+    "Foldere care se deschid ca propriul tău mic dashboard de widgeturi",
+    "Aspecte pentru lucru, seară și concentrare, schimbate din două clicuri",
+    "O bară de activități pe fiecare monitor, jos, sus, la stânga sau la dreapta",
+    "Adaugă, trage și redimensionează widgeturi direct pe bara de activități",
+    "Ceasuri pentru alte orașe, temporizatoare, alarme și acțiuni",
+    "Wi-Fi, Bluetooth, volum, luminozitate și baterie dintr-o privire",
+    "Funcționează cu conturi Microsoft, e-mail IMAP și calendare CalDAV și CardDAV",
+    "Arată ca Windows și îți urmează tema și culoarea de accent",
+    "Doar citește e-mailul și calendarul; datele tale rămân pe PC-ul tău",
+    "Fără reclame, fără urmărire, fără cont",
+    "Consumă puțină memorie și baterie",
+    "Când ieși din Karpo, bara de activități Windows revine exact cum era",
+    "În 40 de limbi"
+  ],
+  "keywords": [
+    "bara de activități",
+    "widgeturi bara de activități",
+    "calendar bara de activități",
+    "widget vreme",
+    "bară de activități verticală",
+    "mai multe monitoare",
+    "taskbar"
+  ],
+  "minimumHardware": [
+    "Windows 10 versiunea 2004 sau ulterioară, pe 64 de biți (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Ziua ta, direct în bara de activități.",
+      "sub": "Următoarea întâlnire și e-mailurile noi lângă aplicații, săptămâna și inboxul la un clic.",
+      "caption": "Bara de activități Karpo cu următoarea întâlnire și e-mailurile necitite lângă aplicații, plus săptămâna, inboxul și o listă de sarcini deschise din ceas."
+    },
+    {
+      "shot": "tour",
+      "label": "Bara",
+      "headline": "Tot ce verifici, pe o singură bară.",
+      "sub": "Vremea, fișierele tale, setările rapide și ziua ta: câte un buton pentru fiecare, chiar lângă aplicații.",
+      "caption": "Bara de activități Karpo cu etichete: aplicațiile tale, e-mailurile noi, următoarea întâlnire, fișiere și discuri, vremea și calitatea aerului, setările rapide și ziua ta.",
+      "callouts": [
+        "Aplicațiile tale",
+        "E-mailuri noi",
+        "Următoarea întâlnire",
+        "PC-ul tău",
+        "Vreme și aer",
+        "Foldere",
+        "Setări rapide",
+        "Ziua ta"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Un clic",
+      "headline": "Fiecare buton deschide mai mult.",
+      "sub": "Fiecare buton de pe bară deschide ce ține de el: prognoza, fișierele tale, ziua ta, PC-ul tău.",
+      "caption": "Foldere deschise din bara de activități Karpo: următoarele întâlniri, setările rapide, știrile, mareele și vremea săptămânii."
+    },
+    {
+      "shot": "files",
+      "label": "PC-ul tău",
+      "headline": "Fișierele și PC-ul tău, la un clic.",
+      "sub": "Spațiu liber, ultimele fișiere și grafice în timp real pentru procesor, memorie și rețea. Fără Explorer și Manager de activități.",
+      "caption": "Un folder deschis din bara de activități: spațiul liber de pe disc, cele mai noi descărcări și documente și grafice în timp real pentru procesor, memorie, grafică, disc și rețea.",
+      "callouts": [
+        "Spațiu liber pe discuri",
+        "Cele mai noi descărcări",
+        "Orice folder vrei",
+        "Grafice în timp real"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Conturi",
+      "headline": "Calendarele, e-mailul și contactele tale.",
+      "sub": "Conectează-te cu Microsoft sau adaugă un cont IMAP, CalDAV ori CardDAV.",
+      "caption": "Conturile la care se conectează Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Întâlniri Teams, Zoom, Google Meet, Webex cu un clic.",
+      "callouts": [
+        "Calendare",
+        "Contacte",
+        "E-mail",
+        "Sarcini To Do",
+        "Intră cu un clic"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Foldere",
+      "headline": "Foldere pe care le umpli cu widgeturi.",
+      "sub": "Un clic deschide propriul tău mic dashboard.",
+      "caption": "Un folder deschis ca dashboard: ceasuri și un temporizator, luna și agenda de azi, vremea și soarele, e-mailul tău și fișierele din Descărcări.",
+      "callouts": [
+        "Ora în alte orașe",
+        "Întâlnirile de azi",
+        "Ploaia pe ore",
+        "Cele mai noi e-mailuri",
+        "Ultimele descărcări"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgeturi",
+      "headline": "Peste 100 de widgeturi.",
+      "sub": "Calendar, e-mail, vreme, acțiuni, fișiere, temporizatoare, setări rapide și PC-ul tău, pe bară sau în folder.",
+      "caption": "Câteva widgeturi Karpo: orele zilei, vremea săptămânii, calitatea aerului, mod de alimentare, anul, acțiuni, contacte, sarcini, notițe, alarme și temporizatoare, baterie, setări rapide, fișiere și PC."
+    },
+    {
+      "shot": "side",
+      "label": "Oriunde",
+      "headline": "Pe orice margine a ecranului.",
+      "sub": "Jos, sus, la stânga sau la dreapta, și pe fiecare monitor pe care îl ai.",
+      "caption": "Bara de activități Karpo pe marginea din stânga a ecranului, cu vremea, calitatea aerului și drumul soarelui deschise lângă ea."
+    },
+    {
+      "shot": "looks",
+      "label": "Înfățișare",
+      "headline": "Arată exact cum îți place.",
+      "sub": "Culorile și fonturile tale pe bară și în fiecare folder, sau una dintre paletele Karpo.",
+      "caption": "Un ecran în patru stiluri, tăiat unul lângă altul: cel al Windows și paletele Paper, Harbor și Bloom ale Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Câte widgeturi și aspecte vrei. O singură achiziție, a ta pentru totdeauna, cu actualizări gratuite pentru această versiune majoră. Fără abonament.",
+    "keywords": [
+      "karpo pro",
+      "widgeturi nelimitate",
+      "aspecte nelimitate",
+      "bara de activități",
+      "pro"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Unit tests for what can run without a window: the config model and its
+    migrations (Karpo.Core) and the dock's pure logic (Karpo.Dock). Every test
+    run reads and writes config files in a temporary folder only (see
+    Isolation.cs), never the person's own %APPDATA%\Karpo.
+  -->
+  <PropertyGroup>
+    <!-- The dock's framework, so its types load as they do in Karpo.exe. -->
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Like Karpo.exe: formatting and parsing behave as they do in the dock. -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+    <!-- Persistence\Worker.cs has the entry point: the stress test runs this assembly as several processes. -->
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <!-- A UI run (KARPO_UI_TESTS=1) on four threads: the person's dwm.exe serves its windows (UiTurn.cs). -->
+    <RunSettingsFilePath Condition="'$(KARPO_UI_TESTS)' == '1'">$(MSBuildThisFileDirectory)ui.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <!-- Localization\HardCodedEnglishTests reads Karpo's C# as the compiler does, to find English written in the code. -->
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Karpo.Core\Karpo.Core.csproj" />
+    <ProjectReference Include="..\Karpo.Accounts\Karpo.Accounts.csproj" />
+    <ProjectReference Include="..\Karpo.Dock\Karpo.Dock.csproj" />
+    <!-- Core\PersonsPresetsTests: the person's own layouts, which the presets are held to. -->
+    <EmbeddedResource Include="Core\PersonsLayouts.json" LogicalName="Karpo.Tests.Core.PersonsLayouts.json" />
+    <!-- Sports\SportsAnswersTests: ESPN's real answers, saved 2026-10-19 and cut to what Karpo reads. -->
+    <EmbeddedResource Include="Sports\Saved\*.json" LogicalName="Karpo.Tests.Sports.%(Filename).json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="Karpo.Core" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,194 @@
+{
+  "language": "fr-fr",
+  "title": "Karpo",
+  "shortDescription": "La barre des tâches de Windows, avec toute ta journée dedans. Ta prochaine réunion, tes nouveaux e-mails, la météo et ta musique d’un coup d’œil, et des dossiers pleins de widgets qui s’ouvrent d’un clic. Gratuit pour commencer, sans pub, sans compte.",
+  "description": [
+    "Karpo est une barre des tâches pour Windows 11 et Windows 10 qui ressemble en tout point à celle de Windows. La différence : ta journée est dedans. Ta prochaine réunion, tes derniers e-mails, la météo, ta musique et la charge de ton PC s’affichent juste à côté de tes applis, et chacun s’ouvre d’un clic.",
+    "",
+    "TA JOURNÉE, DIRECTEMENT DANS LA BARRE DES TÂCHES",
+    "• Ta prochaine réunion avec un compte à rebours, et un bouton pour la rejoindre",
+    "• Tes nouveaux e-mails dès qu’ils arrivent, avec le nombre de non-lus",
+    "• Toute ta semaine en un clic depuis l’horloge",
+    "• Les comptes Microsoft (Outlook.com, Microsoft 365), n’importe quel compte de messagerie IMAP, et les agendas et contacts CalDAV et CardDAV comme iCloud, Fastmail ou Nextcloud",
+    "",
+    "CE QUE TU REGARDES TOUTE LA JOURNÉE, D’UN COUP D’ŒIL",
+    "• La météo actuelle, heure par heure et sur la semaine",
+    "• Ta musique, avec lecture, pause et piste suivante directement dans la barre des tâches",
+    "• Processeur, mémoire, carte graphique, réseau et disques, avec des graphiques en direct",
+    "• Des horloges pour d’autres villes, des minuteurs et des alarmes",
+    "• La Bourse, des flux RSS, les notifications, tes derniers fichiers",
+    "• Wi-Fi, Bluetooth, volume, luminosité et batterie",
+    "",
+    "DES DOSSIERS QUE TU REMPLIS DE WIDGETS",
+    "Rassemble des widgets dans un dossier sur la barre des tâches. Un clic, et il s’ouvre comme ton propre petit dashboard : des horloges pour trois villes, l’agenda du jour, ta boîte de réception et les prévisions. Clique ailleurs, et il disparaît.",
+    "",
+    "UNE DISPOSITION POUR CHAQUE MOMENT DE TA JOURNÉE",
+    "Une barre des tâches complète pour bosser, avec ton agenda et tes e-mails. Un dock pour le soir, avec la musique et la météo. Juste un minuteur quand tu dois te concentrer. Change en deux clics, ou donne à chaque écran la sienne.",
+    "",
+    "SUR CHAQUE ÉCRAN, SUR N’IMPORTE QUEL BORD",
+    "Karpo met une barre des tâches sur chaque moniteur. Chacune peut se placer en bas, en haut, à gauche ou à droite, avec sa propre disposition.",
+    "",
+    "À TA FAÇON",
+    "Fais un clic droit sur la barre des tâches et choisis « Modifier ». Ajoute des widgets depuis la liste, fais-les glisser où tu veux, et change leur taille et leur style directement dans la barre des tâches. Tous les paramètres sont là aussi, dans la barre elle-même.",
+    "",
+    "COMME WINDOWS",
+    "Démarrer, la recherche, tes applis épinglées et ouvertes, la zone de notification et l’horloge ressemblent à ceux de Windows et marchent exactement pareil. Karpo suit ton thème clair ou sombre, ta couleur d’accentuation et ta taille de texte.",
+    "",
+    "RESPECTUEUX DE TA VIE PRIVÉE",
+    "Karpo n’a ni pub, ni pistage, ni outils d’analyse, ni compte. Il se contente de lire tes e-mails et ton agenda : il ne peut ni envoyer un e-mail ni modifier un événement. Tes connexions sont chiffrées par Windows pour ton utilisateur Windows à toi seul, et tes données restent sur ton PC. Karpo n’a aucun serveur à lui.",
+    "",
+    "LÉGER POUR TON PC",
+    "Karpo affiche sa barre des tâches une fraction de seconde après son lancement et consomme très peu de mémoire et d’énergie quand tu ne le regardes pas. Ton PC reste rapide et ta batterie tient plus longtemps.",
+    "",
+    "C’EST TOI QUI CHOISIS",
+    "Quitte Karpo quand tu veux, et la barre des tâches de Windows revient comme avant. Démarrer et la recherche restent ceux de Windows.",
+    "",
+    "GRATUIT POUR COMMENCER",
+    "Tous les widgets et tous les paramètres sont dans la version gratuite, avec jusqu’à 20 widgets par disposition et 2 dispositions. Karpo Pro, un seul achat dans Karpo via le Microsoft Store, lève ces deux limites pour de bon. Sans abonnement.",
+    "",
+    "En 40 langues. Données météo fournies par Open-Meteo.com."
+  ],
+  "features": [
+    "Ta prochaine réunion et tes nouveaux e-mails dans la barre des tâches",
+    "Toute ta semaine en un clic depuis l’horloge",
+    "La météo actuelle, heure par heure et sur la semaine",
+    "Lecture, pause et piste suivante sans ouvrir l’appli de musique",
+    "Graphiques en direct pour le processeur, la mémoire, la carte graphique, le réseau et les disques",
+    "Des dossiers qui s’ouvrent sur ton propre petit dashboard de widgets",
+    "Des dispositions pour le travail, le soir et la concentration, en deux clics",
+    "Une barre des tâches sur chaque moniteur, en bas, en haut, à gauche ou à droite",
+    "Ajoute, déplace et redimensionne les widgets directement dans la barre des tâches",
+    "Horloges pour d’autres villes, minuteurs, alarmes et Bourse",
+    "Wi-Fi, Bluetooth, volume, luminosité et batterie d’un coup d’œil",
+    "Compatible avec les comptes Microsoft, les e-mails IMAP et les agendas CalDAV et CardDAV",
+    "Ressemble à Windows et suit ton thème et ta couleur d’accentuation",
+    "Lit seulement tes e-mails et ton agenda ; tes données restent sur ton PC",
+    "Sans pub, sans pistage, sans compte",
+    "Léger pour la mémoire et la batterie",
+    "Quand tu quittes Karpo, la barre des tâches de Windows revient comme avant",
+    "En 40 langues"
+  ],
+  "keywords": [
+    "barre des tâches",
+    "widgets barre des tâches",
+    "calendrier barre des tâches",
+    "widget météo",
+    "barre des tâches verticale",
+    "plusieurs écrans",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 version 2004 ou ultérieure, 64 bits (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "La barre des tâches, avec ta journée dedans.",
+      "sub": "Ta prochaine réunion et tes e-mails près des applis, ta semaine et ta boîte mail à un clic.",
+      "caption": "La barre des tâches de Karpo avec la prochaine réunion et les e-mails non lus à côté des applis, et la semaine, la boîte de réception et une liste de tâches ouvertes depuis l’horloge."
+    },
+    {
+      "shot": "tour",
+      "label": "La barre",
+      "headline": "Tout ce que tu regardes, sur une barre.",
+      "sub": "La météo, tes fichiers, les paramètres rapides et ta journée : un bouton pour chacun, juste à côté de tes applis.",
+      "caption": "La barre des tâches de Karpo légendée : tes applis, les nouveaux e-mails, la prochaine réunion, tes fichiers, la météo et l’air, les paramètres rapides et ta journée.",
+      "callouts": [
+        "Tes applis",
+        "Nouveaux e-mails",
+        "Prochaine réunion",
+        "Ton PC",
+        "Météo et qualité de l’air",
+        "Dossiers",
+        "Paramètres rapides",
+        "Ta journée"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Un clic",
+      "headline": "Derrière chaque bouton, plus encore.",
+      "sub": "Chaque bouton de la barre ouvre ce qui va avec : les prévisions, tes fichiers, ta journée, ton PC.",
+      "caption": "Des dossiers ouverts depuis la barre des tâches de Karpo : les prochaines réunions, les paramètres rapides, les actus, les marées et la météo de la semaine."
+    },
+    {
+      "shot": "files",
+      "label": "Ton PC",
+      "headline": "Tes fichiers et ton PC, à un clic.",
+      "sub": "Espace libre, fichiers récents et graphiques en direct : processeur, mémoire, réseau. Sans Explorateur ni Gestionnaire des tâches.",
+      "caption": "Un dossier ouvert depuis la barre des tâches : espace libre du lecteur, derniers téléchargements et documents, et graphiques en direct : processeur, mémoire, carte graphique, disque et réseau.",
+      "callouts": [
+        "Espace libre par lecteur",
+        "Téléchargements récents",
+        "Le dossier de ton choix",
+        "Graphiques en direct"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Comptes",
+      "headline": "Tes agendas, e-mails et contacts.",
+      "sub": "Connecte-toi avec Microsoft ou ajoute un compte IMAP, CalDAV ou CardDAV.",
+      "caption": "Les comptes auxquels Karpo se connecte : Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Réunions Teams, Zoom, Google Meet, Webex rejointes en un clic.",
+      "callouts": [
+        "Agendas",
+        "Contacts",
+        "E-mails",
+        "Tâches To Do",
+        "Rejoindre en un clic"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Dossiers",
+      "headline": "Des dossiers que tu remplis de widgets.",
+      "sub": "Un clic ouvre ton propre petit dashboard.",
+      "caption": "Un dossier ouvert en dashboard : des horloges et un minuteur, le mois et l’agenda du jour, la météo et le soleil, tes e-mails et les fichiers de tes Téléchargements.",
+      "callouts": [
+        "Horloges d’autres villes",
+        "Réunions du jour",
+        "Pluie heure par heure",
+        "Derniers e-mails",
+        "Derniers téléchargements"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgets",
+      "headline": "Plus de 100 widgets.",
+      "sub": "Agenda, e-mails, météo, Bourse, fichiers, minuteurs, paramètres rapides et ton PC. Sur la barre ou dans un dossier.",
+      "caption": "Des widgets de Karpo : heures du jour, météo de la semaine, qualité de l’air, mode d’énergie, année, Bourse, contacts, tâches, notes, alarmes, minuteurs, batterie, paramètres rapides, fichiers et PC."
+    },
+    {
+      "shot": "side",
+      "label": "Partout",
+      "headline": "Sur n’importe quel bord de ton écran.",
+      "sub": "En bas, en haut, à gauche ou à droite, et sur chacun de tes moniteurs.",
+      "caption": "La barre des tâches de Karpo le long du bord gauche de l’écran, avec la météo, la qualité de l’air et la course du soleil ouvertes à côté."
+    },
+    {
+      "shot": "looks",
+      "label": "Aspect",
+      "headline": "L’aspect qui te plaît.",
+      "sub": "Tes couleurs et tes polices sur la barre et dans chaque dossier, ou une des palettes de Karpo.",
+      "caption": "Un écran sous quatre looks, découpé côte à côte : celui de Windows et les palettes Paper, Harbor et Bloom de Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Autant de widgets et de dispositions que tu veux. Un seul achat, à toi pour de bon, avec les mises à jour gratuites de cette version majeure. Sans abonnement.",
+    "keywords": [
+      "karpo pro",
+      "widgets illimités",
+      "dispositions illimitées",
+      "barre des tâches",
+      "pro"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "language": "en-us",
+  "title": "Karpo",
+  "shortDescription": "The Windows taskbar, with your day in it. See your next meeting, new emails, the weather and your music at a glance, and open folders full of widgets with one click. Free to start, no ads, no account.",
+  "description": [
+    "Karpo is a taskbar for Windows 11 and Windows 10 that looks just like the one Windows comes with. The difference: your day is in it. Your next meeting, your newest emails, the weather, your music and how hard your PC is working sit right beside your apps, and every one of them opens with a click.",
+    "",
+    "YOUR DAY, RIGHT ON THE TASKBAR",
+    "• Your next meeting with a countdown, and a button to join it",
+    "• New emails as they come in, with the unread count",
+    "• Your whole week in one click from the clock",
+    "• Microsoft accounts (Outlook.com, Microsoft 365), any IMAP email account, and CalDAV and CardDAV calendars and contacts such as iCloud, Fastmail or Nextcloud",
+    "",
+    "WHAT YOU CHECK ALL DAY, AT A GLANCE",
+    "• The weather now, by the hour and for the week",
+    "• Your music, with play, pause and skip right on the taskbar",
+    "• Processor, memory, graphics, network and disks, with live graphs",
+    "• Clocks for other cities, timers and alarms",
+    "• Stocks, RSS feeds, notifications, your latest files",
+    "• Wi-Fi, Bluetooth, volume, brightness and battery",
+    "",
+    "FOLDERS YOU FILL WITH WIDGETS",
+    "Gather widgets into a folder on the taskbar. One click opens it as your own little dashboard: clocks for three cities, today's agenda, your inbox and the forecast. Click away and it's gone.",
+    "",
+    "A LAYOUT FOR EVERY PART OF YOUR DAY",
+    "A full taskbar for work with your calendar and mail. A dock for the evening with music and the weather. Nothing but a timer when you need to focus. Switch in two clicks, or give every screen its own.",
+    "",
+    "ON EVERY SCREEN, ON ANY EDGE",
+    "Karpo puts a taskbar on every monitor. Each one can sit at the bottom, the top, the left or the right, with its own layout.",
+    "",
+    "MAKE IT YOURS",
+    "Right-click the taskbar and choose Edit. Add widgets from the list, drag them where you want them, and change their size and look right on the taskbar. Every setting is there too, in the taskbar itself.",
+    "",
+    "LOOKS LIKE WINDOWS",
+    "Start, search, your pinned and open apps, the system tray and the clock look and work just like Windows' own. Karpo follows your light or dark theme, your accent colour and your text size.",
+    "",
+    "PRIVATE BY DESIGN",
+    "Karpo has no ads, no tracking, no analytics and no account. It only ever reads your mail and calendar: it can't send an email or change an event. Your sign-ins are encrypted by Windows for your Windows user alone, and your data stays on your PC. Karpo has no servers of its own.",
+    "",
+    "LIGHT ON YOUR PC",
+    "Karpo shows its taskbar a fraction of a second after it starts and uses very little memory and power while you aren't looking at it, so your PC stays fast and your battery lasts.",
+    "",
+    "ALWAYS YOUR CHOICE",
+    "Quit Karpo any time and the Windows taskbar comes back just as it was. Start and search stay Windows' own.",
+    "",
+    "FREE TO START",
+    "Every widget and every setting is in the free version, with up to 20 widgets per layout and 2 layouts. Karpo Pro, one purchase in Karpo through the Microsoft Store, lifts both limits for good. No subscription.",
+    "",
+    "In 40 languages. Weather data by Open-Meteo.com."
+  ],
+  "features": [
+    "Your next meeting and new emails right on the taskbar",
+    "Your whole week in one click from the clock",
+    "Weather now, by the hour and for the week",
+    "Play, pause and skip your music without opening the app",
+    "Live graphs for processor, memory, graphics, network and disks",
+    "Folders that open your own little dashboard of widgets",
+    "Layouts for work, the evening and focus, switched in two clicks",
+    "A taskbar on every monitor, on the bottom, top, left or right",
+    "Add, drag and resize widgets right on the taskbar",
+    "Clocks for other cities, timers, alarms and stocks",
+    "Wi-Fi, Bluetooth, volume, brightness and battery at a glance",
+    "Works with Microsoft accounts, IMAP email and CalDAV and CardDAV calendars",
+    "Looks like Windows and follows your theme and accent colour",
+    "Only reads your mail and calendar; your data stays on your PC",
+    "No ads, no tracking, no account",
+    "Light on memory and battery",
+    "The Windows taskbar comes back as it was when you quit",
+    "In 40 languages"
+  ],
+  "keywords": [
+    "taskbar",
+    "taskbar widgets",
+    "calendar on taskbar",
+    "weather widget",
+    "vertical taskbar",
+    "multiple monitors",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 version 2004 or later, 64-bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "The Windows taskbar, with your day in it.",
+      "sub": "Your next meeting and new emails beside your apps, your week and inbox one click away.",
+      "caption": "Karpo's taskbar with the next meeting and unread mail beside the apps, and the week, the inbox and a to-do list opened from the clock."
+    },
+    {
+      "shot": "tour",
+      "label": "The bar",
+      "headline": "Everything you check, on one bar.",
+      "sub": "The weather, your files, quick settings and your day: a button for each, right beside your apps.",
+      "caption": "Karpo's taskbar with labels: your apps, new mail, the next meeting, files and drives, the weather and the air, quick settings and your day.",
+      "callouts": [
+        "Your apps",
+        "New mail",
+        "Next meeting",
+        "Your PC",
+        "Weather and air",
+        "Folders",
+        "Quick settings",
+        "Your day"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "One click",
+      "headline": "Every button opens more.",
+      "sub": "Each button on the bar opens what goes with it: the forecast, your files, your day, your PC.",
+      "caption": "Folders opened from Karpo's taskbar: the next meetings, quick settings, the news, the tides and the week's weather."
+    },
+    {
+      "shot": "files",
+      "label": "Your PC",
+      "headline": "Your files and your PC, one click away.",
+      "sub": "Free space, your newest files and live graphs for processor, memory and network. No Explorer, no Task Manager.",
+      "caption": "A folder opened from the taskbar: free space on the drive, the newest downloads and documents, and live graphs for processor, memory, graphics, disk and network.",
+      "callouts": [
+        "Free space on every drive",
+        "Your newest downloads",
+        "Any folder you like",
+        "Live graphs"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Accounts",
+      "headline": "Your calendars, mail and contacts.",
+      "sub": "Sign in with Microsoft, or add any IMAP, CalDAV or CardDAV account.",
+      "caption": "Accounts Karpo connects to: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Teams, Zoom, Google Meet and Webex meetings joined in one click.",
+      "callouts": [
+        "Calendars",
+        "Contacts",
+        "Mail",
+        "To Do tasks",
+        "Join in one click"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Folders",
+      "headline": "Folders you fill with widgets.",
+      "sub": "One click opens your own little dashboard.",
+      "caption": "A folder opened as a dashboard: clocks and a timer, the month and today's agenda, the weather and the sun, your mail and the files in your Downloads.",
+      "callouts": [
+        "Clocks for other cities",
+        "Today's meetings",
+        "Rain by the hour",
+        "Newest mail",
+        "Latest downloads"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgets",
+      "headline": "More than 100 widgets.",
+      "sub": "Calendar, mail, weather, stocks, files, timers, quick settings and your PC. On the taskbar or in a folder.",
+      "caption": "Some of Karpo's widgets: the day's hours, the week's weather, air quality, power mode, the year, stocks, contacts, a to-do list, notes, alarms, timers, battery, quick settings, your files and your PC."
+    },
+    {
+      "shot": "side",
+      "label": "Anywhere",
+      "headline": "On any edge of your screen.",
+      "sub": "Bottom, top, left or right, and on every monitor you have.",
+      "caption": "Karpo's taskbar down the left edge of the screen, the weather, the air quality and the sun's day opened beside it."
+    },
+    {
+      "shot": "looks",
+      "label": "Your look",
+      "headline": "Make it look the way you like.",
+      "sub": "Your colours and fonts on the bar and in every folder, or one of Karpo's palettes.",
+      "caption": "One screen in four looks, cut side by side: Windows' own and Karpo's Paper, Harbor and Bloom palettes."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "As many widgets and layouts as you like. One purchase, yours for good, with free updates for this major version. No subscription.",
+    "keywords": [
+      "karpo pro",
+      "unlimited widgets",
+      "unlimited layouts",
+      "taskbar",
+      "pro"
+    ]
+  }
+}

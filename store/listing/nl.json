@@ -1,0 +1,194 @@
+{
+  "language": "nl-nl",
+  "title": "Karpo",
+  "shortDescription": "De Windows-taakbalk, met je dag erop. Je volgende afspraak, nieuwe e-mails, het weer en je muziek in één oogopslag, en mappen vol widgets die je met één klik opent. Gratis beginnen, zonder advertenties, zonder account.",
+  "description": [
+    "Karpo is een taakbalk voor Windows 11 en Windows 10 die er precies zo uitziet als die van Windows zelf. Het verschil: je dag staat erop. Je volgende afspraak, je nieuwste e-mails, het weer, je muziek en hoe hard je pc werkt staan direct naast je apps, en alles opent met één klik.",
+    "",
+    "JE DAG, DIRECT OP DE TAAKBALK",
+    "• Je volgende meeting met een aftelklok, en een knop om deel te nemen",
+    "• Nieuwe e-mails zodra ze binnenkomen, met het aantal ongelezen berichten",
+    "• Je hele week met één klik op de klok",
+    "• Microsoft-accounts (Outlook.com, Microsoft 365), elk IMAP-e-mailaccount, en CalDAV- en CardDAV-agenda's en -contacten zoals iCloud, Fastmail of Nextcloud",
+    "",
+    "WAT JE DE HELE DAG CHECKT, IN ÉÉN OOGOPSLAG",
+    "• Het weer nu, per uur en voor de hele week",
+    "• Je muziek, met afspelen, pauzeren en overslaan direct op de taakbalk",
+    "• Processor, geheugen, grafische kaart, netwerk en schijven, met live grafieken",
+    "• Klokken voor andere steden, timers en alarmen",
+    "• Aandelen, RSS-feeds, meldingen en je nieuwste bestanden",
+    "• Wi-Fi, Bluetooth, volume, helderheid en batterij",
+    "",
+    "MAPPEN DIE JE VULT MET WIDGETS",
+    "Verzamel widgets in een map op de taakbalk. Eén klik en hij opent als je eigen kleine dashboard: klokken voor drie steden, de agenda van vandaag, je Postvak IN en de weersverwachting. Klik ernaast en hij is weer weg.",
+    "",
+    "EEN INDELING VOOR ELK DEEL VAN JE DAG",
+    "Een volledige taakbalk voor je werk, met je agenda en e-mail. Een dock voor de avond, met muziek en het weer. Alleen een timer als je je moet concentreren. Wissel met twee klikken, of geef elk scherm een eigen indeling.",
+    "",
+    "OP ELK SCHERM, AAN ELKE RAND",
+    "Karpo zet een taakbalk op elke monitor. Elke balk kan onder, boven, links of rechts staan, met een eigen indeling.",
+    "",
+    "HELEMAAL VAN JOU",
+    "Klik met de rechtermuisknop op de taakbalk en kies “Bewerken”. Voeg widgets toe uit de lijst, sleep ze waar je ze wilt hebben en pas hun grootte en uiterlijk direct op de taakbalk aan. Ook alle instellingen vind je daar, in de taakbalk zelf.",
+    "",
+    "ZIET ERUIT ALS WINDOWS",
+    "Start, Zoeken, je vastgemaakte en geopende apps, het systeemvak en de klok zien eruit en werken precies zoals die van Windows. Karpo volgt je lichte of donkere thema, je accentkleur en je tekstgrootte.",
+    "",
+    "PRIVACY VOOROP",
+    "Karpo heeft geen advertenties, geen tracking, geen analyses en geen account. Het leest je e-mail en agenda alleen maar: het kan geen e-mail versturen en geen afspraak wijzigen. Je aanmeldingen worden door Windows versleuteld, alleen voor jouw Windows-gebruiker, en je gegevens blijven op je pc. Karpo heeft geen eigen servers.",
+    "",
+    "LICHT VOOR JE PC",
+    "Karpo toont zijn taakbalk een fractie van een seconde na het opstarten en gebruikt heel weinig geheugen en stroom als je er niet naar kijkt. Zo blijft je pc snel en gaat je batterij langer mee.",
+    "",
+    "JIJ BESLIST",
+    "Sluit Karpo af wanneer je wilt, en de Windows-taakbalk komt terug zoals hij was. Start en Zoeken blijven gewoon van Windows.",
+    "",
+    "GRATIS BEGINNEN",
+    "Elke widget en elke instelling zit in de gratis versie, met tot 20 widgets per indeling en 2 indelingen. Karpo Pro, een eenmalige aankoop in Karpo via de Microsoft Store, heft beide limieten voorgoed op. Geen abonnement.",
+    "",
+    "In 40 talen. Weergegevens van Open-Meteo.com."
+  ],
+  "features": [
+    "Je volgende afspraak en nieuwe e-mails direct op de taakbalk",
+    "Je hele week met één klik op de klok",
+    "Het weer nu, per uur en voor de hele week",
+    "Muziek afspelen, pauzeren en overslaan zonder de app te openen",
+    "Live grafieken voor processor, geheugen, grafische kaart, netwerk en schijven",
+    "Mappen die openen als je eigen kleine dashboard met widgets",
+    "Indelingen voor werk, de avond en focus, gewisseld met twee klikken",
+    "Een taakbalk op elke monitor, onder, boven, links of rechts",
+    "Widgets direct op de taakbalk toevoegen, slepen en van grootte veranderen",
+    "Klokken voor andere steden, timers, alarmen en aandelen",
+    "Wi-Fi, Bluetooth, volume, helderheid en batterij in één oogopslag",
+    "Werkt met Microsoft-accounts, IMAP-e-mail en CalDAV- en CardDAV-agenda's",
+    "Ziet eruit als Windows en volgt je thema en accentkleur",
+    "Leest je e-mail en agenda alleen; je gegevens blijven op je pc",
+    "Geen advertenties, geen tracking, geen account",
+    "Zuinig met geheugen en batterij",
+    "Sluit je Karpo af, dan komt de Windows-taakbalk terug zoals hij was",
+    "In 40 talen"
+  ],
+  "keywords": [
+    "taakbalk",
+    "taakbalk widgets",
+    "agenda op taakbalk",
+    "weer widget",
+    "verticale taakbalk",
+    "meerdere monitoren",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 versie 2004 of hoger, 64-bits (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "De Windows-taakbalk, met je dag erop.",
+      "sub": "Je volgende afspraak en nieuwe e-mail naast je apps, je week en Postvak IN één klik verder.",
+      "caption": "De taakbalk van Karpo met de volgende afspraak en ongelezen e-mail naast de apps, en de week, Postvak IN en een takenlijst geopend vanaf de klok."
+    },
+    {
+      "shot": "tour",
+      "label": "De balk",
+      "headline": "Alles wat je checkt, op één balk.",
+      "sub": "Het weer, je bestanden, snelle instellingen en je dag: voor elk een knop, direct naast je apps.",
+      "caption": "De taakbalk van Karpo met labels: je apps, nieuwe e-mail, de volgende afspraak, bestanden en schijven, het weer en de luchtkwaliteit, snelle instellingen en je dag.",
+      "callouts": [
+        "Je apps",
+        "Nieuwe e-mail",
+        "Volgende afspraak",
+        "Je pc",
+        "Weer en luchtkwaliteit",
+        "Mappen",
+        "Snelle instellingen",
+        "Je dag"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Eén klik",
+      "headline": "Achter elke knop zit meer.",
+      "sub": "Elke knop op de balk opent wat erbij hoort: de weersverwachting, je bestanden, je dag, je pc.",
+      "caption": "Mappen geopend vanaf de taakbalk van Karpo: de volgende afspraken, snelle instellingen, het nieuws, de getijden en het weer van de week."
+    },
+    {
+      "shot": "files",
+      "label": "Je pc",
+      "headline": "Je bestanden en je pc, één klik verder.",
+      "sub": "Vrije ruimte, je nieuwste bestanden en live grafieken voor processor, geheugen en netwerk. Zonder Verkenner, zonder Taakbeheer.",
+      "caption": "Een map geopend vanaf de taakbalk: vrije ruimte op de schijf, de nieuwste downloads en documenten, en live grafieken voor processor, geheugen, grafische kaart, schijf en netwerk.",
+      "callouts": [
+        "Vrije ruimte per schijf",
+        "Je nieuwste downloads",
+        "Elke map die je wilt",
+        "Live grafieken"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Accounts",
+      "headline": "Je agenda's, mail en contacten.",
+      "sub": "Meld je aan met Microsoft of voeg een IMAP-, CalDAV- of CardDAV-account toe.",
+      "caption": "Accounts waarmee Karpo verbindt: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Vergaderingen in Teams, Zoom, Google Meet, Webex met één klik.",
+      "callouts": [
+        "Agenda's",
+        "Contacten",
+        "Mail",
+        "To Do-taken",
+        "Met één klik deelnemen"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Mappen",
+      "headline": "Mappen die je vult met widgets.",
+      "sub": "Eén klik opent je eigen kleine dashboard.",
+      "caption": "Een map geopend als dashboard: klokken en een timer, de maand en de agenda van vandaag, het weer en de zon, je e-mail en de bestanden in je Downloads.",
+      "callouts": [
+        "Tijd in andere steden",
+        "Afspraken van vandaag",
+        "Regen per uur",
+        "Nieuwste e-mail",
+        "Laatste downloads"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgets",
+      "headline": "Meer dan 100 widgets.",
+      "sub": "Agenda, e-mail, weer, aandelen, bestanden, timers, snelle instellingen en je pc. Op de balk of in een map.",
+      "caption": "Een paar widgets van Karpo: uren van de dag, weekweer, luchtkwaliteit, energiemodus, jaar, aandelen, contacten, takenlijst, notities, alarmen, timers, batterij, snelle instellingen, bestanden en pc."
+    },
+    {
+      "shot": "side",
+      "label": "Overal",
+      "headline": "Aan elke rand van je scherm.",
+      "sub": "Onder, boven, links of rechts, en op elke monitor die je hebt.",
+      "caption": "De taakbalk van Karpo langs de linkerrand van het scherm, met het weer, de luchtkwaliteit en de baan van de zon ernaast geopend."
+    },
+    {
+      "shot": "looks",
+      "label": "Uiterlijk",
+      "headline": "Ziet eruit zoals jij wilt.",
+      "sub": "Je eigen kleuren en lettertypen op de taakbalk en in elke map, of een van de paletten van Karpo.",
+      "caption": "Eén scherm in vier looks, naast elkaar gesneden: die van Windows en Karpo's paletten Paper, Harbor en Bloom."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Zoveel widgets en indelingen als je wilt. Eén keer kopen, voorgoed van jou, met gratis updates voor deze hoofdversie. Geen abonnement.",
+    "keywords": [
+      "karpo pro",
+      "onbeperkte widgets",
+      "onbeperkte indelingen",
+      "taakbalk",
+      "pro"
+    ]
+  }
+}

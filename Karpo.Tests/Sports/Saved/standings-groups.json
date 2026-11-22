@@ -1,0 +1,594 @@
+{
+ "name": "FIFA World Cup",
+ "abbreviation": "FIFA World Cup",
+ "children": [
+  {
+   "name": "Group A",
+   "abbreviation": "Group A",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "203",
+       "abbreviation": "MEX",
+       "displayName": "Mexico",
+       "shortDisplayName": "Mexico",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 1
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 6.0,
+        "displayValue": "+6"
+       },
+       {
+        "name": "points",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "rank",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "450",
+       "abbreviation": "CZE",
+       "displayName": "Czechia",
+       "shortDisplayName": "Czechia",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Eliminated",
+       "rank": 4
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -4.0,
+        "displayValue": "-4"
+       },
+       {
+        "name": "points",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "rank",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "451",
+       "abbreviation": "KOR",
+       "displayName": "South Korea",
+       "shortDisplayName": "South Korea",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Best 8 advance",
+       "rank": 3
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0,
+        "displayValue": "-1"
+       },
+       {
+        "name": "points",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "rank",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-0-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "467",
+       "abbreviation": "RSA",
+       "displayName": "South Africa",
+       "shortDisplayName": "South Africa",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 2
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0,
+        "displayValue": "-1"
+       },
+       {
+        "name": "points",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "rank",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1-1"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Group B",
+   "abbreviation": "Group B",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "206",
+       "abbreviation": "CAN",
+       "displayName": "Canada",
+       "shortDisplayName": "Canada",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 2
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 5.0,
+        "displayValue": "+5"
+       },
+       {
+        "name": "points",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "rank",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "452",
+       "abbreviation": "BIH",
+       "displayName": "Bosnia-Herzegovina",
+       "shortDisplayName": "Bosnia-Herz",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Best 8 advance",
+       "rank": 3
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -1.0,
+        "displayValue": "-1"
+       },
+       {
+        "name": "points",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "rank",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "475",
+       "abbreviation": "SUI",
+       "displayName": "Switzerland",
+       "shortDisplayName": "Switzerland",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 1
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 4.0,
+        "displayValue": "+4"
+       },
+       {
+        "name": "points",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "rank",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "4398",
+       "abbreviation": "QAT",
+       "displayName": "Qatar",
+       "shortDisplayName": "Qatar",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Eliminated",
+       "rank": 4
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -8.0,
+        "displayValue": "-8"
+       },
+       {
+        "name": "points",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "rank",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-1-2"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Group C",
+   "abbreviation": "Group C",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "205",
+       "abbreviation": "BRA",
+       "displayName": "Brazil",
+       "shortDisplayName": "Brazil",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 1
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 6.0,
+        "displayValue": "+6"
+       },
+       {
+        "name": "points",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "rank",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "580",
+       "abbreviation": "SCO",
+       "displayName": "Scotland",
+       "shortDisplayName": "Scotland",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Best 8 advance",
+       "rank": 3
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -3.0,
+        "displayValue": "-3"
+       },
+       {
+        "name": "points",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "rank",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-0-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "2654",
+       "abbreviation": "HAI",
+       "displayName": "Haiti",
+       "shortDisplayName": "Haiti",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Eliminated",
+       "rank": 4
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -6.0,
+        "displayValue": "-6"
+       },
+       {
+        "name": "points",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "rank",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "2869",
+       "abbreviation": "MAR",
+       "displayName": "Morocco",
+       "shortDisplayName": "Morocco",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        }
+       ]
+      },
+      "note": {
+       "description": "Advance to Round of 32",
+       "rank": 2
+      },
+      "stats": [
+       {
+        "name": "gamesPlayed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 3.0,
+        "displayValue": "+3"
+       },
+       {
+        "name": "points",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "rank",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1-0"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

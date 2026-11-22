@@ -1,0 +1,47 @@
+# The pictures for karpo.app: four scenes, one a feature section (Stage.cs's language; stage px are
+# 2048 x 1280, the bar along the bottom). Never a right click on a pin: its jump list is the person's
+# own (recent chats, files). A caption's KEY is the site's words.say[KEY], in every language; its SIDE
+# is where the bubble stands from what it points at, "above<" and "above>" leaning left or right.
+
+# The dock needs a moment after its first build before a click opens a folder.
+wait 3500
+
+scene day
+# The week, opened from the date; the mail and the next meeting on the bar beside the apps.
+open clock
+say calendar left 1320,800
+say mail above< mail
+say meeting above> meeting
+shot
+close
+
+scene glance
+# How the PC is doing, opened from its processor on the bar; the weather and a share beside the apps.
+open system
+say perf left 935,700
+say stocks above> stocks
+say weather above>:3.6 weather
+shot
+close
+
+scene folders
+# One folder of the person's own: three cities' clocks and today, the mail and the forecast, the
+# newest documents.
+open myDay
+say folder left 400,560
+say files above 1770,495
+shot
+close
+
+scene layouts
+# The evening's dock, its layouts open: back to work, or nothing but a timer.
+layout evening
+wait 2500
+open eveningLayouts
+say layouts above 1700,938
+say work left 1499,971
+say focus left 1499,1091
+say evening above< pinSpotify
+shot
+close
+layout work

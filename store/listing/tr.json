@@ -1,0 +1,194 @@
+{
+  "language": "tr-tr",
+  "title": "Karpo",
+  "shortDescription": "Windows görev çubuğu, artık günün de içinde. Sıradaki toplantını, yeni e-postalarını, hava durumunu ve müziğini bir bakışta gör; widget'larla dolu klasörleri tek tıkla aç. Ücretsiz başla; reklam yok, hesap yok.",
+  "description": [
+    "Karpo, Windows 11 ve Windows 10 için, Windows'la gelen görev çubuğunun tıpkısı olan bir görev çubuğu. Farkı şu: günün onun içinde. Sıradaki toplantın, en yeni e-postaların, hava durumu, müziğin ve bilgisayarının ne kadar yoğun çalıştığı uygulamalarının hemen yanında durur ve her biri tek tıkla açılır.",
+    "",
+    "GÜNÜN, DOĞRUDAN GÖREV ÇUBUĞUNDA",
+    "• Sıradaki toplantın, geri sayımı ve katılma düğmesiyle",
+    "• Yeni e-postalar geldikleri anda, okunmamış sayısıyla",
+    "• Saate bir tıkla tüm haftan",
+    "• Microsoft hesapları (Outlook.com, Microsoft 365), her IMAP e-posta hesabı ve iCloud, Fastmail veya Nextcloud gibi CalDAV ve CardDAV takvimleri ve kişileri",
+    "",
+    "GÜN BOYU BAKTIĞIN HER ŞEY, BİR BAKIŞTA",
+    "• Hava durumu: şu an, saatlik ve haftalık",
+    "• Müziğin; oynat, duraklat ve atla doğrudan görev çubuğunda",
+    "• İşlemci, bellek, grafik, ağ ve diskler, canlı grafiklerle",
+    "• Başka şehirlerin saatleri, zamanlayıcılar ve alarmlar",
+    "• Hisseler, RSS akışları, bildirimler, son dosyaların",
+    "• Wi-Fi, Bluetooth, ses, parlaklık ve pil",
+    "",
+    "WİDGET'LARLA DOLDURDUĞUN KLASÖRLER",
+    "Widget'ları görev çubuğunda bir klasörde topla. Tek tıkla kendi küçük dashboard'un olarak açılır: üç şehrin saatleri, bugünün ajandası, gelen kutun ve hava tahmini. Başka bir yere tıkla, kaybolur.",
+    "",
+    "GÜNÜNÜN HER ANI İÇİN BİR DÜZEN",
+    "İş için takvim ve e-postayla dolu bir görev çubuğu. Akşam için müzik ve hava durumuyla bir dock. Odaklanman gerektiğinde sadece bir zamanlayıcı. İki tıkla geçiş yap ya da her ekrana kendi düzenini ver.",
+    "",
+    "HER EKRANDA, HER KENARDA",
+    "Karpo her monitöre bir görev çubuğu koyar. Her biri altta, üstte, solda ya da sağda durabilir ve kendi düzenini gösterir.",
+    "",
+    "TAMAMEN SANA GÖRE",
+    "Görev çubuğuna sağ tıkla ve Düzenle'yi seç. Listeden widget ekle, istediğin yere sürükle, boyutunu ve görünümünü doğrudan görev çubuğunda değiştir. Tüm ayarlar da orada, görev çubuğunun kendisinde.",
+    "",
+    "TIPKI WINDOWS GİBİ",
+    "Başlat, arama, sabitlenmiş ve açık uygulamaların, sistem tepsisi ve saat tıpkı Windows'unkiler gibi görünür ve çalışır. Karpo açık ya da koyu temanı, vurgu rengini ve metin boyutunu izler.",
+    "",
+    "GİZLİLİK, EN BAŞTAN",
+    "Karpo'da reklam, izleme, analiz ve hesap yok. E-postanı ve takvimini yalnızca okur: e-posta gönderemez ya da etkinlik değiştiremez. Oturum açma bilgilerin Windows tarafından yalnızca senin Windows kullanıcın için şifrelenir ve verilerin bilgisayarında kalır. Karpo'nun kendine ait sunucusu yok.",
+    "",
+    "BİLGİSAYARINI YORMAZ",
+    "Karpo açılır açılmaz, göz açıp kapayıncaya kadar görev çubuğunu gösterir; sen ona bakmazken de çok az bellek ve güç kullanır. Böylece bilgisayarın hızlı kalır, pilin daha uzun gider.",
+    "",
+    "SEÇİM HEP SENİN",
+    "Karpo'dan istediğin an çık; Windows görev çubuğu eskisi gibi geri gelir. Başlat ve arama Windows'un kendisine ait kalır.",
+    "",
+    "ÜCRETSİZ BAŞLA",
+    "Her widget ve her ayar ücretsiz sürümde var; düzen başına en fazla 20 widget ve en fazla 2 düzenle. Karpo Pro, Karpo'nun içinden Microsoft Store üzerinden tek seferlik bir satın alma; iki sınırı da kalıcı olarak kaldırır. Abonelik yok.",
+    "",
+    "40 dilde. Hava durumu verileri: Open-Meteo.com."
+  ],
+  "features": [
+    "Sıradaki toplantın ve yeni e-postaların doğrudan görev çubuğunda",
+    "Saate bir tıkla tüm haftan",
+    "Hava durumu: şu an, saatlik ve haftalık",
+    "Uygulamayı açmadan müziğini oynat, duraklat ve atla",
+    "İşlemci, bellek, grafik, ağ ve diskler için canlı grafikler",
+    "Kendi küçük widget dashboard'unu açan klasörler",
+    "İş, akşam ve odak için düzenler, iki tıkla geçiş",
+    "Her monitörde bir görev çubuğu; altta, üstte, solda ya da sağda",
+    "Widget'ları doğrudan görev çubuğunda ekle, sürükle, boyutlandır",
+    "Başka şehirlerin saatleri, zamanlayıcılar, alarmlar ve hisseler",
+    "Wi-Fi, Bluetooth, ses, parlaklık ve pil bir bakışta",
+    "Microsoft hesapları, IMAP e-posta ve CalDAV ile CardDAV takvimleriyle çalışır",
+    "Windows gibi görünür; temanı ve vurgu rengini izler",
+    "E-postanı ve takvimini yalnızca okur; verilerin bilgisayarında kalır",
+    "Reklam yok, izleme yok, hesap yok",
+    "Az bellek ve pil kullanır",
+    "Karpo'dan çıktığında Windows görev çubuğu eskisi gibi geri gelir",
+    "40 dilde"
+  ],
+  "keywords": [
+    "görev çubuğu",
+    "görev çubuğu widget",
+    "görev çubuğunda takvim",
+    "hava durumu widget",
+    "dikey görev çubuğu",
+    "çoklu monitör",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 sürüm 2004 veya üzeri, 64 bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Windows görev çubuğu, artık günün de içinde.",
+      "sub": "Sıradaki toplantın ve yeni e-postaların uygulamaların yanında, haftan ve gelen kutun bir tık ötede.",
+      "caption": "Karpo'nun görev çubuğu: uygulamaların yanında sıradaki toplantı ve okunmamış e-postalar, saatten açılmış hafta görünümü, gelen kutusu ve yapılacaklar listesi."
+    },
+    {
+      "shot": "tour",
+      "label": "Çubuk",
+      "headline": "Baktığın her şey tek bir çubukta.",
+      "sub": "Hava durumu, dosyaların, Hızlı Ayarlar ve günün: her biri için bir düğme, uygulamalarının hemen yanında.",
+      "caption": "Etiketli Karpo görev çubuğu: uygulamaların, yeni e-postalar, sıradaki toplantı, dosyalar ve sürücüler, hava durumu ve hava kalitesi, Hızlı Ayarlar ve günün.",
+      "callouts": [
+        "Uygulamaların",
+        "Yeni e-postalar",
+        "Sıradaki toplantı",
+        "Bilgisayarın",
+        "Hava ve hava kalitesi",
+        "Klasörler",
+        "Hızlı Ayarlar",
+        "Günün"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Tek tık",
+      "headline": "Her düğme daha fazlasını açar.",
+      "sub": "Çubuktaki her düğme kendine ait olanı açar: hava tahmini, dosyaların, günün, bilgisayarın.",
+      "caption": "Karpo'nun görev çubuğundan açılan klasörler: sıradaki toplantılar, Hızlı Ayarlar, haberler, gelgitler ve haftalık hava durumu."
+    },
+    {
+      "shot": "files",
+      "label": "Bilgisayarın",
+      "headline": "Dosyaların ve bilgisayarın bir tık ötede.",
+      "sub": "Boş alan, en yeni dosyaların ve işlemci, bellek ve ağ için canlı grafikler. Dosya Gezgini'ne de Görev Yöneticisi'ne de gerek yok.",
+      "caption": "Görev çubuğundan açılan bir klasör: sürücüdeki boş alan, en yeni indirilenler ve belgeler, işlemci, bellek, grafik, disk ve ağ için canlı grafikler.",
+      "callouts": [
+        "Her sürücüde boş alan",
+        "Son indirdiklerin",
+        "İstediğin her klasör",
+        "Canlı grafikler"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Hesaplar",
+      "headline": "Takvimlerin, e-postan ve kişilerin.",
+      "sub": "Microsoft ile giriş yap ya da bir IMAP, CalDAV veya CardDAV hesabı ekle.",
+      "caption": "Karpo'nun bağlandığı hesaplar: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Teams, Zoom, Google Meet, Webex toplantılarına tek tıkla katıl.",
+      "callouts": [
+        "Takvimler",
+        "Kişiler",
+        "E-posta",
+        "To Do görevleri",
+        "Tek tıkla katıl"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Klasörler",
+      "headline": "Widget'larla doldurduğun klasörler.",
+      "sub": "Tek tıkla kendi küçük dashboard'un açılır.",
+      "caption": "Dashboard olarak açılmış bir klasör: saatler ve zamanlayıcı, ay ve bugünün ajandası, hava durumu ve güneş, e-postan ve İndirilenler klasöründeki dosyalar.",
+      "callouts": [
+        "Diğer şehirlerin saati",
+        "Bugünkü toplantılar",
+        "Saatlik yağmur",
+        "En yeni e-postalar",
+        "Son indirilenler"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widget'lar",
+      "headline": "100'den fazla widget.",
+      "sub": "Takvim, e-posta, hava durumu, hisseler, dosyalar, zamanlayıcılar, Hızlı Ayarlar ve bilgisayarın; çubukta ya da klasörde.",
+      "caption": "Karpo'nun bazı widget'ları: günün saatleri, haftalık hava, hava kalitesi, güç modu, yıl, hisseler, kişiler, yapılacaklar, notlar, alarmlar, zamanlayıcılar, pil, Hızlı Ayarlar, dosyalar ve bilgisayar."
+    },
+    {
+      "shot": "side",
+      "label": "Her yerde",
+      "headline": "Ekranının istediğin kenarında.",
+      "sub": "Altta, üstte, solda ya da sağda, hem de her monitöründe.",
+      "caption": "Ekranın sol kenarında Karpo'nun görev çubuğu, yanında açılmış hava durumu, hava kalitesi ve güneşin gün içindeki yolu."
+    },
+    {
+      "shot": "looks",
+      "label": "Görünüm",
+      "headline": "Tam istediğin gibi görünsün.",
+      "sub": "Görev çubuğunda ve her klasörde kendi renklerin ve yazı tiplerin ya da Karpo'nun paletlerinden biri.",
+      "caption": "Dört görünümde tek ekran, yan yana kesilmiş: Windows'un kendi görünümü ve Karpo'nun Paper, Harbor ve Bloom paletleri."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "İstediğin kadar widget ve düzen. Tek seferlik satın alma, sonsuza dek senin; bu ana sürüm için ücretsiz güncellemelerle. Abonelik yok.",
+    "keywords": [
+      "karpo pro",
+      "sınırsız widget",
+      "sınırsız düzen",
+      "görev çubuğu",
+      "pro"
+    ]
+  }
+}

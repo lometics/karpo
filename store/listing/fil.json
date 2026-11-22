@@ -1,0 +1,194 @@
+{
+  "language": "fil-ph",
+  "title": "Karpo",
+  "shortDescription": "Ang taskbar ng Windows, kasama ang araw mo. Makita sa isang tingin ang susunod mong meeting, bagong email, panahon at musika, at buksan sa isang click ang mga folder na puno ng widget. Libre sa simula, walang ads, walang account.",
+  "description": [
+    "Ang Karpo ay isang taskbar para sa Windows 11 at Windows 10 na kamukhang-kamukha ng kasama ng Windows. Ang pagkakaiba: nasa loob nito ang araw mo. Ang susunod mong meeting, ang pinakabago mong mga email, ang panahon, ang musika mo at kung gaano kasipag ang PC mo ay nasa mismong tabi ng mga app mo, at bumubukas sa isang click ang bawat isa.",
+    "",
+    "ANG ARAW MO, MISMO SA TASKBAR",
+    "• Ang susunod mong meeting na may countdown, at button para sumali",
+    "• Mga bagong email pagdating nila, kasama ang bilang ng hindi pa nababasa",
+    "• Ang buong linggo mo sa isang click mula sa orasan",
+    "• Mga Microsoft account (Outlook.com, Microsoft 365), kahit anong IMAP email account, at mga kalendaryo at contact sa CalDAV at CardDAV gaya ng iCloud, Fastmail o Nextcloud",
+    "",
+    "ANG TINITINGNAN MO BUONG ARAW, SA ISANG TINGIN",
+    "• Ang panahon ngayon, bawat oras at para sa buong linggo",
+    "• Ang musika mo, may play, pause at skip mismo sa taskbar",
+    "• Processor, memory, graphics, network at mga disk, may live na graph",
+    "• Mga orasan para sa ibang lungsod, mga timer at alarm",
+    "• Mga stock, RSS feed, notification, ang pinakabago mong mga file",
+    "• Wi-Fi, Bluetooth, volume, liwanag at baterya",
+    "",
+    "MGA FOLDER NA PINUPUNO MO NG WIDGET",
+    "Tipunin ang mga widget sa isang folder sa taskbar. Bubuksan ito ng isang click bilang sarili mong maliit na dashboard: mga orasan para sa tatlong lungsod, ang agenda ngayong araw, ang inbox mo at ang forecast. Mag-click sa labas at mawawala ito.",
+    "",
+    "ISANG LAYOUT PARA SA BAWAT BAHAGI NG ARAW MO",
+    "Isang buong taskbar para sa trabaho, kasama ang kalendaryo at mail mo. Isang dock para sa gabi, may musika at panahon. Timer lang kapag kailangan mong mag-focus. Magpalit sa dalawang click, o bigyan ang bawat screen ng sarili nitong layout.",
+    "",
+    "SA BAWAT SCREEN, SA KAHIT ANONG GILID",
+    "Naglalagay ang Karpo ng taskbar sa bawat monitor. Puwedeng nasa ibaba, itaas, kaliwa o kanan ang bawat isa, may sarili nitong layout.",
+    "",
+    "GAWIN MONG SA IYO",
+    "I-right click ang taskbar at piliin ang I-edit. Magdagdag ng mga widget mula sa listahan, i-drag sila kung saan mo gusto, at baguhin ang laki at hitsura nila mismo sa taskbar. Nandoon din ang bawat setting, sa mismong taskbar.",
+    "",
+    "KAMUKHA NG WINDOWS",
+    "Ang Start, ang paghahanap, ang mga naka-pin at bukas mong app, ang system tray at ang orasan ay kamukha at gumagana gaya ng sa Windows mismo. Sinusunod ng Karpo ang light o dark mong tema, ang accent color mo at ang laki ng teksto mo.",
+    "",
+    "PRIBADO MULA SA SIMULA",
+    "Walang ads ang Karpo, walang tracking, walang analytics at walang account. Nagbabasa lang ito ng mail at kalendaryo mo: hindi ito makakapagpadala ng email o makakapagbago ng event. Ine-encrypt ng Windows ang mga sign-in mo para lang sa Windows user mo, at nananatili sa PC mo ang data mo. Walang sariling server ang Karpo.",
+    "",
+    "MAGAAN SA PC MO",
+    "Ipinapakita ng Karpo ang taskbar nito sa loob ng isang saglit pagkatapos magsimula, at napakaliit ng memory at power na ginagamit nito habang hindi mo ito tinitingnan, kaya nananatiling mabilis ang PC mo at tumatagal ang baterya mo.",
+    "",
+    "LAGING IKAW ANG PUMIPILI",
+    "Isara ang Karpo kahit kailan at babalik ang taskbar ng Windows gaya ng dati. Nananatiling sa Windows ang Start at ang paghahanap.",
+    "",
+    "LIBRE SA SIMULA",
+    "Nasa libreng bersyon ang bawat widget at bawat setting, hanggang 20 widget bawat layout at 2 layout. Ang Karpo Pro, isang beses na bili sa loob ng Karpo sa Microsoft Store, ay nag-aalis ng dalawang limitasyong iyon habambuhay. Walang subscription.",
+    "",
+    "Sa 40 wika. Data ng panahon mula sa Open-Meteo.com."
+  ],
+  "features": [
+    "Ang susunod mong meeting at mga bagong email mismo sa taskbar",
+    "Ang buong linggo mo sa isang click mula sa orasan",
+    "Ang panahon ngayon, bawat oras at para sa buong linggo",
+    "I-play, i-pause at i-skip ang musika mo nang hindi binubuksan ang app",
+    "Live na graph para sa processor, memory, graphics, network at mga disk",
+    "Mga folder na nagbubukas ng sarili mong maliit na dashboard ng mga widget",
+    "Mga layout para sa trabaho, gabi at focus, napapalitan sa dalawang click",
+    "Isang taskbar sa bawat monitor, sa ibaba, itaas, kaliwa o kanan",
+    "Magdagdag, mag-drag at mag-resize ng mga widget mismo sa taskbar",
+    "Mga orasan para sa ibang lungsod, mga timer, alarm at stock",
+    "Wi-Fi, Bluetooth, volume, liwanag at baterya sa isang tingin",
+    "Gumagana sa mga Microsoft account, IMAP email at mga kalendaryo sa CalDAV at CardDAV",
+    "Kamukha ng Windows at sinusunod ang tema at accent color mo",
+    "Nagbabasa lang ng mail at kalendaryo mo; nananatili sa PC mo ang data mo",
+    "Walang ads, walang tracking, walang account",
+    "Magaan sa memory at baterya",
+    "Bumabalik ang taskbar ng Windows gaya ng dati kapag isinara mo ito",
+    "Sa 40 wika"
+  ],
+  "keywords": [
+    "taskbar",
+    "widget sa taskbar",
+    "kalendaryo sa taskbar",
+    "widget ng panahon",
+    "patayong taskbar",
+    "maraming monitor",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 version 2004 o mas bago, 64-bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Ang taskbar ng Windows, kasama ang araw mo.",
+      "sub": "Ang susunod mong meeting at mga bagong email sa tabi ng mga app mo, ang linggo at inbox mo isang click lang.",
+      "caption": "Ang taskbar ng Karpo na may susunod na meeting at hindi pa nababasang mail sa tabi ng mga app, at ang linggo, inbox at to-do list na binuksan mula sa orasan."
+    },
+    {
+      "shot": "tour",
+      "label": "Ang bar",
+      "headline": "Lahat ng tinitingnan mo, sa iisang bar.",
+      "sub": "Ang panahon, ang mga file mo, mabilisang setting at ang araw mo: tig-iisang button, mismo sa tabi ng mga app mo.",
+      "caption": "Ang taskbar ng Karpo na may mga label: mga app mo, bagong mail, susunod na meeting, mga file at drive, panahon at hangin, mabilisang setting at ang araw mo.",
+      "callouts": [
+        "Ang mga app mo",
+        "Bagong mail",
+        "Susunod na meeting",
+        "Ang PC mo",
+        "Panahon at hangin",
+        "Mga folder",
+        "Mabilisang setting",
+        "Ang araw mo"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Isang click",
+      "headline": "Bawat button ay nagbubukas ng higit pa.",
+      "sub": "Binubuksan ng bawat button sa bar ang kasama nito: ang forecast, ang mga file mo, ang araw mo, ang PC mo.",
+      "caption": "Mga folder na binuksan mula sa taskbar ng Karpo: mga susunod na meeting, mabilisang setting, balita, tide at ang panahon sa buong linggo."
+    },
+    {
+      "shot": "files",
+      "label": "Ang PC mo",
+      "headline": "Ang mga file at PC mo, isang click lang.",
+      "sub": "Libreng espasyo, pinakabagong file at live na graph para sa processor, memory at network. Walang File Explorer o Task Manager.",
+      "caption": "Isang folder na binuksan mula sa taskbar: libreng espasyo sa drive, pinakabagong download at dokumento, at live na graph para sa processor, memory, graphics, disk at network.",
+      "callouts": [
+        "Libreng espasyo bawat drive",
+        "Pinakabagong download mo",
+        "Kahit anong folder",
+        "Live na graph"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Mga account",
+      "headline": "Ang mga kalendaryo, mail at contact mo.",
+      "sub": "Mag-sign in gamit ang Microsoft, o magdagdag ng kahit anong IMAP, CalDAV o CardDAV account.",
+      "caption": "Mga account na kinokonektahan ng Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Sumali sa Teams, Zoom, Google Meet at Webex sa isang click.",
+      "callouts": [
+        "Mga kalendaryo",
+        "Mga contact",
+        "Mail",
+        "Gawain sa To Do",
+        "Sumali sa isang click"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Mga folder",
+      "headline": "Mga folder na pinupuno mo ng widget.",
+      "sub": "Isang click lang at bubukas ang sarili mong maliit na dashboard.",
+      "caption": "Isang folder na binuksan bilang dashboard: mga orasan at timer, ang buwan at agenda ngayong araw, panahon at araw, ang mail mo at ang mga file sa Downloads mo.",
+      "callouts": [
+        "Orasan ng ibang lungsod",
+        "Mga meeting ngayon",
+        "Ulan bawat oras",
+        "Pinakabagong mail",
+        "Huling mga download"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Mga widget",
+      "headline": "Higit sa 100 widget.",
+      "sub": "Kalendaryo, mail, panahon, stock, file, timer, mabilisang setting at ang PC mo. Sa taskbar o sa isang folder.",
+      "caption": "Ilan sa mga widget ng Karpo: oras ng araw, panahon sa linggo, kalidad ng hangin, power mode, taon, stock, contact, to-do list, notes, alarm at timer, baterya, mabilisang setting, mga file at PC mo."
+    },
+    {
+      "shot": "side",
+      "label": "Kahit saan",
+      "headline": "Sa kahit anong gilid ng screen mo.",
+      "sub": "Ibaba, itaas, kaliwa o kanan, at sa bawat monitor na mayroon ka.",
+      "caption": "Ang taskbar ng Karpo sa kaliwang gilid ng screen, katabi ang panahon, kalidad ng hangin at ang pagsikat at paglubog ng araw na nakabukas."
+    },
+    {
+      "shot": "looks",
+      "label": "Ang hitsura mo",
+      "headline": "Gawin itong ayon sa gusto mong hitsura.",
+      "sub": "Ang mga kulay at font mo sa bar at sa bawat folder, o isa sa mga palette ng Karpo.",
+      "caption": "Isang screen sa apat na hitsura, magkakatabi: ang sariling hitsura ng Windows at ang mga palette ng Karpo na Papel, Daungan at Pamumukadkad."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Kahit ilang widget at layout ang gusto mo. Isang bili, sa iyo na habambuhay, may libreng update para sa major version na ito. Walang subscription.",
+    "keywords": [
+      "karpo pro",
+      "walang limitasyong widget",
+      "walang limitasyong layout",
+      "taskbar",
+      "pro"
+    ]
+  }
+}

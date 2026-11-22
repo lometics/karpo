@@ -1,0 +1,1552 @@
+{
+ "name": "National Basketball Association",
+ "abbreviation": "NBA",
+ "children": [
+  {
+   "name": "Eastern Conference",
+   "abbreviation": "East",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "18",
+       "abbreviation": "NY",
+       "displayName": "New York Knicks",
+       "shortDisplayName": "Knicks",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 12.0,
+        "displayValue": "12"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -19.0,
+        "displayValue": "-19"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "15",
+       "abbreviation": "MIL",
+       "displayName": "Milwaukee Bucks",
+       "shortDisplayName": "Bucks",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mil.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 13.0,
+        "displayValue": "13"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -30.0,
+        "displayValue": "-30"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "17",
+       "abbreviation": "BKN",
+       "displayName": "Brooklyn Nets",
+       "shortDisplayName": "Nets",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -38.0,
+        "displayValue": "-38"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "14",
+       "abbreviation": "MIA",
+       "displayName": "Miami Heat",
+       "shortDisplayName": "Heat",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mia.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 15.0,
+        "displayValue": "15"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -47.0,
+        "displayValue": "-47"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "19",
+       "abbreviation": "ORL",
+       "displayName": "Orlando Magic",
+       "shortDisplayName": "Magic",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/orl.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 10.0,
+        "displayValue": "10"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -20.0,
+        "displayValue": "-20"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "4",
+       "abbreviation": "CHI",
+       "displayName": "Chicago Bulls",
+       "shortDisplayName": "Bulls",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/chi.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 11.0,
+        "displayValue": "11"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -40.0,
+        "displayValue": "-40"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "2",
+       "abbreviation": "BOS",
+       "displayName": "Boston Celtics",
+       "shortDisplayName": "Celtics",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -4.0,
+        "displayValue": "-4"
+       },
+       {
+        "name": "points",
+        "value": 0.0,
+        "displayValue": "0.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.5,
+        "displayValue": ".500"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "5",
+       "abbreviation": "CLE",
+       "displayName": "Cleveland Cavaliers",
+       "shortDisplayName": "Cavaliers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cle.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -4.0,
+        "displayValue": "-4"
+       },
+       {
+        "name": "points",
+        "value": 0.0,
+        "displayValue": "0.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.5,
+        "displayValue": ".500"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "1",
+       "abbreviation": "ATL",
+       "displayName": "Atlanta Hawks",
+       "shortDisplayName": "Hawks",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 47.0,
+        "displayValue": "+47"
+       },
+       {
+        "name": "points",
+        "value": 0.5,
+        "displayValue": "0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.6666667,
+        "displayValue": ".667"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "28",
+       "abbreviation": "TOR",
+       "displayName": "Toronto Raptors",
+       "shortDisplayName": "Raptors",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 30.0,
+        "displayValue": "+30"
+       },
+       {
+        "name": "points",
+        "value": 0.5,
+        "displayValue": "0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.6666667,
+        "displayValue": ".667"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "11",
+       "abbreviation": "IND",
+       "displayName": "Indiana Pacers",
+       "shortDisplayName": "Pacers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ind.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 14.0,
+        "displayValue": "+14"
+       },
+       {
+        "name": "points",
+        "value": 0.5,
+        "displayValue": "0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.6666667,
+        "displayValue": ".667"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "30",
+       "abbreviation": "CHA",
+       "displayName": "Charlotte Hornets",
+       "shortDisplayName": "Hornets",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cha.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -35.0,
+        "displayValue": "-35"
+       },
+       {
+        "name": "points",
+        "value": 0.5,
+        "displayValue": "0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.6666667,
+        "displayValue": ".667"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "27",
+       "abbreviation": "WSH",
+       "displayName": "Washington Wizards",
+       "shortDisplayName": "Wizards",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/wsh.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 6.0,
+        "displayValue": "+6"
+       },
+       {
+        "name": "points",
+        "value": 0.5,
+        "displayValue": "0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.6666667,
+        "displayValue": ".667"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "20",
+       "abbreviation": "PHI",
+       "displayName": "Philadelphia 76ers",
+       "shortDisplayName": "76ers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 12.0,
+        "displayValue": "+12"
+       },
+       {
+        "name": "points",
+        "value": 1.0,
+        "displayValue": "1.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.75,
+        "displayValue": ".750"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "8",
+       "abbreviation": "DET",
+       "displayName": "Detroit Pistons",
+       "shortDisplayName": "Pistons",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 38.0,
+        "displayValue": "+38"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Western Conference",
+   "abbreviation": "West",
+   "standings": {
+    "entries": [
+     {
+      "team": {
+       "id": "3",
+       "abbreviation": "NO",
+       "displayName": "New Orleans Pelicans",
+       "shortDisplayName": "Pelicans",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/no.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 13.0,
+        "displayValue": "13"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -10.0,
+        "displayValue": "-10"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "9",
+       "abbreviation": "GS",
+       "displayName": "Golden State Warriors",
+       "shortDisplayName": "Warriors",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/gs.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -34.0,
+        "displayValue": "-34"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "23",
+       "abbreviation": "SAC",
+       "displayName": "Sacramento Kings",
+       "shortDisplayName": "Kings",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 15.0,
+        "displayValue": "15"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -44.0,
+        "displayValue": "-44"
+       },
+       {
+        "name": "points",
+        "value": -1.5,
+        "displayValue": "-1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.0,
+        "displayValue": ".000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "0-3"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "24",
+       "abbreviation": "SA",
+       "displayName": "San Antonio Spurs",
+       "shortDisplayName": "Spurs",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "12",
+       "abbreviation": "LAC",
+       "displayName": "LA Clippers",
+       "shortDisplayName": "Clippers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lac.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 10.0,
+        "displayValue": "10"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 10.0,
+        "displayValue": "+10"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "26",
+       "abbreviation": "UTAH",
+       "displayName": "Utah Jazz",
+       "shortDisplayName": "Jazz",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/utah.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 11.0,
+        "displayValue": "11"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -28.0,
+        "displayValue": "-28"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "6",
+       "abbreviation": "DAL",
+       "displayName": "Dallas Mavericks",
+       "shortDisplayName": "Mavericks",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/dal.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 12.0,
+        "displayValue": "12"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -18.0,
+        "displayValue": "-18"
+       },
+       {
+        "name": "points",
+        "value": -0.5,
+        "displayValue": "-0.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.33333334,
+        "displayValue": ".333"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-2"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "7",
+       "abbreviation": "DEN",
+       "displayName": "Denver Nuggets",
+       "shortDisplayName": "Nuggets",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/den.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -6.0,
+        "displayValue": "-6"
+       },
+       {
+        "name": "points",
+        "value": 0.0,
+        "displayValue": "0.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.5,
+        "displayValue": ".500"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "21",
+       "abbreviation": "PHX",
+       "displayName": "Phoenix Suns",
+       "shortDisplayName": "Suns",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phx.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointDifferential",
+        "value": -32.0,
+        "displayValue": "-32"
+       },
+       {
+        "name": "points",
+        "value": 0.0,
+        "displayValue": "0.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 0.5,
+        "displayValue": ".500"
+       },
+       {
+        "name": "overall",
+        "displayValue": "1-1"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "22",
+       "abbreviation": "POR",
+       "displayName": "Portland Trail Blazers",
+       "shortDisplayName": "Trail Blazers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/por.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 49.0,
+        "displayValue": "+49"
+       },
+       {
+        "name": "points",
+        "value": 1.0,
+        "displayValue": "1.0"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "2-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "16",
+       "abbreviation": "MIN",
+       "displayName": "Minnesota Timberwolves",
+       "shortDisplayName": "Timberwolves",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/min.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 70.0,
+        "displayValue": "+70"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "25",
+       "abbreviation": "OKC",
+       "displayName": "Oklahoma City Thunder",
+       "shortDisplayName": "Thunder",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/okc.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 31.0,
+        "displayValue": "+31"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "13",
+       "abbreviation": "LAL",
+       "displayName": "Los Angeles Lakers",
+       "shortDisplayName": "Lakers",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/lal.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 39.0,
+        "displayValue": "+39"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "29",
+       "abbreviation": "MEM",
+       "displayName": "Memphis Grizzlies",
+       "shortDisplayName": "Grizzlies",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mem.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 34.0,
+        "displayValue": "+34"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "10",
+       "abbreviation": "HOU",
+       "displayName": "Houston Rockets",
+       "shortDisplayName": "Rockets",
+       "logos": [
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+         "rel": [
+          "full",
+          "default"
+         ]
+        },
+        {
+         "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/hou.png",
+         "rel": [
+          "full",
+          "scoreboard",
+          "dark"
+         ]
+        }
+       ]
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "pointDifferential",
+        "value": 29.0,
+        "displayValue": "+29"
+       },
+       {
+        "name": "points",
+        "value": 1.5,
+        "displayValue": "1.5"
+       },
+       {
+        "name": "winPercent",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "overall",
+        "displayValue": "3-0"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

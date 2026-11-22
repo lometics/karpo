@@ -1,0 +1,138 @@
+# The Microsoft Store's pictures (store/README.md): Stage.cs's language, run with
+# `dotnet run scripts/stage/Stage.cs -- store shots [scene]`. Stage px are 3072 x 1728 at 200 %, the bar
+# along the bottom. No captions here: compose.mjs puts each picture's headline beside it. Never a
+# right click on a pin: its jump list is the person's own (recent chats, files).
+# A scene's wallpaper is the stage's usual one (Stage.cs's Wallpaper.Usual) unless it names another of
+# store/wallpapers.json: the desktops differ from page to page, as they do on Themia's.
+
+# The dock needs a moment after its first build before a click opens a folder.
+wait 3500
+
+# The one bar of every page (config.json's `work`), each of its buttons opened in turn. They come first: a scene run
+# alone still runs the layout and edge steps of the scenes before it.
+
+scene day
+# The week and the inbox, opened from the date; the mail and the next meeting on the bar beside the apps.
+open clock
+wait 1500
+shot
+close
+
+scene bar
+# The bar alone, for its callouts.
+wallpaper beach-sunset
+wait 1000
+shot
+
+scene pc
+# This PC: how full the drive is and the newest files, beside the processor, memory, graphics, disk and network.
+wallpaper red-canyon
+open pc
+wait 2500
+shot
+close
+
+scene sky
+# The weather and the air, the sun's day.
+open weather
+wait 1500
+shot
+close
+
+scene quick
+# Quick settings, opened from the Wi-Fi and the sound.
+open quick
+wait 1000
+shot
+close
+
+scene meeting
+# The next meeting, opened from the bar.
+open meeting
+wait 1000
+shot
+close
+
+scene folders
+# The dashboard, a folder of the person's own: clocks, a timer and a to-do list, the month and today, the weather
+# and two stocks, the mail and the newest downloads. The looks' page shows it too, as Windows styles it. One click and
+# a wait, not `open`: a folder this full takes a moment to draw, and a second click would close it.
+wallpaper desert-arch
+move myDay
+click
+wait 6000
+shot
+close
+
+scene more
+# The second dashboard, of other widgets: the tides and the week's weather, the news, the year, stocks and the power
+# mode. The looks' page shows it, as Windows styles it and in three palettes.
+wallpaper warm-mountains
+move more
+click
+wait 7000
+shot
+close
+
+scene side
+# The bar on the left edge, the weather open beside it.
+wallpaper cactus-island
+edge left
+wait 6000
+open weather
+wait 2000
+shot
+close
+edge bottom
+wait 3000
+
+# The second dashboard again in three of the Appearance's palettes (Paper in its light mode): the same screen, the same
+# place, cut into strips on the last page.
+
+scene more-paper
+wallpaper pale-dunes
+palette paper light
+wait 9000
+move more
+click
+wait 7000
+shot
+close
+palette karpo
+wait 2500
+
+scene more-harbor
+palette harbor
+wait 9000
+move more
+click
+wait 7000
+shot
+close
+palette karpo
+wait 2500
+
+scene more-bloom
+wallpaper night-trees
+palette bloom
+wait 9000
+move more
+click
+wait 7000
+shot
+close
+palette karpo
+wait 2500
+
+# The `variety` layout: one folder of the widgets no other folder shows (the day's hours, the week's weather, what is in
+# the air, the power mode, the sun's times, the battery, contacts, an alarm and focus), for the wall and the accounts.
+scene variety
+layout variety
+wait 5000
+move variety
+click
+wait 7000
+shot
+close
+layout work
+wait 2500

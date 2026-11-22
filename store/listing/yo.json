@@ -1,0 +1,194 @@
+{
+  "language": "yo-ng",
+  "title": "Karpo",
+  "shortDescription": "Ọ̀pá iṣẹ́ Windows, pẹ̀lú ọjọ́ yín nínú rẹ̀. Ẹ rí ìpàdé yín tó kàn, ímeèlì tuntun, ojú ọjọ́ àti orin yín lẹ́ẹ̀kan, kí ẹ sì ṣí àwọn fódà tó kún fún wíjẹ́ẹ̀tì pẹ̀lú títẹ̀ kan. Ọ̀fẹ́ láti bẹ̀rẹ̀, kò sí ìpolówó, kò sí àkọọ́lẹ̀.",
+  "description": [
+    "Karpo jẹ́ ọ̀pá iṣẹ́ fún Windows 11 àti Windows 10 tó jọ èyí tí Windows ní gẹ́lẹ́. Ìyàtọ̀ rẹ̀ ni pé ọjọ́ yín wà nínú rẹ̀. Ìpàdé yín tó kàn, àwọn ímeèlì yín tuntun jù, ojú ọjọ́, orin yín àti bí PC yín ṣe ń ṣiṣẹ́ kára tó wà lẹ́gbẹ̀ẹ́ àwọn áàpù yín, ọ̀kọ̀ọ̀kan wọn sì ń ṣí pẹ̀lú títẹ̀ kan.",
+    "",
+    "ỌJỌ́ YÍN, LÓRÍ Ọ̀PÁ IṢẸ́ GAN-AN",
+    "• Ìpàdé yín tó kàn pẹ̀lú ìkàsẹ̀yìn, àti bọ́tìnnì láti darapọ̀ mọ́ ọn",
+    "• Àwọn ímeèlì tuntun bí wọ́n ṣe ń dé, pẹ̀lú iye àwọn tí a kò tíì kà",
+    "• Gbogbo ọ̀sẹ̀ yín pẹ̀lú títẹ̀ kan láti ara aago",
+    "• Àwọn àkọọ́lẹ̀ Microsoft (Outlook.com, Microsoft 365), àkọọ́lẹ̀ ímeèlì IMAP èyíkéyìí, àti kàlẹ́ńdà àti olùbásọ̀rọ̀ CalDAV àti CardDAV bí iCloud, Fastmail tàbí Nextcloud",
+    "",
+    "OHUN TÍ Ẹ Ń WÒ LÓJOOJÚMỌ́, LẸ́Ẹ̀KAN",
+    "• Ojú ọjọ́ báyìí, wákàtí-wákàtí àti fún ọ̀sẹ̀",
+    "• Orin yín, pẹ̀lú ṣíṣe, ìdádúró àti fífò lórí ọ̀pá iṣẹ́ gan-an",
+    "• Ẹ̀rọ ìṣiṣẹ́, ìrántí, ẹ̀rọ àwòrán, nẹ́tíwọ̀ọ̀kì àti dísìkì, pẹ̀lú àwòrán-àtẹ lójú ẹsẹ̀",
+    "• Aago fún àwọn ìlú míì, aago ìkàsẹ̀yìn àti aago ìjìdìde",
+    "• Ọjà ìpín, fíìdì RSS, ìfitónilétí, àwọn fáìlì yín tuntun jù",
+    "• Wi-Fi, Bluetooth, ìwọ̀n ohùn, ìmọ́lẹ̀ àti bátìrì",
+    "",
+    "ÀWỌN FÓDÀ TÍ Ẹ FI WÍJẸ́Ẹ̀TÌ KÚN",
+    "Ẹ kó àwọn wíjẹ́ẹ̀tì jọ sínú fódà kan lórí ọ̀pá iṣẹ́. Títẹ̀ kan ń ṣí i bí pátákó ìṣàkóso kékeré tiyín: aago fún ìlú mẹ́ta, ètò òní, àpótí ìwọlé yín àti àsọtẹ́lẹ̀ ojú ọjọ́. Ẹ tẹ ibòmíì, yóò sì lọ.",
+    "",
+    "ÌTÒ FÚN GBOGBO APÁ ỌJỌ́ YÍN",
+    "Ọ̀pá iṣẹ́ kíkún fún iṣẹ́ pẹ̀lú kàlẹ́ńdà àti ímeèlì yín. Ibùdó fún ìrọ̀lẹ́ pẹ̀lú orin àti ojú ọjọ́. Aago ìkàsẹ̀yìn nìkan nígbà tí ẹ bá fẹ́ fọkàn sí nǹkan. Ẹ yí padà pẹ̀lú títẹ̀ méjì, tàbí kí ẹ fún ojú-ìbòjú kọ̀ọ̀kan ní tirẹ̀.",
+    "",
+    "LÓRÍ GBOGBO OJÚ-ÌBÒJÚ, NÍ Ẹ̀GBẸ́ ÈYÍKÉYÌÍ",
+    "Karpo ń fi ọ̀pá iṣẹ́ sórí gbogbo ojú-ìbòjú. Ọ̀kọ̀ọ̀kan lè wà ní ìsàlẹ̀, òkè, òsì tàbí ọ̀tún, pẹ̀lú ìtò tirẹ̀.",
+    "",
+    "Ẹ ṢE É BÍ TIYÍN",
+    "Ẹ tẹ ọ̀pá iṣẹ́ lápá ọ̀tún kí ẹ sì yan Ṣàtúnṣe. Ẹ ṣàfikún wíjẹ́ẹ̀tì láti inú àkójọ, ẹ fà wọ́n sí ibi tí ẹ fẹ́, kí ẹ sì yí ìwọ̀n àti ìrísí wọn padà lórí ọ̀pá iṣẹ́ gan-an. Gbogbo ètò wà níbẹ̀ pẹ̀lú, nínú ọ̀pá iṣẹ́ fúnra rẹ̀.",
+    "",
+    "Ó JỌ WINDOWS",
+    "Bẹ̀rẹ̀, Ṣàwárí, àwọn áàpù yín tí ẹ lẹ̀ mọ́ àti èyí tó ṣí sílẹ̀, àtẹ sístẹ́mù àti aago jọ ti Windows, wọ́n sì ń ṣiṣẹ́ bí i ti Windows gẹ́lẹ́. Karpo ń tẹ̀lé àkòrí funfun tàbí dúdú yín, àwọ̀ ìtẹnumọ́ yín àti ìwọ̀n ọ̀rọ̀ yín.",
+    "",
+    "ÀṢÍRÍ LÁTI ÌBẸ̀RẸ̀",
+    "Karpo kò ní ìpolówó, kò ní ìtọpinpin, kò ní àtúpalẹ̀, kò sì ní àkọọ́lẹ̀. Kíkà nìkan ni ó ń ka ímeèlì àti kàlẹ́ńdà yín: kò lè fi ímeèlì ránṣẹ́ tàbí yí ìṣẹ̀lẹ̀ padà. Windows ń ṣe àfipamọ́ ìwọlé yín fún olùlò Windows yín nìkan, dátà yín sì ń wà lórí PC yín. Karpo kò ní sáfà tirẹ̀ kankan.",
+    "",
+    "Ó FÚYẸ́ LÓRÍ PC YÍN",
+    "Karpo ń fi ọ̀pá iṣẹ́ rẹ̀ hàn ní ìdá kékeré ìṣẹ́jú-àáyá kan lẹ́yìn tí ó bẹ̀rẹ̀, ó sì ń lo ìrántí àti agbára díẹ̀ gan-an nígbà tí ẹ kò bá ń wò ó, kí PC yín lè máa yára kí bátìrì yín sì pẹ́.",
+    "",
+    "ÌPINNU YÍN NÍGBÀ GBOGBO",
+    "Ẹ jáde kúrò nínú Karpo nígbàkigbà, ọ̀pá iṣẹ́ Windows yóò sì padà bí ó ti wà gẹ́lẹ́. Bẹ̀rẹ̀ àti Ṣàwárí ń jẹ́ ti Windows fúnra rẹ̀.",
+    "",
+    "Ọ̀FẸ́ LÁTI BẸ̀RẸ̀",
+    "Gbogbo wíjẹ́ẹ̀tì àti gbogbo ètò wà nínú ẹ̀dà ọ̀fẹ́, pẹ̀lú wíjẹ́ẹ̀tì tó tó 20 fún ìtò kan àti ìtò 2. Karpo Pro, ìrà kan ṣoṣo nínú Karpo nípasẹ̀ Microsoft Store, ń mú àwọn ààlà méjèèjì kúrò títí láé. Kò sí owó oṣooṣù.",
+    "",
+    "Ní èdè 40. Dátà ojú ọjọ́ láti ọwọ́ Open-Meteo.com."
+  ],
+  "features": [
+    "Ìpàdé yín tó kàn àti ímeèlì tuntun lórí ọ̀pá iṣẹ́ gan-an",
+    "Gbogbo ọ̀sẹ̀ yín pẹ̀lú títẹ̀ kan láti ara aago",
+    "Ojú ọjọ́ báyìí, wákàtí-wákàtí àti fún ọ̀sẹ̀",
+    "Ẹ ṣe, dá dúró kí ẹ sì fo orin yín láìṣí áàpù náà",
+    "Àwòrán-àtẹ lójú ẹsẹ̀ fún ẹ̀rọ ìṣiṣẹ́, ìrántí, ẹ̀rọ àwòrán, nẹ́tíwọ̀ọ̀kì àti dísìkì",
+    "Àwọn fódà tó ń ṣí pátákó ìṣàkóso wíjẹ́ẹ̀tì kékeré tiyín",
+    "Ìtò fún iṣẹ́, ìrọ̀lẹ́ àti ìfọkànsí, tí ẹ ń yí pẹ̀lú títẹ̀ méjì",
+    "Ọ̀pá iṣẹ́ lórí gbogbo ojú-ìbòjú, ní ìsàlẹ̀, òkè, òsì tàbí ọ̀tún",
+    "Ẹ ṣàfikún, fà, kí ẹ sì yí ìwọ̀n wíjẹ́ẹ̀tì padà lórí ọ̀pá iṣẹ́ gan-an",
+    "Aago fún àwọn ìlú míì, aago ìkàsẹ̀yìn, aago ìjìdìde àti ọjà ìpín",
+    "Wi-Fi, Bluetooth, ìwọ̀n ohùn, ìmọ́lẹ̀ àti bátìrì lẹ́ẹ̀kan",
+    "Ó ń ṣiṣẹ́ pẹ̀lú àkọọ́lẹ̀ Microsoft, ímeèlì IMAP àti kàlẹ́ńdà CalDAV àti CardDAV",
+    "Ó jọ Windows, ó sì ń tẹ̀lé àkòrí àti àwọ̀ ìtẹnumọ́ yín",
+    "Kíkà nìkan ni ó ń ka ímeèlì àti kàlẹ́ńdà yín; dátà yín ń wà lórí PC yín",
+    "Kò sí ìpolówó, kò sí ìtọpinpin, kò sí àkọọ́lẹ̀",
+    "Ó fúyẹ́ lórí ìrántí àti bátìrì",
+    "Ọ̀pá iṣẹ́ Windows ń padà bí ó ti wà nígbà tí ẹ bá jáde",
+    "Ní èdè 40"
+  ],
+  "keywords": [
+    "ọ̀pá iṣẹ́",
+    "wíjẹ́ẹ̀tì ọ̀pá iṣẹ́",
+    "kàlẹ́ńdà lórí ọ̀pá iṣẹ́",
+    "wíjẹ́ẹ̀tì ojú ọjọ́",
+    "ọ̀pá iṣẹ́ ìdúró",
+    "ojú-ìbòjú púpọ̀",
+    "ibùdó"
+  ],
+  "minimumHardware": [
+    "Windows 10 ẹ̀dà 2004 tàbí èyí tó tẹ̀lé e, 64-bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Ọ̀pá iṣẹ́ Windows, pẹ̀lú ọjọ́ yín nínú rẹ̀.",
+      "sub": "Ìpàdé yín tó kàn àti ímeèlì tuntun lẹ́gbẹ̀ẹ́ àwọn áàpù yín, ọ̀sẹ̀ àti àpótí ìwọlé yín ní títẹ̀ kan.",
+      "caption": "Ọ̀pá iṣẹ́ Karpo pẹ̀lú ìpàdé tó kàn àti ímeèlì tí a kò tíì kà lẹ́gbẹ̀ẹ́ àwọn áàpù, àti ọ̀sẹ̀, àpótí ìwọlé àti àkójọ iṣẹ́ láti ṣe tí a ṣí láti ara aago."
+    },
+    {
+      "shot": "tour",
+      "label": "Ọ̀pá náà",
+      "headline": "Gbogbo ohun tí ẹ ń wò, lórí ọ̀pá kan.",
+      "sub": "Ojú ọjọ́, àwọn fáìlì yín, ètò kíákíá àti ọjọ́ yín: bọ́tìnnì kan fún ọ̀kọ̀ọ̀kan, lẹ́gbẹ̀ẹ́ àwọn áàpù yín.",
+      "caption": "Ọ̀pá iṣẹ́ Karpo pẹ̀lú àmì orúkọ: àwọn áàpù yín, ímeèlì tuntun, ìpàdé tó kàn, fáìlì àti díráìfù, ojú ọjọ́ àti afẹ́fẹ́, ètò kíákíá àti ọjọ́ yín.",
+      "callouts": [
+        "Àwọn áàpù yín",
+        "Ímeèlì tuntun",
+        "Ìpàdé tó kàn",
+        "PC yín",
+        "Ojú ọjọ́ àti afẹ́fẹ́",
+        "Fódà",
+        "Ètò kíákíá",
+        "Ọjọ́ yín"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Títẹ̀ kan",
+      "headline": "Gbogbo bọ́tìnnì ń ṣí púpọ̀ sí i.",
+      "sub": "Bọ́tìnnì kọ̀ọ̀kan lórí ọ̀pá ń ṣí ohun tó bá a lọ: àsọtẹ́lẹ̀, àwọn fáìlì yín, ọjọ́ yín, PC yín.",
+      "caption": "Àwọn fódà tí a ṣí láti ọ̀pá iṣẹ́ Karpo: àwọn ìpàdé tó kàn, ètò kíákíá, ìròyìn, ìṣàn omi òkun àti ojú ọjọ́ ọ̀sẹ̀."
+    },
+    {
+      "shot": "files",
+      "label": "PC yín",
+      "headline": "Àwọn fáìlì yín àti PC yín, ní títẹ̀ kan.",
+      "sub": "Àyè òfo, fáìlì tuntun jù àti àwòrán-àtẹ lójú ẹsẹ̀ fún ẹ̀rọ ìṣiṣẹ́, ìrántí àti nẹ́tíwọ̀ọ̀kì. Láìsí Olùṣàwárí, láìsí Olùṣàkóso Iṣẹ́.",
+      "caption": "Fódà tí a ṣí láti ọ̀pá iṣẹ́: àyè òfo lórí díráìfù, àwọn ìgbàsílẹ̀ àti ìwé tuntun jù, àti àwòrán-àtẹ lójú ẹsẹ̀ fún ẹ̀rọ ìṣiṣẹ́, ìrántí, ẹ̀rọ àwòrán, dísìkì àti nẹ́tíwọ̀ọ̀kì.",
+      "callouts": [
+        "Àyè òfo díráìfù kọ̀ọ̀kan",
+        "Ìgbàsílẹ̀ yín tuntun jù",
+        "Fódà èyíkéyìí tí ẹ fẹ́",
+        "Àwòrán-àtẹ lójú ẹsẹ̀"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Àkọọ́lẹ̀",
+      "headline": "Àwọn kàlẹ́ńdà, ímeèlì àti olùbásọ̀rọ̀ yín.",
+      "sub": "Ẹ wọlé pẹ̀lú Microsoft, tàbí kí ẹ ṣàfikún àkọọ́lẹ̀ IMAP, CalDAV tàbí CardDAV èyíkéyìí.",
+      "caption": "Àwọn àkọọ́lẹ̀ tí Karpo ń so pọ̀ mọ́: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Ìpàdé Teams, Zoom, Google Meet àti Webex tí ẹ ń darapọ̀ mọ́ pẹ̀lú títẹ̀ kan.",
+      "callouts": [
+        "Kàlẹ́ńdà",
+        "Olùbásọ̀rọ̀",
+        "Ímeèlì",
+        "Iṣẹ́ To Do",
+        "Ẹ darapọ̀ ní títẹ̀ kan"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Fódà",
+      "headline": "Àwọn fódà tí ẹ fi wíjẹ́ẹ̀tì kún.",
+      "sub": "Títẹ̀ kan ń ṣí pátákó ìṣàkóso kékeré tiyín.",
+      "caption": "Fódà tí a ṣí bí pátákó ìṣàkóso: aago àti aago ìkàsẹ̀yìn, oṣù àti ètò òní, ojú ọjọ́ àti oòrùn, ímeèlì yín àti àwọn fáìlì inú Downloads yín.",
+      "callouts": [
+        "Aago fún ìlú míì",
+        "Àwọn ìpàdé òní",
+        "Òjò wákàtí-wákàtí",
+        "Ímeèlì tuntun jù",
+        "Ìgbàsílẹ̀ tuntun jù"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Wíjẹ́ẹ̀tì",
+      "headline": "Ó ju wíjẹ́ẹ̀tì 100 lọ.",
+      "sub": "Kàlẹ́ńdà, ímeèlì, ojú ọjọ́, ọjà ìpín, fáìlì, aago ìkàsẹ̀yìn, ètò kíákíá àti PC yín. Lórí ọ̀pá iṣẹ́ tàbí nínú fódà.",
+      "caption": "Díẹ̀ lára wíjẹ́ẹ̀tì Karpo: wákàtí ọjọ́, ojú ọjọ́ ọ̀sẹ̀, ìdára afẹ́fẹ́, ipò agbára, ọdún, ọjà ìpín, olùbásọ̀rọ̀, àkójọ iṣẹ́, àkọsílẹ̀, aago ìjìdìde àti ìkàsẹ̀yìn, bátìrì, ètò kíákíá, fáìlì àti PC yín."
+    },
+    {
+      "shot": "side",
+      "label": "Níbikíbi",
+      "headline": "Ní ẹ̀gbẹ́ èyíkéyìí ojú-ìbòjú yín.",
+      "sub": "Ìsàlẹ̀, òkè, òsì tàbí ọ̀tún, àti lórí gbogbo ojú-ìbòjú tí ẹ ní.",
+      "caption": "Ọ̀pá iṣẹ́ Karpo ní ẹ̀gbẹ́ òsì ojú-ìbòjú, pẹ̀lú ojú ọjọ́, ìdára afẹ́fẹ́ àti ìrìn oòrùn lójúmọ́ tí a ṣí lẹ́gbẹ̀ẹ́ rẹ̀."
+    },
+    {
+      "shot": "looks",
+      "label": "Ìrísí yín",
+      "headline": "Ẹ jẹ́ kí ó rí bí ẹ ṣe fẹ́.",
+      "sub": "Àwọn àwọ̀ àti fọ́ǹtì yín lórí ọ̀pá àti nínú gbogbo fódà, tàbí ọ̀kan lára àwọn àkójọ àwọ̀ Karpo.",
+      "caption": "Ojú-ìbòjú kan ní ìrísí mẹ́rin, tí a gé sí ẹ̀gbẹ́ ara wọn: ti Windows fúnra rẹ̀ àti àkójọ àwọ̀ Ìwé, Èbúté àti Ìtànná ti Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Wíjẹ́ẹ̀tì àti ìtò tó pọ̀ bí ẹ ṣe fẹ́. Ìrà kan ṣoṣo, tiyín títí láé, pẹ̀lú ìmúdójúìwọ̀n ọ̀fẹ́ fún ẹ̀dà pàtàkì yìí. Kò sí owó oṣooṣù.",
+    "keywords": [
+      "karpo pro",
+      "wíjẹ́ẹ̀tì àìlópin",
+      "ìtò àìlópin",
+      "ọ̀pá iṣẹ́",
+      "pro"
+    ]
+  }
+}

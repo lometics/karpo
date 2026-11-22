@@ -1,0 +1,184 @@
+{
+ "team": {
+  "id": "19",
+  "abbreviation": "LAD",
+  "displayName": "Los Angeles Dodgers",
+  "name": "Dodgers",
+  "location": "Los Angeles",
+  "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+  "recordSummary": "3-5",
+  "standingSummary": "1st in NL West"
+ },
+ "events": [
+  {
+   "id": "401908032",
+   "date": "2026-10-15T00:00Z",
+   "name": "Milwaukee Brewers at Los Angeles Dodgers",
+   "shortName": "MIL @ LAD",
+   "timeValid": true,
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/mlb/game/_/gameId/401908032/brewers-dodgers"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-15T00:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0:00",
+      "period": 9,
+      "type": {
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       "team": {
+        "id": "19",
+        "abbreviation": "LAD",
+        "displayName": "Los Angeles Dodgers",
+        "shortDisplayName": "Dodgers",
+        "location": "Los Angeles",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       "team": {
+        "id": "8",
+        "abbreviation": "MIL",
+        "displayName": "Milwaukee Brewers",
+        "shortDisplayName": "Brewers",
+        "location": "Milwaukee",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401908033",
+   "date": "2026-10-16T00:00Z",
+   "name": "Milwaukee Brewers at Los Angeles Dodgers",
+   "shortName": "MIL @ LAD",
+   "timeValid": true,
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/mlb/game/_/gameId/401908033/brewers-dodgers"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-16T00:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0:00",
+      "period": 9,
+      "type": {
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       "team": {
+        "id": "19",
+        "abbreviation": "LAD",
+        "displayName": "Los Angeles Dodgers",
+        "shortDisplayName": "Dodgers",
+        "location": "Los Angeles",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       "team": {
+        "id": "8",
+        "abbreviation": "MIL",
+        "displayName": "Milwaukee Brewers",
+        "shortDisplayName": "Brewers",
+        "location": "Milwaukee",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

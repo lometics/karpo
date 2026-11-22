@@ -1,0 +1,378 @@
+{
+ "team": {
+  "id": "83",
+  "abbreviation": "BAR",
+  "displayName": "Barcelona",
+  "name": "Barcelona",
+  "location": "Barcelona",
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+  "recordSummary": "9-0-0",
+  "standingSummary": "1st in Spanish LALIGA"
+ },
+ "events": [
+  {
+   "id": "401882846",
+   "date": "2026-10-17T16:30Z",
+   "name": "Barcelona at Real Betis",
+   "shortName": "BAR @ BET",
+   "timeValid": true,
+   "league": {
+    "slug": "esp.1",
+    "name": "Spanish LALIGA",
+    "abbreviation": "LALIGA",
+    "shortName": "LALIGA"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401882846/barcelona-real-betis"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-17T16:30Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "90'+3'",
+      "period": 2,
+      "type": {
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       "team": {
+        "id": "244",
+        "abbreviation": "BET",
+        "displayName": "Real Betis",
+        "shortDisplayName": "Betis",
+        "location": "Real Betis",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401915435",
+   "date": "2026-10-13T19:00Z",
+   "name": "Barcelona at Galatasaray",
+   "shortName": "BAR @ GAL",
+   "timeValid": true,
+   "league": {
+    "slug": "uefa.champions",
+    "name": "UEFA Champions League",
+    "abbreviation": "UEFA Champions League",
+    "shortName": "UEFA Champions League"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401915435/barcelona-galatasaray"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-13T19:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "90'+3'",
+      "period": 2,
+      "type": {
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "score": {
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       "team": {
+        "id": "432",
+        "abbreviation": "GAL",
+        "displayName": "Galatasaray",
+        "shortDisplayName": "Galatasaray",
+        "location": "Galatasaray",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": true,
+       "score": {
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401882853",
+   "date": "2026-10-10T16:30Z",
+   "name": "Getafe at Barcelona",
+   "shortName": "GET @ BAR",
+   "timeValid": true,
+   "league": {
+    "slug": "esp.1",
+    "name": "Spanish LALIGA",
+    "abbreviation": "LALIGA",
+    "shortName": "LALIGA"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401882853/getafe-barcelona"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-10T16:30Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "90'+3'",
+      "period": 2,
+      "type": {
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": true,
+       "score": {
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       "team": {
+        "id": "2922",
+        "abbreviation": "GET",
+        "displayName": "Getafe",
+        "shortDisplayName": "Getafe",
+        "location": "Getafe",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401886550",
+   "date": "2026-07-31T18:45Z",
+   "name": "Barcelona at Birmingham City",
+   "shortName": "BAR @ BIR",
+   "timeValid": true,
+   "league": {
+    "slug": "club.friendly",
+    "name": "Club Friendly",
+    "abbreviation": "Club Friendly",
+    "shortName": "Club Friendly"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401886550/barcelona-birmingham-city"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-07-31T18:45Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "93'",
+      "period": 5,
+      "type": {
+       "name": "STATUS_FINAL_PEN",
+       "state": "post",
+       "completed": true,
+       "description": "Final Score - After Penalties",
+       "detail": "FT-Pens",
+       "shortDetail": "FT-Pens"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": true,
+       "score": {
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       "team": {
+        "id": "392",
+        "abbreviation": "BIR",
+        "displayName": "Birmingham City",
+        "shortDisplayName": "Birmingham",
+        "location": "Birmingham City",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "score": {
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

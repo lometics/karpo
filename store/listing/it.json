@@ -1,0 +1,194 @@
+{
+  "language": "it-it",
+  "title": "Karpo",
+  "shortDescription": "La barra delle applicazioni di Windows, con dentro la tua giornata. La prossima riunione, le nuove e-mail, il meteo e la tua musica a colpo d’occhio, e cartelle piene di widget che apri con un clic. Inizi gratis, senza pubblicità e senza account.",
+  "description": [
+    "Karpo è una barra delle applicazioni per Windows 11 e Windows 10 identica a quella di Windows. La differenza: dentro c’è la tua giornata. La prossima riunione, le e-mail più recenti, il meteo, la tua musica e quanto sta lavorando il tuo PC stanno proprio accanto alle tue app, e ognuno si apre con un clic.",
+    "",
+    "LA TUA GIORNATA, SULLA BARRA DELLE APPLICAZIONI",
+    "• La prossima riunione con il conto alla rovescia e un pulsante per partecipare",
+    "• Le nuove e-mail appena arrivano, con il numero di quelle non lette",
+    "• Tutta la settimana con un clic sull’orologio",
+    "• Account Microsoft (Outlook.com, Microsoft 365), qualsiasi account e-mail IMAP, e calendari e contatti CalDAV e CardDAV come iCloud, Fastmail o Nextcloud",
+    "",
+    "QUELLO CHE CONTROLLI TUTTO IL GIORNO, A COLPO D’OCCHIO",
+    "• Il meteo di adesso, ora per ora e per tutta la settimana",
+    "• La tua musica, con riproduci, pausa e salta direttamente sulla barra delle applicazioni",
+    "• Processore, memoria, grafica, rete e dischi, con grafici in tempo reale",
+    "• Orologi per altre città, timer e sveglie",
+    "• Azioni, feed RSS, notifiche e i tuoi ultimi file",
+    "• Wi-Fi, Bluetooth, volume, luminosità e batteria",
+    "",
+    "CARTELLE DA RIEMPIRE DI WIDGET",
+    "Raccogli i widget in una cartella sulla barra delle applicazioni. Con un clic si apre come la tua piccola dashboard personale: orologi per tre città, gli impegni di oggi, la posta in arrivo e le previsioni. Fai clic altrove e sparisce.",
+    "",
+    "UN LAYOUT PER OGNI MOMENTO DELLA GIORNATA",
+    "Una barra delle applicazioni completa per il lavoro, con calendario e posta. Un dock per la sera, con musica e meteo. Solo un timer quando devi concentrarti. Cambia con due clic, o dai a ogni schermo il suo.",
+    "",
+    "SU OGNI SCHERMO, SU QUALSIASI BORDO",
+    "Karpo mette una barra delle applicazioni su ogni monitor. Ognuna può stare in basso, in alto, a sinistra o a destra, con il proprio layout.",
+    "",
+    "COME VUOI TU",
+    "Fai clic con il tasto destro sulla barra delle applicazioni e scegli «Modifica». Aggiungi widget dall’elenco, trascinali dove vuoi e cambiane dimensione e aspetto direttamente sulla barra. Anche tutte le impostazioni sono lì, nella barra stessa.",
+    "",
+    "PROPRIO COME WINDOWS",
+    "Start, la ricerca, le app aggiunte e aperte, l’area di notifica e l’orologio hanno lo stesso aspetto e funzionano esattamente come quelli di Windows. Karpo segue il tuo tema chiaro o scuro, il tuo colore principale e la dimensione del testo.",
+    "",
+    "LA PRIVACY PRIMA DI TUTTO",
+    "Karpo non ha pubblicità, tracciamento, statistiche né account. Si limita a leggere la tua posta e il tuo calendario: non può inviare un’e-mail né modificare un evento. I tuoi accessi vengono crittografati da Windows solo per il tuo utente Windows, e i tuoi dati restano sul tuo PC. Karpo non ha server propri.",
+    "",
+    "LEGGERO SUL TUO PC",
+    "Karpo mostra la sua barra una frazione di secondo dopo l’avvio e usa pochissima memoria ed energia mentre non la guardi, così il tuo PC resta veloce e la batteria dura.",
+    "",
+    "LA SCELTA È SEMPRE TUA",
+    "Esci da Karpo quando vuoi e la barra delle applicazioni di Windows torna com’era. Start e la ricerca restano quelli di Windows.",
+    "",
+    "INIZI GRATIS",
+    "Tutti i widget e tutte le impostazioni sono nella versione gratuita, con fino a 20 widget per layout e 2 layout. Karpo Pro, un acquisto unico in Karpo tramite Microsoft Store, toglie entrambi i limiti per sempre. Nessun abbonamento.",
+    "",
+    "In 40 lingue. Dati meteo di Open-Meteo.com."
+  ],
+  "features": [
+    "La prossima riunione e le nuove e-mail direttamente sulla barra delle applicazioni",
+    "Tutta la settimana con un clic sull’orologio",
+    "Il meteo di adesso, ora per ora e per la settimana",
+    "Riproduci, metti in pausa e salta i brani senza aprire l’app",
+    "Grafici in tempo reale per processore, memoria, grafica, rete e dischi",
+    "Cartelle che aprono la tua piccola dashboard di widget",
+    "Layout per il lavoro, la sera e la concentrazione, da cambiare con due clic",
+    "Una barra delle applicazioni su ogni monitor, in basso, in alto, a sinistra o a destra",
+    "Aggiungi, trascina e ridimensiona i widget direttamente sulla barra",
+    "Orologi per altre città, timer, sveglie e azioni",
+    "Wi-Fi, Bluetooth, volume, luminosità e batteria a colpo d’occhio",
+    "Funziona con account Microsoft, e-mail IMAP e calendari CalDAV e CardDAV",
+    "Ha l’aspetto di Windows e segue il tuo tema e il tuo colore principale",
+    "Legge soltanto posta e calendario; i tuoi dati restano sul tuo PC",
+    "Niente pubblicità, niente tracciamento, niente account",
+    "Leggero su memoria e batteria",
+    "Quando esci, la barra delle applicazioni di Windows torna com’era",
+    "In 40 lingue"
+  ],
+  "keywords": [
+    "barra delle applicazioni",
+    "taskbar",
+    "widget barra applicazioni",
+    "calendario barra applicazioni",
+    "widget meteo",
+    "barra applicazioni verticale",
+    "più monitor"
+  ],
+  "minimumHardware": [
+    "Windows 10 versione 2004 o successiva, 64 bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "La tua giornata, sulla barra di Windows.",
+      "sub": "Prossima riunione e nuove e-mail accanto alle app, settimana e posta in arrivo a un clic.",
+      "caption": "La barra delle applicazioni di Karpo con la prossima riunione e la posta non letta accanto alle app, e la settimana, la posta in arrivo e un elenco di cose da fare aperti dall’orologio."
+    },
+    {
+      "shot": "tour",
+      "label": "La barra",
+      "headline": "Tutto quello che controlli, in una barra.",
+      "sub": "Il meteo, i tuoi file, le impostazioni rapide e la tua giornata: un pulsante per ciascuno, proprio accanto alle tue app.",
+      "caption": "La barra delle applicazioni di Karpo con le etichette: le tue app, le nuove e-mail, la prossima riunione, file e unità, il meteo e la qualità dell’aria, le impostazioni rapide e la tua giornata.",
+      "callouts": [
+        "Le tue app",
+        "Nuove e-mail",
+        "Prossima riunione",
+        "Il tuo PC",
+        "Meteo e aria",
+        "Cartelle",
+        "Impostazioni rapide",
+        "La tua giornata"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Un clic",
+      "headline": "Ogni pulsante apre qualcosa in più.",
+      "sub": "Ogni pulsante sulla barra apre ciò che lo riguarda: le previsioni, i tuoi file, la tua giornata, il tuo PC.",
+      "caption": "Cartelle aperte dalla barra delle applicazioni di Karpo: le prossime riunioni, le impostazioni rapide, le notizie, le maree e il meteo della settimana."
+    },
+    {
+      "shot": "files",
+      "label": "Il tuo PC",
+      "headline": "I tuoi file e il tuo PC, a un clic.",
+      "sub": "Spazio libero, file più recenti e grafici in tempo reale per processore, memoria e rete. Senza Esplora file né Gestione attività.",
+      "caption": "Una cartella aperta dalla barra delle applicazioni: lo spazio libero sull’unità, gli ultimi download e documenti, e grafici in tempo reale per processore, memoria, grafica, disco e rete.",
+      "callouts": [
+        "Spazio libero sulle unità",
+        "I tuoi ultimi download",
+        "Qualsiasi cartella",
+        "Grafici in tempo reale"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Account",
+      "headline": "Calendari, posta e contatti.",
+      "sub": "Accedi con Microsoft o aggiungi un account IMAP, CalDAV o CardDAV.",
+      "caption": "Gli account a cui si collega Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Riunioni Teams, Zoom, Google Meet, Webex con un clic.",
+      "callouts": [
+        "Calendari",
+        "Contatti",
+        "Posta",
+        "Attività di To Do",
+        "Partecipa con un clic"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Cartelle",
+      "headline": "Cartelle da riempire di widget.",
+      "sub": "Un clic apre la tua piccola dashboard personale.",
+      "caption": "Una cartella aperta come dashboard: orologi e un timer, il mese e gli impegni di oggi, il meteo e il sole, la tua posta e i file nei tuoi Download.",
+      "callouts": [
+        "Orologi di altre città",
+        "Riunioni di oggi",
+        "Pioggia ora per ora",
+        "Ultime e-mail",
+        "Ultimi download"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widget",
+      "headline": "Più di 100 widget.",
+      "sub": "Calendario, posta, meteo, azioni, file, timer, impostazioni rapide e il tuo PC. Sulla barra o in una cartella.",
+      "caption": "Alcuni widget di Karpo: ore del giorno, meteo settimanale, qualità dell’aria, modalità energia, anno, azioni, contatti, cose da fare, note, sveglie, timer, batteria, impostazioni rapide, file e PC."
+    },
+    {
+      "shot": "side",
+      "label": "Ovunque",
+      "headline": "Su qualsiasi bordo dello schermo.",
+      "sub": "In basso, in alto, a sinistra o a destra, e su ogni tuo monitor.",
+      "caption": "La barra delle applicazioni di Karpo lungo il bordo sinistro dello schermo, con il meteo, la qualità dell’aria e il percorso del sole aperti accanto."
+    },
+    {
+      "shot": "looks",
+      "label": "Il tuo aspetto",
+      "headline": "L’aspetto che preferisci.",
+      "sub": "I tuoi colori e caratteri sulla barra e in ogni cartella, o una delle tavolozze di Karpo.",
+      "caption": "Uno schermo in quattro stili, tagliato fianco a fianco: quello di Windows e le palette Paper, Harbor e Bloom di Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Tutti i widget e i layout che vuoi. Un acquisto unico, tuo per sempre, con aggiornamenti gratuiti per questa versione principale. Nessun abbonamento.",
+    "keywords": [
+      "karpo pro",
+      "widget illimitati",
+      "layout illimitati",
+      "barra delle applicazioni",
+      "pro"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    The dock: plain Win32 plus the system compositor (Windows.UI.Composition),
+    like the Rust version. TerraFX gives raw bindings for Win32, Direct2D and the
+    composition interop interfaces; the Windows SDK projection (from the target
+    framework) gives the WinRT side. No XAML here: XAML would bring its own
+    in-process compositor and a per-frame cost.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <RootNamespace>Karpo.Dock</RootNamespace>
+    <AssemblyName>Karpo</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Icon resource 32512: Explorer, Task Manager, and the class icon of Karpo's own windows. -->
+    <ApplicationIcon>..\assets\logo\karpo.ico</ApplicationIcon>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <CsWinRTAotOptimizerEnabled>true</CsWinRTAotOptimizerEnabled>
+    <!--
+      No hardware shadow stack (CET), which .NET otherwise asks for. Launching an app runs the
+      shell's extensions in this process, as in Explorer's, and one built on .NET Framework unwinds
+      its own exceptions in a way the shadow stack refuses: Windows then ends the dock with
+      fail-fast 0x30 (FAST_FAIL_SET_CONTEXT_DENIED), in clr.dll, on a click on File Explorer.
+    -->
+    <CETCompat>false</CETCompat>
+    <!-- TerraFX mirrors the C headers, names and all. -->
+    <NoWarn>$(NoWarn);CS8981;CA1416</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- SDK 10.0.400 bundles ILCompiler 10.0.11 (NU1903, GHSA-p3jp-9v83-76w9): publish with the 10.0.14 compiler and runtime pack; delete once the SDK ships ≥10.0.14. -->
+    <KnownILCompilerPack Update="Microsoft.DotNet.ILCompiler">
+      <ILCompilerPackVersion Condition="'%(TargetFramework)' == 'net10.0'">10.0.14</ILCompilerPackVersion>
+    </KnownILCompilerPack>
+    <KnownRuntimePack Update="Microsoft.NETCore.App">
+      <LatestRuntimeFrameworkVersion Condition="'%(TargetFramework)' == 'net10.0'">10.0.14</LatestRuntimeFrameworkVersion>
+    </KnownRuntimePack>
+    <KnownFrameworkReference Update="Microsoft.NETCore.App">
+      <LatestRuntimeFrameworkVersion Condition="'%(TargetFramework)' == 'net10.0'">10.0.14</LatestRuntimeFrameworkVersion>
+    </KnownFrameworkReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.26100.6" />
+    <ProjectReference Include="..\Karpo.Core\Karpo.Core.csproj" />
+    <ProjectReference Include="..\Karpo.Accounts\Karpo.Accounts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--
+      ⚙ › Online (docs\widgets.md §337, §597): each search engine, map, weather and finance site wears its logo
+      (Karpo.Core\SiteLogo.cs, MenuPictures), carried in the exe so nothing beside it is needed.
+    -->
+    <EmbeddedResource Include="..\assets\site-logos\*.png" LogicalName="SiteLogos.%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(KarpoChannel)' != ''">
+    <!--
+      Whom this copy is built for (scripts\publish.ps1 -Channel): "store" for the Microsoft Store's package
+      (scripts\package.ps1). StoreLicense reads it, so the Store's exe run outside its package is the free
+      version rather than a developer build (LicenseRules.Decide). A build of the source has no mark.
+    -->
+    <AssemblyMetadata Include="KarpoChannel" Value="$(KarpoChannel)" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Karpo.Tests covers the dock's pure logic, internal helpers included. -->
+    <InternalsVisibleTo Include="Karpo.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- §339: ⚙ › About Karpo's pictures, Karpo's logo and Lometics' mark, inside the exe (MenuPictures). -->
+    <EmbeddedResource Include="..\assets\logo\karpo-64.png" LogicalName="Karpo.Dock.Logo.png" />
+    <EmbeddedResource Include="..\assets\branding\lometics-128.png" LogicalName="Karpo.Dock.Publisher.png" />
+  </ItemGroup>
+</Project>

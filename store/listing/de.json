@@ -1,0 +1,194 @@
+{
+  "language": "de-de",
+  "title": "Karpo",
+  "shortDescription": "Die Windows-Taskleiste, mit deinem Tag drin. Deinen nächsten Termin, neue E-Mails, das Wetter und deine Musik hast du auf einen Blick, und Ordner voller Widgets öffnest du mit einem Klick. Kostenlos loslegen, ohne Werbung, ohne Konto.",
+  "description": [
+    "Karpo ist eine Taskleiste für Windows 11 und Windows 10, die genauso aussieht wie die von Windows. Der Unterschied: Dein Tag ist mit drin. Deinen nächsten Termin, deine neuesten E-Mails, das Wetter, deine Musik und wie viel dein PC gerade zu tun hat, siehst du direkt neben deinen Apps, und alles davon öffnest du mit einem Klick.",
+    "",
+    "DEIN TAG, DIREKT IN DER TASKLEISTE",
+    "• Dein nächstes Meeting mit Countdown und einer Schaltfläche zum Teilnehmen",
+    "• Neue E-Mails, sobald sie reinkommen, mit der Zahl der ungelesenen",
+    "• Deine ganze Woche mit einem Klick auf die Uhr",
+    "• Microsoft-Konten (Outlook.com, Microsoft 365), jedes IMAP-Mailkonto sowie CalDAV- und CardDAV-Kalender und -Kontakte wie iCloud, Fastmail oder Nextcloud",
+    "",
+    "WAS DU DEN GANZEN TAG CHECKST, AUF EINEN BLICK",
+    "• Das Wetter jetzt, stündlich und für die ganze Woche",
+    "• Deine Musik, mit Abspielen, Pause und Überspringen direkt in der Taskleiste",
+    "• Prozessor, Arbeitsspeicher, Grafik, Netzwerk und Datenträger, mit Live-Diagrammen",
+    "• Uhren für andere Städte, Timer und Wecker",
+    "• Aktien, RSS-Feeds, Benachrichtigungen und deine neuesten Dateien",
+    "• WLAN, Bluetooth, Lautstärke, Helligkeit und Akku",
+    "",
+    "ORDNER, DIE DU MIT WIDGETS FÜLLST",
+    "Sammel Widgets in einem Ordner in der Taskleiste. Ein Klick, und er klappt zu deinem eigenen kleinen Dashboard auf: Uhren für drei Städte, deine Termine für heute, dein Posteingang und die Vorhersage. Klick woanders hin, und er ist wieder zu.",
+    "",
+    "EIN LAYOUT FÜR JEDE TAGESZEIT",
+    "Eine volle Taskleiste für die Arbeit, mit Kalender und Mails. Ein Dock für den Abend, mit Musik und Wetter. Nur ein Timer, wenn du dich konzentrieren willst. Mit zwei Klicks wechseln, oder gib jedem Bildschirm sein eigenes.",
+    "",
+    "AUF JEDEM BILDSCHIRM, AN JEDEM RAND",
+    "Karpo setzt eine Taskleiste auf jeden Monitor. Jede kann unten, oben, links oder rechts sitzen, mit ihrem eigenen Layout.",
+    "",
+    "SO, WIE DU SIE WILLST",
+    "Klick mit der rechten Maustaste auf die Taskleiste und wähl „Bearbeiten“. Füg Widgets aus der Liste hinzu, zieh sie dahin, wo du sie haben willst, und ändere Größe und Aussehen direkt in der Taskleiste. Auch alle Einstellungen findest du dort, in der Taskleiste selbst.",
+    "",
+    "SIEHT AUS WIE WINDOWS",
+    "Start, die Suche, deine angehefteten und geöffneten Apps, der Infobereich und die Uhr sehen aus und funktionieren genau wie die von Windows. Karpo folgt deinem hellen oder dunklen Design, deiner Akzentfarbe und deiner Textgröße.",
+    "",
+    "PRIVAT VON GRUND AUF",
+    "Karpo hat keine Werbung, kein Tracking, keine Analytics und kein Konto. Deine Mails und deinen Kalender liest es nur: Es kann keine Mail senden und keinen Termin ändern. Deine Anmeldungen verschlüsselt Windows so, dass nur dein Windows-Benutzer sie lesen kann, und deine Daten bleiben auf deinem PC. Karpo hat keine eigenen Server.",
+    "",
+    "SCHONT DEINEN PC",
+    "Karpo zeigt seine Taskleiste Sekundenbruchteile nach dem Start und braucht sehr wenig Arbeitsspeicher und Strom, solange du nicht hinschaust. So bleibt dein PC schnell, und dein Akku hält länger.",
+    "",
+    "DU ENTSCHEIDEST",
+    "Beende Karpo jederzeit, und die Windows-Taskleiste ist wieder da, wie sie war. Start und die Suche bleiben die von Windows.",
+    "",
+    "KOSTENLOS LOSLEGEN",
+    "Alle Widgets und alle Einstellungen sind schon in der kostenlosen Version drin, mit bis zu 20 Widgets pro Layout und 2 Layouts. Karpo Pro, ein einmaliger Kauf in Karpo über den Microsoft Store, hebt beide Grenzen für immer auf. Kein Abo.",
+    "",
+    "In 40 Sprachen. Wetterdaten von Open-Meteo.com."
+  ],
+  "features": [
+    "Dein nächster Termin und neue E-Mails direkt in der Taskleiste",
+    "Deine ganze Woche mit einem Klick auf die Uhr",
+    "Das Wetter jetzt, stündlich und für die ganze Woche",
+    "Musik abspielen, pausieren und überspringen, ohne die App zu öffnen",
+    "Live-Diagramme für Prozessor, Arbeitsspeicher, Grafik, Netzwerk und Datenträger",
+    "Ordner, die als dein eigenes kleines Dashboard aus Widgets aufgehen",
+    "Layouts für Arbeit, Feierabend und Fokus, mit zwei Klicks gewechselt",
+    "Eine Taskleiste auf jedem Monitor, unten, oben, links oder rechts",
+    "Widgets direkt in der Taskleiste hinzufügen, verschieben und in der Größe ändern",
+    "Uhren für andere Städte, Timer, Wecker und Aktien",
+    "WLAN, Bluetooth, Lautstärke, Helligkeit und Akku auf einen Blick",
+    "Funktioniert mit Microsoft-Konten, IMAP-Mail sowie CalDAV- und CardDAV-Kalendern",
+    "Sieht aus wie Windows und folgt deinem Design und deiner Akzentfarbe",
+    "Liest deine Mails und deinen Kalender nur; deine Daten bleiben auf deinem PC",
+    "Keine Werbung, kein Tracking, kein Konto",
+    "Braucht wenig Arbeitsspeicher und Akku",
+    "Beim Beenden ist die Windows-Taskleiste wieder da, wie sie war",
+    "In 40 Sprachen"
+  ],
+  "keywords": [
+    "Taskleiste",
+    "Taskleiste Widgets",
+    "Kalender Taskleiste",
+    "Wetter Widget",
+    "Taskleiste vertikal",
+    "mehrere Monitore",
+    "Dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 ab Version 2004, 64-Bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Die Windows-Taskleiste, mit deinem Tag drin.",
+      "sub": "Dein nächster Termin und neue Mails neben den Apps, Woche und Posteingang mit einem Klick.",
+      "caption": "Die Taskleiste von Karpo mit dem nächsten Termin und ungelesenen Mails neben den Apps, dazu die Woche, der Posteingang und eine To-do-Liste, geöffnet über die Uhr."
+    },
+    {
+      "shot": "tour",
+      "label": "Die Taskleiste",
+      "headline": "Alles, was du checkst, in einer Leiste.",
+      "sub": "Das Wetter, deine Dateien, die Schnelleinstellungen und dein Tag: für alles eine Schaltfläche, direkt neben deinen Apps.",
+      "caption": "Die Taskleiste von Karpo mit Beschriftungen: deine Apps, neue Mails, der nächste Termin, Dateien und Laufwerke, Wetter und Luftqualität, Schnelleinstellungen und dein Tag.",
+      "callouts": [
+        "Deine Apps",
+        "Neue Mails",
+        "Nächster Termin",
+        "Dein PC",
+        "Wetter und Luftqualität",
+        "Ordner",
+        "Schnelleinstellungen",
+        "Dein Tag"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Ein Klick",
+      "headline": "Hinter jeder Schaltfläche steckt mehr.",
+      "sub": "Jede Schaltfläche in der Leiste öffnet, was dazugehört: die Vorhersage, deine Dateien, deinen Tag, deinen PC.",
+      "caption": "Ordner, geöffnet über die Taskleiste von Karpo: die nächsten Termine, Schnelleinstellungen, die News, die Gezeiten und das Wetter der Woche."
+    },
+    {
+      "shot": "files",
+      "label": "Dein PC",
+      "headline": "Deine Dateien und dein PC mit einem Klick.",
+      "sub": "Freier Platz, neueste Dateien und Live-Diagramme für Prozessor, Arbeitsspeicher und Netzwerk. Ohne Explorer, ohne Task-Manager.",
+      "caption": "Ein Ordner, über die Taskleiste geöffnet: freier Platz auf dem Laufwerk, die neuesten Downloads und Dokumente sowie Live-Diagramme für Prozessor, Arbeitsspeicher, Grafik, Datenträger und Netzwerk.",
+      "callouts": [
+        "Freier Platz je Laufwerk",
+        "Deine neuesten Downloads",
+        "Jeder beliebige Ordner",
+        "Live-Diagramme"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Konten",
+      "headline": "Deine Kalender, Mails und Kontakte.",
+      "sub": "Melde dich mit Microsoft an oder füge ein IMAP-, CalDAV- oder CardDAV-Konto hinzu.",
+      "caption": "Konten, mit denen sich Karpo verbindet: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Meetings in Teams, Zoom, Google Meet, Webex mit einem Klick beitreten.",
+      "callouts": [
+        "Kalender",
+        "Kontakte",
+        "Mail",
+        "To-Do-Aufgaben",
+        "Mit einem Klick beitreten"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Ordner",
+      "headline": "Ordner, die du mit Widgets füllst.",
+      "sub": "Ein Klick öffnet dein eigenes kleines Dashboard.",
+      "caption": "Ein Ordner, als Dashboard geöffnet: Uhren und ein Timer, der Monat und die Termine von heute, das Wetter und die Sonne, deine Mail und die Dateien in deinen Downloads.",
+      "callouts": [
+        "Uhren anderer Städte",
+        "Heutige Termine",
+        "Regen pro Stunde",
+        "Neueste Mails",
+        "Neueste Downloads"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgets",
+      "headline": "Mehr als 100 Widgets.",
+      "sub": "Kalender, Mail, Wetter, Aktien, Dateien, Timer, Schnelleinstellungen und dein PC. In Taskleiste oder Ordner.",
+      "caption": "Einige von Karpos Widgets: Tagesstunden, Wochenwetter, Luftqualität, Energiemodus, das Jahr, Aktien, Kontakte, To-do-Liste, Notizen, Wecker und Timer, Akku, Schnelleinstellungen, Dateien und dein PC."
+    },
+    {
+      "shot": "side",
+      "label": "Überall",
+      "headline": "An jedem Rand deines Bildschirms.",
+      "sub": "Unten, oben, links oder rechts, und auf jedem deiner Monitore.",
+      "caption": "Die Taskleiste von Karpo am linken Bildschirmrand, daneben geöffnet das Wetter, die Luftqualität und der Tageslauf der Sonne."
+    },
+    {
+      "shot": "looks",
+      "label": "Aussehen",
+      "headline": "Sieht aus, wie es dir gefällt.",
+      "sub": "Deine Farben und Schriften in der Taskleiste und in jedem Ordner, oder eine Palette von Karpo.",
+      "caption": "Ein Bildschirm in vier Looks, nebeneinander geschnitten: Windows' eigener und Karpos Paletten Paper, Harbor und Bloom."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "So viele Widgets und Layouts, wie du willst. Einmal kaufen, gehört dir für immer, mit kostenlosen Updates für diese Hauptversion. Kein Abo.",
+    "keywords": [
+      "karpo pro",
+      "unbegrenzte widgets",
+      "unbegrenzte layouts",
+      "taskleiste",
+      "pro"
+    ]
+  }
+}

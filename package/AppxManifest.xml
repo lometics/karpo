@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Karpo as the Microsoft Store's package (docs\widgets.md §710, store\README.md "Before the first
+  submission"). scripts\package.ps1 lays this beside Karpo.exe and the logos and packs the lot; it
+  writes the version over the one below. The Store signs the package itself, so nothing here or in the
+  build holds a certificate.
+
+  The identity is Partner Center's for the product "Karpo" (Store ID 9MXKV2VWR2CP), Product identity ›
+  Package/Identity/Name, Publisher and PublisherDisplayName: a package with any other is refused at
+  upload. It is for good: an update is the same Name and Publisher with a higher Version.
+-->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+  xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap uap3 uap5 desktop desktop6 rescap">
+
+  <Identity
+    Name="NathanWalser.Karpo"
+    Publisher="CN=C470EED8-37EC-4C04-9586-6B249062A51A"
+    Version="1.0.0.0"
+    ProcessorArchitecture="x64" />
+
+  <Properties>
+    <DisplayName>Karpo</DisplayName>
+    <PublisherDisplayName>Nathan Walser</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <!--
+      Karpo sees the real registry and the real %APPDATA%, not a package's own copies of them (with the
+      unvirtualizedResources capability below). A taskbar cannot live behind those copies:
+        - what it writes for Windows must reach Windows: where Windows' taskbar is parked, which tray
+          icons show, night light, colour filters, nearby sharing (docs\widgets.md §710 lists them);
+        - every app the person starts from the bar is Karpo's child, and would be handed the same
+          copies: its own settings written where only Karpo's package sees them;
+        - "Open file location" opens Explorer at Karpo's settings file, which Explorer must be able to see.
+      So Karpo's files are where they always were (%APPDATA%\Karpo, %LOCALAPPDATA%\Karpo), a copy
+      installed from the Store reads the settings of one that was not, and they outlive an uninstall
+      as any desktop app's do.
+    -->
+    <desktop6:FileSystemWriteVirtualization>disabled</desktop6:FileSystemWriteVirtualization>
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+  </Properties>
+
+  <Dependencies>
+    <!-- Karpo.Dock.csproj's SupportedOSPlatformVersion and the SDK it is built against. -->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <!--
+    Every language Karpo speaks (Karpo.Core\Strings), by the tag its Store listing has
+    (store\listing\<lang>.json's "language"): a listing language must be one the package declares.
+    English first: it is what a PC with none of these is shown.
+  -->
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="am-ET" />
+    <Resource Language="ar-SA" />
+    <Resource Language="bn-IN" />
+    <Resource Language="cs-CZ" />
+    <Resource Language="de-DE" />
+    <Resource Language="el-GR" />
+    <Resource Language="es-ES" />
+    <Resource Language="fa-IR" />
+    <Resource Language="fil-PH" />
+    <Resource Language="fr-FR" />
+    <Resource Language="gu-IN" />
+    <Resource Language="ha-Latn-NG" />
+    <Resource Language="hi-IN" />
+    <Resource Language="id-ID" />
+    <Resource Language="it-IT" />
+    <Resource Language="ja-JP" />
+    <Resource Language="kn-IN" />
+    <Resource Language="ko-KR" />
+    <Resource Language="ml-IN" />
+    <Resource Language="mr-IN" />
+    <Resource Language="ms-MY" />
+    <Resource Language="my-MM" />
+    <Resource Language="nl-NL" />
+    <Resource Language="pa-IN" />
+    <Resource Language="pl-PL" />
+    <Resource Language="pt-BR" />
+    <Resource Language="ro-RO" />
+    <Resource Language="ru-RU" />
+    <Resource Language="sw-KE" />
+    <Resource Language="ta-IN" />
+    <Resource Language="te-IN" />
+    <Resource Language="th-TH" />
+    <Resource Language="tr-TR" />
+    <Resource Language="uk-UA" />
+    <Resource Language="ur-PK" />
+    <Resource Language="vi-VN" />
+    <Resource Language="yo-NG" />
+    <Resource Language="zh-CN" />
+    <Resource Language="zh-TW" />
+  </Resources>
+
+  <Applications>
+    <Application Id="Karpo" Executable="Karpo.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements
+        DisplayName="Karpo"
+        Description="The Windows taskbar, with your day in it."
+        BackgroundColor="transparent"
+        Square150x150Logo="Images\Square150x150Logo.png"
+        Square44x44Logo="Images\Square44x44Logo.png">
+        <uap:DefaultTile
+          Wide310x150Logo="Images\Wide310x150Logo.png"
+          Square71x71Logo="Images\SmallTile.png"
+          Square310x310Logo="Images\LargeTile.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <!--
+          Start with Windows (StartupRegistration.PackagedTask): what a packaged copy has in place of
+          the Run entry and the logon task, which it may not leave behind (Store policy 10.2.7). The
+          person turns it off in Karpo or in Settings › Apps › Startup, and Windows keeps their choice.
+        -->
+        <desktop:Extension Category="windows.startupTask" Executable="Karpo.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="KarpoStartup" Enabled="true" DisplayName="Karpo" />
+        </desktop:Extension>
+        <!-- "karpo" from Win+R or a terminal, with its switches (- -quit): a package has no folder on the PATH. -->
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="Karpo.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="Karpo.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+
+  <!--
+    With an identity, Windows asks the manifest what the app may ask the person for. Each of these is
+    something Karpo already asks Windows for and takes "no" for an answer to: the notifications' list
+    (the bell), the place for the weather and the Wi-Fi networks' names, the radios' switches
+    (Wi-Fi, Bluetooth, flight mode).
+  -->
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap3:Capability Name="userNotificationListener" />
+    <!-- A desktop app that is its own taskbar: an AppBar, other apps' windows and icons (store\README.md, "Submission options"). -->
+    <rescap:Capability Name="runFullTrust" />
+    <!-- The two "disabled" above: the real registry and files (store\README.md, "Submission options"). -->
+    <rescap:Capability Name="unvirtualizedResources" />
+    <DeviceCapability Name="location" />
+    <DeviceCapability Name="radios" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Karpo's words, compiled: a Roslyn source generator that reads Karpo.Core\Strings\*.json and
+    writes the S class (one property or method per key) and every language's table into Karpo.Core.
+    A key missing from a language, a placeholder a translation lost or a brace left open is a
+    build error here, so a wrong string never reaches a running Karpo. Nothing of it ships: Core
+    references it as an analyzer, and the generated code needs no reflection, so the dock's
+    native AOT build compiles it like any other code. docs\widgets.md, "Karpo's words", says how
+    to add a string.
+  -->
+  <PropertyGroup>
+    <!-- What the compiler loads, in Visual Studio and in the SDK alike. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Karpo.Strings.Generator</RootNamespace>
+    <IsRoslynComponent>true</IsRoslynComponent>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <!-- The compiler runs it, whatever the app is built for: no runtime, no platform of its own. -->
+    <RuntimeIdentifier></RuntimeIdentifier>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <!-- Release tracking is for analyzers shipped as packages; these rules only ever check Karpo's own files. -->
+    <NoWarn>$(NoWarn);RS2008</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

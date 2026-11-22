@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    The live resilience harness (docs/resilience.md): it does to the real desktop what Windows and
+    the person do to Karpo — displays added, removed, re-moded, rotated, scaled, turned off; a full
+    screen app; Explorer restarted; sleep and hibernate — and looks at the running Karpo from
+    outside after each, against what it was before. Never shipped, never run by the unit tests.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.26100.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- start-placement measures Windows' Start against the one function Karpo places it by (docs/widgets.md §666). -->
+    <ProjectReference Include="..\Karpo.Core\Karpo.Core.csproj" />
+    <Compile Include="..\Karpo.Dock\StartPlacement.cs" Link="Shared\StartPlacement.cs" />
+  </ItemGroup>
+</Project>

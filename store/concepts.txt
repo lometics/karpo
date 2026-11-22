@@ -1,0 +1,233 @@
+# Pictures tried for the Store before any is chosen (store/README.md, "Concepts"): Stage.cs's language, run with
+# `dotnet run scripts/stage/Stage.cs -- store concepts [scene]`, into artifacts/store/shots beside shots.txt's.
+# The `combo` layout is built like the person's own bar: buttons wearing two faces (the weather and the air, Wi-Fi
+# and the sound, the date and the bell), a folder for the files and one for the PC.
+
+wait 3500
+
+scene edit
+# Edit mode from the bar's empty middle, the add list from its "+". First: a layout
+# or an edge switched before it closes the add list again as the bar is built over.
+move 1956,1656
+rclick
+wait 2000
+move 2653,1233 400
+wait 300
+click
+wait 3500
+open 1874,1660
+shot
+close
+wait 1000
+close
+wait 1500
+
+
+scene weather
+# The hourly and weekly forecast, opened from the weather on the bar.
+open weather
+shot
+close
+
+scene work
+# The bars of the three layouts, nothing open: the work taskbar, the evening's dock, focus's few apps.
+shot
+
+scene evening
+layout evening
+wait 2500
+shot
+layout work
+wait 2500
+
+scene focus
+layout focus
+wait 2500
+shot
+layout work
+wait 2500
+
+scene layouts
+# The evening's dock, its layouts open: back to work, or nothing but a timer.
+layout evening
+wait 2500
+open eveningLayouts
+shot
+close
+layout work
+wait 2500
+
+
+scene mine-right
+# The person's own: the bar down the right edge of one display, the date's folder open.
+layout combo
+edge right
+wait 5000
+open comboToday
+shot
+close
+edge bottom
+layout work
+wait 3000
+
+scene mine-left
+# And down the left edge of the other, the weather's open.
+layout combo
+edge left
+wait 5000
+open comboSky
+shot
+close
+edge bottom
+layout work
+wait 3000
+
+scene size-slim
+layout slim
+wait 4000
+shot
+layout work
+wait 2500
+
+scene size-standard
+layout standard
+wait 4000
+shot
+layout work
+wait 2500
+
+scene focus-open
+layout focus
+wait 4000
+open timer
+shot
+close
+layout work
+wait 2500
+
+scene paper-day
+palette paper light
+wait 6000
+open myDay
+shot
+close
+palette karpo
+wait 2500
+
+# Scenes the listing's pages no longer show (they were shots.txt's): the PC's graphs alone, the looks with quick
+# settings open, and the `combo` layout's bar and folders.
+
+scene glance
+# How the PC is doing, opened from its processor.
+open pc
+shot
+close
+
+scene looks-windows
+# Quick settings opened in Windows' own look and in three of Karpo's palettes: the same bar, styled.
+wait 2000
+open quick
+shot
+close
+
+scene looks-paper
+palette paper light
+wait 6000
+open quick
+shot
+close
+palette karpo
+wait 2500
+
+scene looks-harbor
+palette harbor
+wait 6000
+open quick
+shot
+close
+palette karpo
+wait 2500
+
+scene looks-bloom
+palette bloom
+wait 4000
+open quick
+shot
+close
+palette karpo
+wait 2500
+
+scene mine-bar
+# The `combo` layout, built like the person's own bar: buttons wearing two faces (the weather and the air, Wi-Fi and
+# the sound, the date and the bell), a folder for the files and one for the PC. Its bar alone, for the callouts, then
+# each folder open, for the files, the PC and the collages.
+layout combo
+wait 4000
+shot
+layout work
+wait 2500
+
+scene mine-files
+layout combo
+wait 4000
+open comboFiles
+shot
+close
+layout work
+wait 2500
+
+scene mine-sky
+layout combo
+wait 4000
+open comboSky
+shot
+close
+layout work
+wait 2500
+
+scene mine-controls
+layout combo
+wait 4000
+open comboControls
+shot
+close
+layout work
+wait 2500
+
+scene mine-today
+layout combo
+wait 4000
+open comboToday
+shot
+close
+layout work
+wait 2500
+
+scene mine-world
+layout combo
+wait 4000
+open comboWorld
+shot
+close
+layout work
+wait 2500
+
+scene mine-pc
+layout combo
+wait 4000
+open comboPc
+shot
+close
+layout work
+wait 2500
+
+# The `extras` layout's folder (it was shots.txt's): air quality, a stopwatch, focus, an alarm, the day.
+scene extras
+# More of the widgets for the bento: air quality, a stopwatch, focus, an alarm, the day.
+layout extras
+wait 2500
+open extrasMore
+shot
+close
+layout work
+wait 2500

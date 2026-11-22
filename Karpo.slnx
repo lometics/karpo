@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Karpo.Accounts/Karpo.Accounts.csproj" />
+  <Project Path="Karpo.Core/Karpo.Core.csproj" />
+  <Project Path="Karpo.Dock/Karpo.Dock.csproj" />
+  <Project Path="Karpo.Resilience/Karpo.Resilience.csproj" />
+  <Project Path="Karpo.Strings.Generator/Karpo.Strings.Generator.csproj" />
+  <Project Path="Karpo.Tests/Karpo.Tests.csproj" />
+</Solution>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- What the dock and the settings app share: the config file and where it lives. -->
+  <PropertyGroup>
+    <!-- No Windows SDK projection: nothing here needs WinRT, and leaving it out
+         keeps the dock and the WinUI app free to pick their own projection versions. -->
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Karpo.Core</RootNamespace>
+    <IsAotCompatible>true</IsAotCompatible>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Karpo.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--
+      Karpo's words: en.json and its translations, compiled into the class S by the generator
+      (Strings\Strings.cs). Nothing of the generator ships; a language file's mistake is a build error.
+    -->
+    <AdditionalFiles Include="Strings\*.json" />
+    <ProjectReference Include="..\Karpo.Strings.Generator\Karpo.Strings.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A KARPO_UI_TESTS run (Karpo.Tests.csproj takes this file for one): four tests at a time, not one
+  a core. Their windows and captures are served by the dwm.exe that draws the person's screen,
+  which a run at 24 threads held for up to 11.5 s at a time; at four, 1.7 s, for about three
+  quarters of the tests done a minute (UiTurn.cs).
+-->
+<RunSettings>
+  <xUnit>
+    <MaxParallelThreads>4</MaxParallelThreads>
+  </xUnit>
+</RunSettings>

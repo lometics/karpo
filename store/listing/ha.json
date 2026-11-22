@@ -1,0 +1,194 @@
+{
+  "language": "ha-latn-ng",
+  "title": "Karpo",
+  "shortDescription": "Sandar ɗawainiya ta Windows, da ranarka a cikinta. Ga taronka na gaba, sababbin imel, yanayi da kiɗanka a kallo ɗaya, kuma buɗe manyan fayiloli cike da widget da danna ɗaya. Fara kyauta, babu talla, babu asusu.",
+  "description": [
+    "Karpo sandar ɗawainiya ce don Windows 11 da Windows 10 wadda take kama da wadda Windows take zuwa da ita. Bambancin: ranarka tana cikinta. Taronka na gaba, sababbin imel ɗinka, yanayi, kiɗanka da yadda kwamfutarka take aiki tuƙuru suna zaune kusa da manhajojinka, kuma kowanne yana buɗewa da danna ɗaya.",
+    "",
+    "RANARKA, KAI TSAYE A KAN SANDAR ƊAWAINIYA",
+    "• Taronka na gaba da ƙidayar baya, da maɓallin shiga",
+    "• Sababbin imel yayin da suke shigowa, da adadin waɗanda ba a karanta ba",
+    "• Dukan makonka da danna ɗaya daga agogo",
+    "• Asusun Microsoft (Outlook.com, Microsoft 365), kowane asusun imel na IMAP, da kalandoji da lambobin sadarwa na CalDAV da CardDAV kamar iCloud, Fastmail ko Nextcloud",
+    "",
+    "ABIN DA KAKE DUBAWA KULLUM, A KALLO ƊAYA",
+    "• Yanayin yanzu, na kowace awa da na mako",
+    "• Kiɗanka, da kunna, dakata da tsallake kai tsaye a kan sandar ɗawainiya",
+    "• Na'ura mai sarrafawa, ƙwaƙwalwa, zane-zane, cibiyar sadarwa da faifai, da jadawali kai tsaye",
+    "• Agogunan wasu birane, agogon ƙirga da ƙararrawa",
+    "• Hannun jari, ciyarwar RSS, sanarwa, fayilolinka na baya-bayan nan",
+    "• Wi-Fi, Bluetooth, ƙarar sauti, haske da batir",
+    "",
+    "MANYAN FAYILOLI DA KAKE CIKA SU DA WIDGET",
+    "Tara widget a cikin babban fayil a kan sandar ɗawainiya. Danna ɗaya yana buɗe shi a matsayin ƙaramin allon bayananka: agogunan birane uku, ajandar yau, akwatin saƙonka da hasashen yanayi. Danna wani wuri dabam, ya tafi.",
+    "",
+    "TSARI DON KOWANE ƁANGARE NA RANARKA",
+    "Cikakkiyar sandar ɗawainiya don aiki da kalandarka da imel ɗinka. Sanda don yamma da kiɗa da yanayi. Agogon ƙirga kawai idan kana son mayar da hankali. Sauya da danna biyu, ko ka ba kowace fuska nata.",
+    "",
+    "A KOWACE FUSKA, A KOWANE GEFE",
+    "Karpo yana sanya sandar ɗawainiya a kowace fuska. Kowacce na iya zama a ƙasa, sama, hagu ko dama, da tsarinta.",
+    "",
+    "MAI DA SHI NAKA",
+    "Danna sandar ɗawainiya da dama ka zaɓi Gyara. Ƙara widget daga jeri, ja su inda kake so, kuma canza girmansu da kamanninsu kai tsaye a kan sandar ɗawainiya. Kowace saiti ma tana nan, a cikin sandar ɗawainiyar kanta.",
+    "",
+    "YANA KAMA DA WINDOWS",
+    "Farawa, bincike, manhajojinka da aka maƙala da waɗanda suke a buɗe, tiren tsarin da agogo suna kama kuma suna aiki daidai kamar na Windows. Karpo yana bin jigonka na haske ko duhu, launin fifikonka da girman rubutunka.",
+    "",
+    "SIRRI TUN DAGA ASALI",
+    "Karpo ba shi da talla, bibiya, nazarin amfani ko asusu. Karanta imel ɗinka da kalandarka kawai yake yi: ba zai iya aika imel ko canza wani abu a kalanda ba. Windows tana ɓoye bayanan shigarka don mai amfani da Windows ɗinka kaɗai, kuma bayananka suna zama a kwamfutarka. Karpo ba shi da sabobinsa.",
+    "",
+    "MAI SAUƘI A KWAMFUTARKA",
+    "Karpo yana nuna sandar ɗawainiyarsa ɗan ƙaramin juzu'in daƙiƙa bayan ya fara, kuma yana amfani da ƙaramar ƙwaƙwalwa da wuta yayin da ba ka kallonsa, don kwamfutarka ta ci gaba da sauri kuma batirinka ya daɗe.",
+    "",
+    "KODAYAUSHE ZAƁINKA NE",
+    "Rufe Karpo a kowane lokaci, sandar ɗawainiya ta Windows za ta dawo daidai yadda take. Farawa da bincike suna zama na Windows.",
+    "",
+    "FARA KYAUTA",
+    "Kowane widget da kowace saiti suna cikin juyin kyauta, da har zuwa widget 20 a kowane tsari da tsare-tsare 2. Karpo Pro, saye ɗaya a cikin Karpo ta Microsoft Store, yana cire iyakokin biyu har abada. Babu biyan kuɗi na wata-wata.",
+    "",
+    "A harsuna 40. Bayanan yanayi daga Open-Meteo.com."
+  ],
+  "features": [
+    "Taronka na gaba da sababbin imel kai tsaye a kan sandar ɗawainiya",
+    "Dukan makonka da danna ɗaya daga agogo",
+    "Yanayin yanzu, na kowace awa da na mako",
+    "Kunna, dakata da tsallake kiɗanka ba tare da buɗe manhajar ba",
+    "Jadawali kai tsaye na na'ura mai sarrafawa, ƙwaƙwalwa, zane-zane, cibiyar sadarwa da faifai",
+    "Manyan fayiloli da suke buɗe ƙaramin allon bayananka na widget",
+    "Tsare-tsare don aiki, yamma da mayar da hankali, ana sauyawa da danna biyu",
+    "Sandar ɗawainiya a kowace fuska, a ƙasa, sama, hagu ko dama",
+    "Ƙara, ja ka sauya girman widget kai tsaye a kan sandar ɗawainiya",
+    "Agogunan wasu birane, agogon ƙirga, ƙararrawa da hannun jari",
+    "Wi-Fi, Bluetooth, ƙarar sauti, haske da batir a kallo ɗaya",
+    "Yana aiki da asusun Microsoft, imel na IMAP da kalandoji na CalDAV da CardDAV",
+    "Yana kama da Windows kuma yana bin jigonka da launin fifikonka",
+    "Karanta imel ɗinka da kalandarka kawai yake yi; bayananka suna zama a kwamfutarka",
+    "Babu talla, babu bibiya, babu asusu",
+    "Mai sauƙi kan ƙwaƙwalwa da batir",
+    "Sandar ɗawainiya ta Windows tana dawowa yadda take idan ka rufe shi",
+    "A harsuna 40"
+  ],
+  "keywords": [
+    "sandar ɗawainiya",
+    "widget na sandar ɗawainiya",
+    "kalanda a sandar ɗawainiya",
+    "widget na yanayi",
+    "sandar ɗawainiya a tsaye",
+    "fuskoki da yawa",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 juyi na 2004 zuwa gaba, 64-bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Sandar ɗawainiya ta Windows, da ranarka a ciki.",
+      "sub": "Taronka na gaba da sababbin imel kusa da manhajojinka, makonka da akwatin saƙonka danna ɗaya kawai.",
+      "caption": "Sandar ɗawainiya ta Karpo da taro na gaba da imel da ba a karanta ba kusa da manhajoji, da mako, akwatin saƙo da jerin ayyuka a buɗe daga agogo."
+    },
+    {
+      "shot": "tour",
+      "label": "Sandar",
+      "headline": "Duk abin da kake dubawa, a sanda ɗaya.",
+      "sub": "Yanayi, fayilolinka, saituna masu sauri da ranarka: maɓalli ga kowanne, kusa da manhajojinka.",
+      "caption": "Sandar ɗawainiya ta Karpo da lakabai: manhajojinka, sabon imel, taro na gaba, fayiloli da faifai, yanayi da iska, saituna masu sauri da ranarka.",
+      "callouts": [
+        "Manhajojinka",
+        "Sabon imel",
+        "Taro na gaba",
+        "Kwamfutarka",
+        "Yanayi da iska",
+        "Manyan fayiloli",
+        "Saituna masu sauri",
+        "Ranarka"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Danna ɗaya",
+      "headline": "Kowane maɓalli yana buɗe ƙari.",
+      "sub": "Kowane maɓalli a kan sandar yana buɗe abin da yake tare da shi: hasashe, fayilolinka, ranarka, kwamfutarka.",
+      "caption": "Manyan fayiloli a buɗe daga sandar ɗawainiya ta Karpo: tarurruka na gaba, saituna masu sauri, labarai, ruwan teku da yanayin mako."
+    },
+    {
+      "shot": "files",
+      "label": "Kwamfutarka",
+      "headline": "Fayilolinka da kwamfutarka, danna ɗaya kawai.",
+      "sub": "Sarari, sababbin fayiloli da jadawali kai tsaye na CPU, ƙwaƙwalwa da cibiyar sadarwa. Ba Mai Binciken Fayil, ba Manajan Ɗawainiya.",
+      "caption": "Babban fayil a buɗe daga sandar ɗawainiya: sarari a faifai, sababbin saukarwa da takardu, da jadawali kai tsaye na na'ura mai sarrafawa, ƙwaƙwalwa, zane-zane, faifai da cibiyar sadarwa.",
+      "callouts": [
+        "Sarari a kowane faifai",
+        "Sababbin saukarwarka",
+        "Kowane babban fayil",
+        "Jadawali kai tsaye"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Asusu",
+      "headline": "Kalandojinka, imel da lambobin sadarwa.",
+      "sub": "Shiga da Microsoft, ko ƙara kowane asusun IMAP, CalDAV ko CardDAV.",
+      "caption": "Asusun da Karpo yake haɗawa da su: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Shiga tarurrukan Teams, Zoom, Google Meet da Webex da danna ɗaya.",
+      "callouts": [
+        "Kalandoji",
+        "Lambobin sadarwa",
+        "Imel",
+        "Ayyukan To Do",
+        "Shiga da danna ɗaya"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Manyan fayiloli",
+      "headline": "Manyan fayiloli da kake cika su da widget.",
+      "sub": "Danna ɗaya yana buɗe ƙaramin allon bayananka.",
+      "caption": "Babban fayil a buɗe a matsayin allon bayanai: agoguna da agogon ƙirga, wata da ajandar yau, yanayi da rana, imel ɗinka da fayilolin Saukarwa.",
+      "callouts": [
+        "Agogunan wasu birane",
+        "Tarurrukan yau",
+        "Ruwan sama kowace awa",
+        "Sabon imel",
+        "Sababbin saukarwa"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widget",
+      "headline": "Widget fiye da 100.",
+      "sub": "Kalanda, imel, yanayi, hannun jari, fayiloli, agogon ƙirga, saituna masu sauri da kwamfutarka. A sandar ɗawainiya ko a babban fayil.",
+      "caption": "Widget na Karpo: sa'o'in rana, yanayin mako, ingancin iska, yanayin wuta, shekara, hannun jari, lambobin sadarwa, jerin ayyuka, bayanin kula, ƙararrawa, agogon ƙirga, batir, saituna, fayiloli da PC."
+    },
+    {
+      "shot": "side",
+      "label": "Ko'ina",
+      "headline": "A kowane gefen fuska.",
+      "sub": "Ƙasa, sama, hagu ko dama, kuma a kowace fuska da kake da ita.",
+      "caption": "Sandar ɗawainiya ta Karpo a gefen hagu na fuska, da yanayi, ingancin iska da fitowar rana da faɗuwarta a buɗe kusa da ita."
+    },
+    {
+      "shot": "looks",
+      "label": "Kamanninka",
+      "headline": "Ka sa shi ya yi kamar yadda kake so.",
+      "sub": "Launukanka da rubutun haruffanka a sanda da kowane babban fayil, ko ɗaya daga cikin allon launuka na Karpo.",
+      "caption": "Fuska ɗaya a kamanni huɗu, gefe da gefe: na Windows kanta da allon launuka na Karpo Takarda, Tashar jirgin ruwa da Furanni."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Widget da tsare-tsare nawa kake so. Saye ɗaya, naka ne har abada, da sabuntawa kyauta don wannan babban juyi. Babu biyan kuɗi na wata-wata.",
+    "keywords": [
+      "karpo pro",
+      "widget marasa iyaka",
+      "tsare-tsare marasa iyaka",
+      "sandar ɗawainiya",
+      "pro"
+    ]
+  }
+}

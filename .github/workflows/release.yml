@@ -1,0 +1,125 @@
+# A release of Karpo: the Microsoft Store's package, built from a tag (CONTRIBUTING.md, "Releases";
+# docs\widgets.md §710).
+#
+#   git tag v1.0.1 && git push origin v1.0.1
+#
+#   package   builds Karpo.exe (native AOT) for the Store, runs its own smoke check, packs
+#             Karpo_1.0.1_x64.msix (scripts\package.ps1) and keeps it on a GitHub release of that name.
+#   store     hands that package to the Microsoft Store as an update of "Karpo" and submits it for
+#             certification. Only when the repository says so (the variable STORE_SUBMIT is "true") and
+#             holds the four secrets it needs; otherwise the package is uploaded by hand in Partner
+#             Center › Karpo › Packages. Nothing is signed here: the Store signs what it publishes.
+#
+# "Run workflow" (workflow_dispatch) packs a version typed in, without a tag: the package is kept on
+# the run as an artifact, for trying the pipeline or a package before it is tagged. It never goes to
+# the Store.
+#
+# The package is held to what scripts\publish.ps1 holds every published Karpo to: the smoke check.
+# The tests are CI's (ci.yml), on every pull request and push; a tag is put on a commit CI has
+# passed.
+
+name: Release
+
+on:
+  push:
+    tags: ['v[0-9]+.[0-9]+.[0-9]+']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to pack, three numbers (1.0.1). Kept on the run; not sent to the Store.'
+        required: true
+
+permissions:
+  contents: write # to make the GitHub release and attach the package
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Version
+        id: version
+        shell: pwsh
+        env:
+          TYPED: ${{ inputs.version }} # through the environment, never pasted into the script
+        run: |
+          $version = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME.TrimStart('v') } else { $env:TYPED }
+          if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "Not a version of three numbers: '$version'" }
+          "version=$version" >> $env:GITHUB_OUTPUT
+
+      # Google's client secret is not in the source (docs\widgets.md §713): the build takes it from here, and
+      # scripts\package.ps1 refuses a Store package without it.
+      - name: Package
+        shell: pwsh
+        env:
+          KARPO_GOOGLE_CLIENT_SECRET: ${{ secrets.KARPO_GOOGLE_CLIENT_SECRET }}
+        run: ./scripts/package.ps1 -Version ${{ steps.version.outputs.version }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Karpo_${{ steps.version.outputs.version }}_x64
+          path: artifacts/package/Karpo_${{ steps.version.outputs.version }}_x64.msix
+          if-no-files-found: error
+
+      - name: GitHub release
+        if: github.ref_type == 'tag'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create $env:GITHUB_REF_NAME "artifacts/package/Karpo_${{ steps.version.outputs.version }}_x64.msix" `
+            --title "Karpo ${{ steps.version.outputs.version }}" `
+            --notes "The Microsoft Store's package, unsigned (the Store signs it)."
+
+  # The update handed to the Store (Microsoft Store Developer CLI, `msstore`). The Store takes an
+  # update this way only for an app whose FIRST submission was made and published by hand in Partner
+  # Center; from then on a tag is all a release needs. The new submission starts from the last
+  # published one (its listing, price and age rating) with this package in place of the old, and
+  # goes to certification at once. NOT RUN YET: the commands are Microsoft's documented ones
+  # (learn.microsoft.com, "Microsoft Store Developer CLI"), written here before Karpo's first
+  # publication; expect to adjust them on the first real run.
+  #
+  # Needs, in the repository's settings:
+  #   variable STORE_SUBMIT = true
+  #   secrets  STORE_TENANT_ID, STORE_SELLER_ID, STORE_CLIENT_ID, STORE_CLIENT_SECRET
+  # which are a Microsoft Entra application's, added in Partner Center › Account settings › User
+  # management › Microsoft Entra applications with the Manager role (CONTRIBUTING.md, "Releases").
+  store:
+    needs: package
+    if: github.ref_type == 'tag' && vars.STORE_SUBMIT == 'true'
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      STORE_PRODUCT: 9MXKV2VWR2CP # Partner Center's "Karpo" (Karpo.Core\Licensing.cs, StoreIds)
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: Karpo_${{ needs.package.outputs.version }}_x64
+          path: package
+
+      - uses: microsoft/microsoft-store-apppublisher@v1.1
+
+      - name: Sign in to the Store
+        shell: pwsh
+        env:
+          TENANT: ${{ secrets.STORE_TENANT_ID }}
+          SELLER: ${{ secrets.STORE_SELLER_ID }}
+          CLIENT: ${{ secrets.STORE_CLIENT_ID }}
+          SECRET: ${{ secrets.STORE_CLIENT_SECRET }}
+        run: msstore reconfigure --tenantId $env:TENANT --sellerId $env:SELLER --clientId $env:CLIENT --clientSecret $env:SECRET
+
+      - name: Submit the package
+        shell: pwsh
+        run: msstore publish "package/Karpo_${{ needs.package.outputs.version }}_x64.msix" -id $env:STORE_PRODUCT

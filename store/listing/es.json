@@ -1,0 +1,194 @@
+{
+  "language": "es-es",
+  "title": "Karpo",
+  "shortDescription": "La barra de tareas de Windows, con tu día dentro. Tu próxima reunión, tus correos nuevos, el tiempo y tu música de un vistazo, y carpetas llenas de widgets que abres con un clic. Empieza gratis, sin anuncios y sin cuenta.",
+  "description": [
+    "Karpo es una barra de tareas para Windows 11 y Windows 10 que se ve igual que la que trae Windows. La diferencia: tu día está dentro. Tu próxima reunión, tus correos más recientes, el tiempo, tu música y lo mucho que está trabajando tu PC aparecen justo al lado de tus apps, y cada uno se abre con un clic.",
+    "",
+    "TU DÍA, EN LA BARRA DE TAREAS",
+    "• Tu próxima reunión con cuenta atrás, y un botón para unirte",
+    "• Los correos nuevos en cuanto llegan, con el número de no leídos",
+    "• Toda tu semana con un clic en el reloj",
+    "• Cuentas Microsoft (Outlook.com, Microsoft 365), cualquier cuenta de correo IMAP, y calendarios y contactos CalDAV y CardDAV como iCloud, Fastmail o Nextcloud",
+    "",
+    "LO QUE MIRAS TODO EL DÍA, DE UN VISTAZO",
+    "• El tiempo ahora, por horas y para toda la semana",
+    "• Tu música, con reproducir, pausar y saltar en la propia barra de tareas",
+    "• Procesador, memoria, gráficos, red y discos, con gráficas en directo",
+    "• Relojes de otras ciudades, temporizadores y alarmas",
+    "• Bolsa, fuentes RSS, notificaciones y tus últimos archivos",
+    "• Wi-Fi, Bluetooth, volumen, brillo y batería",
+    "",
+    "CARPETAS QUE LLENAS DE WIDGETS",
+    "Junta widgets en una carpeta de la barra de tareas. Con un clic se abre como tu propio pequeño dashboard: relojes de tres ciudades, la agenda de hoy, tu bandeja de entrada y la previsión. Haz clic fuera y desaparece.",
+    "",
+    "UN DISEÑO PARA CADA MOMENTO DE TU DÍA",
+    "Una barra de tareas completa para trabajar, con tu calendario y tu correo. Un dock para la noche, con música y el tiempo. Solo un temporizador cuando necesitas concentrarte. Cambia con dos clics o dale a cada pantalla el suyo.",
+    "",
+    "EN CADA PANTALLA, EN CUALQUIER BORDE",
+    "Karpo pone una barra de tareas en cada monitor. Cada una puede ir abajo, arriba, a la izquierda o a la derecha, con su propio diseño.",
+    "",
+    "A TU MANERA",
+    "Haz clic con el botón derecho en la barra de tareas y elige «Editar». Añade widgets desde la lista, arrástralos adonde quieras y cambia su tamaño y su aspecto en la propia barra de tareas. Todas las opciones también están ahí, en la misma barra.",
+    "",
+    "IGUAL QUE WINDOWS",
+    "Inicio, la búsqueda, tus apps ancladas y abiertas, el área de notificación y el reloj se ven y funcionan igual que los de Windows. Karpo sigue tu tema claro u oscuro, tu color de énfasis y tu tamaño de texto.",
+    "",
+    "PRIVADO DE SERIE",
+    "Karpo no tiene anuncios, ni rastreo, ni analíticas, ni cuenta. Solo lee tu correo y tu calendario: no puede enviar un correo ni cambiar un evento. Windows cifra tus inicios de sesión solo para tu usuario de Windows, y tus datos se quedan en tu PC. Karpo no tiene servidores propios.",
+    "",
+    "LIGERO PARA TU PC",
+    "Karpo muestra su barra de tareas una fracción de segundo después de arrancar y usa muy poca memoria y energía mientras no lo estás mirando, así que tu PC sigue rápido y tu batería dura.",
+    "",
+    "SIEMPRE DECIDES TÚ",
+    "Sal de Karpo cuando quieras y la barra de tareas de Windows vuelve tal como estaba. Inicio y la búsqueda siguen siendo los de Windows.",
+    "",
+    "EMPIEZA GRATIS",
+    "Todos los widgets y todas las opciones están en la versión gratuita, con hasta 20 widgets por diseño y 2 diseños. Karpo Pro, un solo pago en Karpo a través de Microsoft Store, quita los dos límites para siempre. Sin suscripción.",
+    "",
+    "En 40 idiomas. Datos meteorológicos de Open-Meteo.com."
+  ],
+  "features": [
+    "Tu próxima reunión y tus correos nuevos en la barra de tareas",
+    "Toda tu semana con un clic en el reloj",
+    "El tiempo ahora, por horas y para toda la semana",
+    "Reproduce, pausa y salta canciones sin abrir la app de música",
+    "Gráficas en directo del procesador, la memoria, los gráficos, la red y los discos",
+    "Carpetas que abren tu propio pequeño dashboard de widgets",
+    "Diseños para trabajar, para la noche y para concentrarte, con dos clics",
+    "Una barra de tareas en cada monitor, abajo, arriba, a la izquierda o a la derecha",
+    "Añade, arrastra y cambia el tamaño de los widgets en la propia barra de tareas",
+    "Relojes de otras ciudades, temporizadores, alarmas y bolsa",
+    "Wi-Fi, Bluetooth, volumen, brillo y batería de un vistazo",
+    "Funciona con cuentas Microsoft, correo IMAP y calendarios CalDAV y CardDAV",
+    "Se ve como Windows y sigue tu tema y tu color de énfasis",
+    "Solo lee tu correo y tu calendario; tus datos se quedan en tu PC",
+    "Sin anuncios, sin rastreo, sin cuenta",
+    "Ligero con la memoria y la batería",
+    "Al salir, la barra de tareas de Windows vuelve tal como estaba",
+    "En 40 idiomas"
+  ],
+  "keywords": [
+    "barra de tareas",
+    "widgets barra de tareas",
+    "calendario barra de tareas",
+    "widget del tiempo",
+    "barra de tareas vertical",
+    "varios monitores",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 versión 2004 o posterior, 64 bits (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "La barra de tareas, con tu día dentro.",
+      "sub": "Tu próxima reunión y el correo nuevo junto a tus apps, tu semana y tu bandeja a un clic.",
+      "caption": "La barra de tareas de Karpo con la próxima reunión y el correo sin leer junto a las apps, y la semana, la bandeja de entrada y una lista de tareas abiertas desde el reloj."
+    },
+    {
+      "shot": "tour",
+      "label": "La barra",
+      "headline": "Todo lo que miras, en una barra.",
+      "sub": "El tiempo, tus archivos, la configuración rápida y tu día: un botón para cada uno, justo al lado de tus apps.",
+      "caption": "La barra de tareas de Karpo con etiquetas: tus apps, el correo nuevo, la próxima reunión, archivos y unidades, el tiempo y la calidad del aire, la configuración rápida y tu día.",
+      "callouts": [
+        "Tus apps",
+        "Correo nuevo",
+        "Próxima reunión",
+        "Tu PC",
+        "Tiempo y calidad del aire",
+        "Carpetas",
+        "Configuración rápida",
+        "Tu día"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Un clic",
+      "headline": "Cada botón abre algo más.",
+      "sub": "Cada botón de la barra abre lo que va con él: la previsión, tus archivos, tu día, tu PC.",
+      "caption": "Carpetas abiertas desde la barra de tareas de Karpo: las próximas reuniones, la configuración rápida, las noticias, las mareas y el tiempo de la semana."
+    },
+    {
+      "shot": "files",
+      "label": "Tu PC",
+      "headline": "Tus archivos y tu PC, a un clic.",
+      "sub": "Espacio libre, tus últimos archivos y gráficas en directo de procesador, memoria y red. Sin Explorador ni Administrador de tareas.",
+      "caption": "Una carpeta abierta desde la barra de tareas: el espacio libre de la unidad, las últimas descargas y documentos, y gráficas en directo del procesador, la memoria, los gráficos, el disco y la red.",
+      "callouts": [
+        "Espacio libre por unidad",
+        "Tus últimas descargas",
+        "La carpeta que quieras",
+        "Gráficas en directo"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Cuentas",
+      "headline": "Tus calendarios, correo y contactos.",
+      "sub": "Inicia sesión con Microsoft o añade una cuenta IMAP, CalDAV o CardDAV.",
+      "caption": "Cuentas a las que se conecta Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Reuniones de Teams, Zoom, Google Meet, Webex con un clic.",
+      "callouts": [
+        "Calendarios",
+        "Contactos",
+        "Correo",
+        "Tareas de To Do",
+        "Unirse con un clic"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Carpetas",
+      "headline": "Carpetas que llenas de widgets.",
+      "sub": "Un clic abre tu propio pequeño dashboard.",
+      "caption": "Una carpeta abierta como dashboard: relojes y un temporizador, el mes y la agenda de hoy, el tiempo y el sol, tu correo y los archivos de tus Descargas.",
+      "callouts": [
+        "Relojes de otras ciudades",
+        "Reuniones de hoy",
+        "Lluvia por horas",
+        "Correo más reciente",
+        "Últimas descargas"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgets",
+      "headline": "Más de 100 widgets.",
+      "sub": "Calendario, correo, el tiempo, bolsa, archivos, temporizadores, configuración rápida y tu PC, en la barra o una carpeta.",
+      "caption": "Algunos widgets de Karpo: horas del día, tiempo semanal, calidad del aire, modo de energía, año, bolsa, contactos, tareas, notas, alarmas, temporizadores, batería, configuración rápida, archivos y PC."
+    },
+    {
+      "shot": "side",
+      "label": "Donde quieras",
+      "headline": "En cualquier borde de tu pantalla.",
+      "sub": "Abajo, arriba, a la izquierda o a la derecha, y en todos tus monitores.",
+      "caption": "La barra de tareas de Karpo en el borde izquierdo de la pantalla, con el tiempo, la calidad del aire y el recorrido del sol abiertos al lado."
+    },
+    {
+      "shot": "looks",
+      "label": "Tu aspecto",
+      "headline": "Con el aspecto que más te guste.",
+      "sub": "Tus colores y fuentes en la barra y en cada carpeta, o una de las paletas de Karpo.",
+      "caption": "Una pantalla con cuatro estilos, cortada lado a lado: el de Windows y las paletas Paper, Harbor y Bloom de Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Todos los widgets y diseños que quieras. Un solo pago, tuyo para siempre, con actualizaciones gratis de esta versión principal. Sin suscripción.",
+    "keywords": [
+      "karpo pro",
+      "widgets ilimitados",
+      "diseños ilimitados",
+      "barra de tareas",
+      "pro"
+    ]
+  }
+}

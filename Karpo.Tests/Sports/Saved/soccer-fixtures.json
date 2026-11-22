@@ -1,0 +1,346 @@
+{
+ "team": {
+  "id": "83",
+  "abbreviation": "BAR",
+  "displayName": "Barcelona",
+  "name": "Barcelona",
+  "location": "Barcelona",
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+  "recordSummary": "9-0-0",
+  "standingSummary": "1st in Spanish LALIGA"
+ },
+ "events": [
+  {
+   "id": "401915399",
+   "date": "2026-10-20T19:00Z",
+   "name": "Barcelona at Paris Saint-Germain",
+   "shortName": "BAR @ PSG",
+   "timeValid": true,
+   "league": {
+    "slug": "uefa.champions",
+    "name": "UEFA Champions League",
+    "abbreviation": "UEFA Champions League",
+    "shortName": "UEFA Champions League"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401915399/barcelona-paris-saint-germain"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-20T19:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0'",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Tue, October 20th at 3:00 PM EDT",
+       "shortDetail": "10/20 - 3:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "team": {
+        "id": "160",
+        "abbreviation": "PSG",
+        "displayName": "Paris Saint-Germain",
+        "shortDisplayName": "PSG",
+        "location": "Paris Saint-Germain",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401882832",
+   "date": "2026-10-25T20:00Z",
+   "name": "Real Madrid at Barcelona",
+   "shortName": "RMA @ BAR",
+   "timeValid": true,
+   "league": {
+    "slug": "esp.1",
+    "name": "Spanish LALIGA",
+    "abbreviation": "LALIGA",
+    "shortName": "LALIGA"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401882832/real-madrid-barcelona"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-25T20:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0'",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Sun, October 25th at 4:00 PM EDT",
+       "shortDetail": "10/25 - 4:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "86",
+        "abbreviation": "RMA",
+        "displayName": "Real Madrid",
+        "shortDisplayName": "Real Madrid",
+        "location": "Real Madrid",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401882822",
+   "date": "2026-10-31T20:00Z",
+   "name": "Alavés at Barcelona",
+   "shortName": "ALA @ BAR",
+   "timeValid": true,
+   "league": {
+    "slug": "esp.1",
+    "name": "Spanish LALIGA",
+    "abbreviation": "LALIGA",
+    "shortName": "LALIGA"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401882822/alaves-barcelona"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-31T20:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0'",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Sat, October 31st at 4:00 PM EDT",
+       "shortDetail": "10/31 - 4:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "96",
+        "abbreviation": "ALA",
+        "displayName": "Alavés",
+        "shortDisplayName": "Alavés",
+        "location": "Alavés",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401882804",
+   "date": "2026-11-22T20:00Z",
+   "name": "Villarreal at Barcelona",
+   "shortName": "VIL @ BAR",
+   "timeValid": false,
+   "league": {
+    "slug": "esp.1",
+    "name": "Spanish LALIGA",
+    "abbreviation": "LALIGA",
+    "shortName": "LALIGA"
+   },
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-11-22T20:00Z",
+     "timeValid": false,
+     "status": {
+      "displayClock": "0'",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "11/22 - TBD",
+       "shortDetail": "TBD"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "winner": false,
+       "team": {
+        "id": "83",
+        "abbreviation": "BAR",
+        "displayName": "Barcelona",
+        "shortDisplayName": "Barcelona",
+        "location": "Barcelona",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "winner": false,
+       "team": {
+        "id": "102",
+        "abbreviation": "VIL",
+        "displayName": "Villarreal",
+        "shortDisplayName": "Villarreal",
+        "location": "Villarreal",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

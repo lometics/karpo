@@ -1,0 +1,20 @@
+bin/
+obj/
+artifacts/
+.vs/
+*.user
+
+# What this PC alone knows (Directory.Build.props): never part of the repository.
+Local.Build.props
+
+# Agents' working pictures and probes: useful while a change is being made, not part of the repository.
+scratchpad/
+
+# test runs (blame-hang sequence files)
+TestResults/
+
+# The stage's wallpapers: other people's illustrations, fetched by store/wallpapers.mjs (store/wallpapers.json has the list).
+store/wallpapers/
+
+# Agents' own settings for this checkout: each PC's, not the repository's.
+.claude/

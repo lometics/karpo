@@ -1,0 +1,681 @@
+shape 89
+enum Animation: "faster"
+enum Animation: "normal"
+enum Animation: "off"
+enum Animation: "slower"
+enum BarKind: "accessibility"
+enum BarKind: "airplaneMode"
+enum BarKind: "apps"
+enum BarKind: "bluetoothSwitch"
+enum BarKind: "brightness"
+enum BarKind: "colorFilters"
+enum BarKind: "darkMode"
+enum BarKind: "doNotDisturb"
+enum BarKind: "emojiPanel"
+enum BarKind: "energySaver"
+enum BarKind: "folderList"
+enum BarKind: "gameMode"
+enum BarKind: "indicators"
+enum BarKind: "keepAwake"
+enum BarKind: "liveCaptions"
+enum BarKind: "magnifier"
+enum BarKind: "microphoneSwitch"
+enum BarKind: "monoAudio"
+enum BarKind: "narrator"
+enum BarKind: "nightLight"
+enum BarKind: "penMenu"
+enum BarKind: "pin"
+enum BarKind: "quickLink"
+enum BarKind: "rotationLock"
+enum BarKind: "search"
+enum BarKind: "security"
+enum BarKind: "showDesktop"
+enum BarKind: "snippingTool"
+enum BarKind: "soundSwitch"
+enum BarKind: "spatialSound"
+enum BarKind: "start"
+enum BarKind: "stickyKeys"
+enum BarKind: "taskView"
+enum BarKind: "touchKeyboard"
+enum BarKind: "tray"
+enum BarKind: "virtualTouchpad"
+enum BarKind: "volume"
+enum BarKind: "widgetsBoard"
+enum BarKind: "wifiSwitch"
+enum BarKind: "windowsCast"
+enum BarKind: "windowsClipboard"
+enum BarKind: "windowsNetworks"
+enum BarKind: "windowsNotifications"
+enum BarKind: "windowsQuickSettings"
+enum BarKind: "windowsSettings"
+enum BarKind: "windowsSound"
+enum BarMenuAction: "computerManagement"
+enum BarMenuAction: "deviceManager"
+enum BarMenuAction: "diskManagement"
+enum BarMenuAction: "display"
+enum BarMenuAction: "eventViewer"
+enum BarMenuAction: "fileExplorer"
+enum BarMenuAction: "installedApps"
+enum BarMenuAction: "layouts"
+enum BarMenuAction: "lockTaskbar"
+enum BarMenuAction: "networkConnections"
+enum BarMenuAction: "powerOptions"
+enum BarMenuAction: "quitKarpo"
+enum BarMenuAction: "run"
+enum BarMenuAction: "showDesktop"
+enum BarMenuAction: "sound"
+enum BarMenuAction: "system"
+enum BarMenuAction: "taskManager"
+enum BarMenuAction: "taskbarSettings"
+enum BarMenuAction: "terminal"
+enum BarMenuAction: "terminalAdmin"
+enum BarMenuAction: "windowsSettings"
+enum BarMenuKind: "action"
+enum BarMenuKind: "divider"
+enum BarMenuKind: "heading"
+enum BarMenuKind: "shortcut"
+enum BarSection: "end"
+enum BarSection: "middle"
+enum BarSection: "start"
+enum BrightnessScreens: "all"
+enum BrightnessScreens: "own"
+enum ButtonCombine: "always"
+enum ButtonCombine: "never"
+enum ButtonCombine: "whenFull"
+enum ByteUnit: 0
+enum ByteUnit: 1
+enum ByteUnit: 2
+enum CalendarView: "day"
+enum CalendarView: "month"
+enum CalendarView: "week"
+enum CalendarView: "year"
+enum CameraFit: "fill"
+enum CameraFit: "whole"
+enum CameraProtocol: "dash"
+enum CameraProtocol: "hls"
+enum CameraProtocol: "mjpeg"
+enum CameraProtocol: "rtsp"
+enum CameraProtocol: "snapshot"
+enum CameraProtocol: "video"
+enum ClockStyle: "analog"
+enum ClockStyle: "analogAndDigital"
+enum ClockStyle: "stacked"
+enum ClockStyle: "timeOnly"
+enum ColorFilter: "deuteranopia"
+enum ColorFilter: "grayscale"
+enum ColorFilter: "grayscaleInverted"
+enum ColorFilter: "inverted"
+enum ColorFilter: "protanopia"
+enum ColorFilter: "tritanopia"
+enum DayOfWeek: 0
+enum DayOfWeek: 1
+enum DayOfWeek: 2
+enum DayOfWeek: 3
+enum DayOfWeek: 4
+enum DayOfWeek: 5
+enum DayOfWeek: 6
+enum DividerStyle: "fixed"
+enum DividerStyle: "grow"
+enum Edge: "bottom"
+enum Edge: "left"
+enum Edge: "right"
+enum Edge: "top"
+enum EdgeMode: "float"
+enum EdgeMode: "hover"
+enum EdgeMode: "reserve"
+enum FolderAlign: "auto"
+enum FolderAlign: "center"
+enum FolderAlign: "left"
+enum FolderAlign: "right"
+enum FolderListWidth: "extraWide"
+enum FolderListWidth: "medium"
+enum FolderListWidth: "narrow"
+enum FolderListWidth: "wide"
+enum FolderListWidth: "widest"
+enum FolderStyle: "attached"
+enum FolderStyle: "cards"
+enum InputButtonShow: "always"
+enum InputButtonShow: "automatic"
+enum ItemSize: "compact"
+enum ItemSize: "large"
+enum ItemSize: "standard"
+enum LayoutType: "dock"
+enum LayoutType: "taskbar"
+enum LineSize: "compact"
+enum LineSize: "full"
+enum LineSize: "medium"
+enum MapProvider: "apple"
+enum MapProvider: "bing"
+enum MapProvider: "google"
+enum MapProvider: "here"
+enum MapProvider: "openStreetMap"
+enum MarketChartStyle: "area"
+enum MarketChartStyle: "candles"
+enum MarketChartStyle: "line"
+enum MarketRange: "1d"
+enum MarketRange: "1mo"
+enum MarketRange: "1y"
+enum MarketRange: "5d"
+enum MarketRange: "5y"
+enum MarketRange: "6mo"
+enum MarketRange: "max"
+enum MarketRange: "years"
+enum MarketRange: "ytd"
+enum MarketStyle: "compact"
+enum MarketStyle: "converter"
+enum MarketStyle: "full"
+enum MarketsProvider: "google"
+enum MarketsProvider: "tradingView"
+enum MarketsProvider: "yahoo"
+enum Pattern: "checks"
+enum Pattern: "contours"
+enum Pattern: "crosshatch"
+enum Pattern: "dots"
+enum Pattern: "grain"
+enum Pattern: "grid"
+enum Pattern: "lines"
+enum Pattern: "none"
+enum Pattern: "waves"
+enum PinFolderNavigation: "contents"
+enum PinFolderNavigation: "explorer"
+enum PinFolderView: "details"
+enum PinFolderView: "largeIcons"
+enum PinFolderView: "list"
+enum PinFolderView: "mediumIcons"
+enum PinFolderView: "tiles"
+enum SearchEngine: "bing"
+enum SearchEngine: "brave"
+enum SearchEngine: "custom"
+enum SearchEngine: "duckduckgo"
+enum SearchEngine: "ecosia"
+enum SearchEngine: "google"
+enum SearchEngine: "startpage"
+enum ShowDesktopStyle: "corner"
+enum ShowDesktopStyle: "icon"
+enum SliderOrientation: "auto"
+enum SliderOrientation: "horizontal"
+enum SliderOrientation: "vertical"
+enum StartPlace: "documents"
+enum StartPlace: "downloads"
+enum StartPlace: "fileExplorer"
+enum StartPlace: "music"
+enum StartPlace: "network"
+enum StartPlace: "personal"
+enum StartPlace: "pictures"
+enum StartPlace: "settings"
+enum StartPlace: "videos"
+enum StartView: "category"
+enum StartView: "grid"
+enum StartView: "list"
+enum TaskbarMode: "dark"
+enum TaskbarMode: "light"
+enum TaskbarMode: "system"
+enum TemperatureUnit: 0
+enum TemperatureUnit: 1
+enum TemperatureUnit: 2
+enum Toggle: "airplaneMode"
+enum Toggle: "bluetooth"
+enum Toggle: "colorFilters"
+enum Toggle: "darkMode"
+enum Toggle: "doNotDisturb"
+enum Toggle: "energySaver"
+enum Toggle: "gameMode"
+enum Toggle: "keepAwake"
+enum Toggle: "magnifier"
+enum Toggle: "microphone"
+enum Toggle: "mobileHotspot"
+enum Toggle: "monoAudio"
+enum Toggle: "narrator"
+enum Toggle: "nearbyShare"
+enum Toggle: "nightLight"
+enum Toggle: "rotationLock"
+enum Toggle: "sound"
+enum Toggle: "spatialSound"
+enum Toggle: "stickyKeys"
+enum Toggle: "vpn"
+enum Toggle: "wifi"
+enum TrayState: "Hidden"
+enum TrayState: "Overflow"
+enum TrayState: "Taskbar"
+enum WeatherProvider: "meteoblue"
+enum WeatherProvider: "msn"
+enum WeatherProvider: "weatherCom"
+enum WeatherProvider: "yr"
+face kind "airQuality"
+face kind "battery"
+face kind "bluetooth"
+face kind "calendar"
+face kind "cast"
+face kind "clipboard"
+face kind "clock"
+face kind "contacts"
+face kind "cpu"
+face kind "dateTime"
+face kind "desktops"
+face kind "disk"
+face kind "drive"
+face kind "focus"
+face kind "gpu"
+face kind "hotspot"
+face kind "icon"
+face kind "keyboard"
+face kind "layout"
+face kind "mail"
+face kind "markets"
+face kind "meeting"
+face kind "memory"
+face kind "nearbySharing"
+face kind "networkActivity"
+face kind "networkDrive"
+face kind "news"
+face kind "notifications"
+face kind "nowPlaying"
+face kind "power"
+face kind "quakes"
+face kind "removable"
+face kind "screenTime"
+face kind "sound"
+face kind "sports"
+face kind "stopwatch"
+face kind "sun"
+face kind "tides"
+face kind "timer"
+face kind "vpn"
+face kind "weather"
+face kind "wifi"
+face kind "winSearch"
+line kind "accessibility"
+line kind "actions"
+line kind "airForecast"
+line kind "airPollen"
+line kind "airPollutants"
+line kind "airQuality"
+line kind "airplaneMode"
+line kind "alarm"
+line kind "battery"
+line kind "bluetooth"
+line kind "bluetoothSwitch"
+line kind "brightness"
+line kind "calendar"
+line kind "camera"
+line kind "cast"
+line kind "clipboard"
+line kind "clock"
+line kind "colorFilters"
+line kind "contacts"
+line kind "cpuProcesses"
+line kind "dailyForecast"
+line kind "darkMode"
+line kind "dateHeader"
+line kind "dawn"
+line kind "daylight"
+line kind "desktops"
+line kind "divider"
+line kind "doNotDisturb"
+line kind "drive"
+line kind "dusk"
+line kind "energySaver"
+line kind "focus"
+line kind "folderContents"
+line kind "gameMode"
+line kind "heading"
+line kind "hibernate"
+line kind "hotspot"
+line kind "hourlyForecast"
+line kind "keepAwake"
+line kind "keyboard"
+line kind "layout"
+line kind "liveCaptions"
+line kind "lock"
+line kind "magnifier"
+line kind "mail"
+line kind "markets"
+line kind "media"
+line kind "mediaSources"
+line kind "meeting"
+line kind "microphoneSwitch"
+line kind "mobileHotspot"
+line kind "monoAudio"
+line kind "narrator"
+line kind "nearbyShare"
+line kind "nearbySharing"
+line kind "networkDrive"
+line kind "nightLight"
+line kind "note"
+line kind "notificationsList"
+line kind "performance"
+line kind "performanceDetails"
+line kind "pin"
+line kind "powerMode"
+line kind "project"
+line kind "projection"
+line kind "quakes"
+line kind "removableDevices"
+line kind "restart"
+line kind "rotationLock"
+line kind "rss"
+line kind "screenTime"
+line kind "screenTimeApps"
+line kind "screenTimeChart"
+line kind "screenTimeHistory"
+line kind "security"
+line kind "shutDown"
+line kind "signOut"
+line kind "sleep"
+line kind "snippingTool"
+line kind "solarNoon"
+line kind "soundInput"
+line kind "soundMixer"
+line kind "soundOutput"
+line kind "soundSwitch"
+line kind "soundVolume"
+line kind "spatialSound"
+line kind "sports"
+line kind "sportsFixtures"
+line kind "sportsKnockout"
+line kind "sportsTable"
+line kind "startApps"
+line kind "startPins"
+line kind "startProfile"
+line kind "startRecommended"
+line kind "stickyKeys"
+line kind "stopwatch"
+line kind "sun"
+line kind "sunrise"
+line kind "sunset"
+line kind "taskView"
+line kind "tideGraph"
+line kind "tides"
+line kind "timer"
+line kind "todo"
+line kind "toggles"
+line kind "vpn"
+line kind "vpnConnections"
+line kind "weatherNow"
+line kind "wifi"
+line kind "wifiSwitch"
+line kind "winSearch"
+line kind "windowsSettings"
+line kind "wirelessDisplays"
+line reading "cpu"
+line reading "disk"
+line reading "gpu"
+line reading "memory"
+line reading "network"
+line style "day"
+line style "dayBar"
+line style "events"
+line style "graph"
+line style "list"
+line style "month"
+line style "time"
+line style "week"
+line style "year"
+property ActionsOptions.left
+property ActionsOptions.right
+property AlarmOptions.days
+property AlarmOptions.name
+property AlarmOptions.on
+property AlarmOptions.time
+property Appearance.mode
+property Appearance.palette
+property Appearance.palettes
+property BarItem.actions
+property BarItem.alarm
+property BarItem.brightness
+property BarItem.calendar
+property BarItem.camera
+property BarItem.clock
+property BarItem.countdown
+property BarItem.desktops
+property BarItem.drive
+property BarItem.folder
+property BarItem.heading
+property BarItem.height
+property BarItem.hiddenDevices
+property BarItem.id
+property BarItem.info
+property BarItem.inputButton
+property BarItem.items
+property BarItem.kind
+property BarItem.market
+property BarItem.note
+property BarItem.performance
+property BarItem.pin
+property BarItem.rss
+property BarItem.section
+property BarItem.showDesktop
+property BarItem.size
+property BarItem.sources
+property BarItem.sports
+property BarItem.start
+property BarItem.statusIcons
+property BarItem.switch
+property BarItem.todo
+property BarItem.toggles
+property BarItem.trayIcons
+property BarItem.volume
+property BarItem.weather
+property BarItem.winSearch
+property BarItem.windowsSearch
+property BarMenuEntry.action
+property BarMenuEntry.arguments
+property BarMenuEntry.icon
+property BarMenuEntry.id
+property BarMenuEntry.kind
+property BarMenuEntry.name
+property BarMenuEntry.target
+property BrightnessOptions.screens
+property CalendarOptions.daysAhead
+property CalendarOptions.feedUrl
+property CalendarOptions.refreshMinutes
+property CalendarOptions.showNextEvent
+property CameraOptions.fit
+property CameraOptions.mute
+property CameraOptions.name
+property CameraOptions.protocol
+property CameraOptions.seconds
+property CameraOptions.url
+property CellItem.actions
+property CellItem.alarm
+property CellItem.brightness
+property CellItem.calendar
+property CellItem.camera
+property CellItem.clock
+property CellItem.countdown
+property CellItem.desktops
+property CellItem.divider
+property CellItem.drive
+property CellItem.heading
+property CellItem.height
+property CellItem.hiddenDevices
+property CellItem.hideIdle
+property CellItem.id
+property CellItem.info
+property CellItem.items
+property CellItem.kind
+property CellItem.list
+property CellItem.market
+property CellItem.note
+property CellItem.performance
+property CellItem.pin
+property CellItem.reading
+property CellItem.rss
+property CellItem.size
+property CellItem.sources
+property CellItem.sports
+property CellItem.start
+property CellItem.style
+property CellItem.switch
+property CellItem.todo
+property CellItem.toggles
+property CellItem.view
+property CellItem.volume
+property CellItem.weather
+property CellItem.winSearch
+property ClockOptions.label
+property ClockOptions.seconds
+property ClockOptions.style
+property ClockOptions.timeZone
+property ClockOptions.view
+property Config.allIslands
+property Config.animation
+property Config.appearance
+property Config.barMenu
+property Config.barMenuEntries
+property Config.barThickness
+property Config.defaultLayoutId
+property Config.formats
+property Config.holidays
+property Config.language
+property Config.layouts
+property Config.lockTaskbar
+property Config.mapProvider
+property Config.marketsProvider
+property Config.onlineUpdateMinutes
+property Config.recentColors
+property Config.screens
+property Config.searchCustomUrl
+property Config.searchEngine
+property Config.startWithWindows
+property Config.style
+property Config.styleOrDefault
+property Config.version
+property Config.weatherProvider
+property CountdownOptions.doNotDisturb
+property CountdownOptions.minutes
+property CountdownOptions.name
+property DesktopOptions.showApps
+property DividerOptions.style
+property DriveTargetOptions.label
+property DriveTargetOptions.letter
+property DriveTargetOptions.volume
+property FolderCell.island
+property FolderFace.drive
+property FolderFace.glyph
+property FolderFace.info
+property FolderFace.kind
+property FolderFace.market
+property FolderFace.options
+property FolderFace.rss
+property FolderFace.sports
+property FolderFace.weather
+property FolderOptions.align
+property FolderOptions.cells
+property FolderOptions.face
+property FolderOptions.faces
+property FolderOptions.lists
+property FolderOptions.style
+property FolderOptions.widths
+property HeadingOptions.text
+property InputButtonOptions.show
+property ItemStyleOptions.pictures
+property ItemStyleOptions.preview
+property ItemStyleOptions.size
+property ItemStyleOptions.time
+property LineHeight.cells
+property LineHeight.fill
+property LineHeight.fixed
+property LineHeight.mode
+property LocalizationOptions.firstDayOfWeek
+property LocalizationOptions.longDate
+property LocalizationOptions.shortDate
+property LocalizationOptions.sizes
+property LocalizationOptions.temperature
+property LocalizationOptions.time
+property LookValues.accent
+property LookValues.backdrop
+property LookValues.background
+property LookValues.blur
+property LookValues.font
+property LookValues.ground
+property LookValues.outline
+property LookValues.pattern
+property LookValues.patternColor
+property LookValues.text
+property MarketOptions.amount
+property MarketOptions.chart
+property MarketOptions.currency
+property MarketOptions.detail
+property MarketOptions.holding
+property MarketOptions.kindOf
+property MarketOptions.label
+property MarketOptions.range
+property MarketOptions.rangeYears
+property MarketOptions.style
+property MarketOptions.symbol
+property NoteOptions.note
+property PaletteValues.flyouts
+property PaletteValues.folderWidgets
+property PaletteValues.taskbar
+property PaletteValues.widgets
+property PerformanceOptions.disk
+property PerformanceOptions.gpuAdapter
+property PerformanceOptions.seconds
+property PerformanceOptions.showGraph
+property PinOptions.icon
+property PinOptions.name
+property PinOptions.navigation
+property PinOptions.target
+property PinOptions.view
+property QuakeOptions.alerts
+property QuakeOptions.magnitude
+property QuakeOptions.radius
+property RssOptions.address
+property RssOptions.glyph
+property RssOptions.isSet
+property RssOptions.title
+property Screen.activeLayoutId
+property Screen.edge
+property Screen.enabled
+property Screen.id
+property Screen.name
+property ShowDesktopOptions.style
+property SportsOptions.abbreviation
+property SportsOptions.league
+property SportsOptions.name
+property SportsOptions.of
+property SportsOptions.sport
+property SportsOptions.team
+property StartOptions.files
+property StartOptions.newApps
+property StartOptions.pins
+property StartOptions.places
+property StartOptions.view
+property StatusIconOptions.states
+property SwitchOptions.awakeMinutes
+property SwitchOptions.colorFilter
+property SwitchOptions.showLabel
+property SwitchOptions.spatialFormat
+property TaskbarLayout.allDesktops
+property TaskbarLayout.combine
+property TaskbarLayout.icon
+property TaskbarLayout.id
+property TaskbarLayout.islands
+property TaskbarLayout.name
+property TaskbarLayout.openOnHover
+property TaskbarLayout.previews
+property TaskbarLayout.show
+property TaskbarLayout.size
+property TaskbarLayout.spacing
+property TaskbarLayout.type
+property TodoOptions.account
+property TodoOptions.list
+property TodoOptions.taskList
+property TogglesOptions.shown
+property TrayIconOptions.order
+property TrayIconOptions.states
+property VolumeOptions.length
+property VolumeOptions.orientation
+property VolumeOptions.showSpeaker
+property WeatherOptions.airIndex
+property WeatherOptions.isSet
+property WeatherOptions.latitude
+property WeatherOptions.longitude
+property WeatherOptions.place
+property WeatherOptions.quakes
+property WeatherOptions.useDeviceLocation
+property WinSearchOptions.home
+property WinSearchOptions.homeMost
+property WinSearchOptions.sources
+property WindowsSearchOptions.showBox

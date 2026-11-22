@@ -1,0 +1,89 @@
+{
+ "count": 4,
+ "items": [
+  {
+   "id": "13",
+   "displayName": "Los Angeles Lakers",
+   "type": "team",
+   "sport": "basketball",
+   "league": "nba",
+   "defaultLeagueSlug": "nba",
+   "abbreviation": "LAL",
+   "name": "Lakers",
+   "location": "Los Angeles",
+   "label": "NBA Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2385",
+   "displayName": "Mercyhurst Lakers",
+   "type": "team",
+   "sport": "football",
+   "league": "college-football",
+   "defaultLeagueSlug": "college-football",
+   "abbreviation": "MERC",
+   "name": "Lakers",
+   "location": "Mercyhurst",
+   "label": "NCAA Football Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2385",
+   "displayName": "Mercyhurst Lakers",
+   "type": "team",
+   "sport": "basketball",
+   "league": "mens-college-basketball",
+   "defaultLeagueSlug": "mens-college-basketball",
+   "abbreviation": "MERC",
+   "name": "Lakers",
+   "location": "Mercyhurst",
+   "label": "NCAA Men's Basketball Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2385",
+   "displayName": "Mercyhurst Lakers",
+   "type": "team",
+   "sport": "basketball",
+   "league": "womens-college-basketball",
+   "defaultLeagueSlug": "womens-college-basketball",
+   "abbreviation": "MERC",
+   "name": "Lakers",
+   "location": "Mercyhurst",
+   "label": "NCAA Women's Basketball Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  }
+ ]
+}

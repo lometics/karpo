@@ -1,0 +1,128 @@
+{
+ "count": 8,
+ "items": [
+  {
+   "id": "12",
+   "displayName": "Kansas City Chiefs",
+   "type": "team",
+   "sport": "football",
+   "league": "nfl",
+   "defaultLeagueSlug": "nfl",
+   "abbreviation": "KC",
+   "name": "Chiefs",
+   "location": "Kansas City",
+   "label": "NFL Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "25934",
+   "displayName": "Chiefs",
+   "type": "team",
+   "sport": "rugby",
+   "league": "242041",
+   "defaultLeagueSlug": "242041",
+   "abbreviation": "CHI",
+   "name": "Chiefs",
+   "label": "Super Rugby Pacific Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25934.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7081",
+   "displayName": "Kaizer Chiefs",
+   "type": "team",
+   "sport": "soccer",
+   "league": "rsa.1",
+   "defaultLeagueSlug": "rsa.1",
+   "abbreviation": "KAI",
+   "name": "Kaizer Chiefs",
+   "location": "Kaizer Chiefs",
+   "label": "Soccer Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/soccer/500/7081.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19147",
+   "displayName": "Bulawayo Chiefs",
+   "type": "team",
+   "sport": "soccer",
+   "league": "zim.1",
+   "defaultLeagueSlug": "zim.1",
+   "abbreviation": "BUL",
+   "name": "Bulawayo Chiefs",
+   "location": "Bulawayo Chiefs",
+   "label": "Soccer Team"
+  },
+  {
+   "id": "116227",
+   "displayName": "Exeter Chiefs",
+   "type": "team",
+   "sport": "rugby",
+   "league": "236461",
+   "defaultLeagueSlug": "236461",
+   "abbreviation": "EXE",
+   "name": "Exeter Chiefs",
+   "label": "Anglo-Welsh Cup Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/116227.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2673",
+   "displayName": "Commander-in-Chief's XI",
+   "type": "team",
+   "sport": "cricket",
+   "name": "Commander-in-Chief's XI",
+   "location": "Pakistan",
+   "label": "Cricket Team"
+  },
+  {
+   "id": "336540",
+   "displayName": "Western Chiefs",
+   "type": "team",
+   "sport": "cricket",
+   "abbreviation": "Cheif",
+   "name": "Western Chiefs",
+   "location": "Kenya",
+   "label": "Cricket Team"
+  },
+  {
+   "id": "1182924",
+   "displayName": "Dublin Chiefs",
+   "type": "team",
+   "sport": "cricket",
+   "abbreviation": "DC",
+   "name": "Dublin Chiefs",
+   "location": "Ireland",
+   "label": "Cricket Team"
+  }
+ ]
+}

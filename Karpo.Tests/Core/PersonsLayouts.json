@@ -1,0 +1,2154 @@
+{
+  "layouts": [
+    {
+      "id": "default",
+      "name": "Default",
+      "icon": "\ue8a9",
+      "type": "taskbar",
+      "size": 48,
+      "show": "reserve",
+      "look": {
+        "material": "auto",
+        "opacity": 70
+      },
+      "folders": {
+        "material": "auto",
+        "opacity": 70
+      },
+      "previews": true,
+      "islands": [
+        {
+          "id": "e9d19256",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "55d6d868",
+          "kind": "taskView",
+          "section": "start"
+        },
+        {
+          "id": "8afeceee",
+          "kind": "search",
+          "section": "start",
+          "windowsSearch": {
+            "showBox": true
+          }
+        },
+        {
+          "id": "d16e8891",
+          "kind": "apps",
+          "section": "start"
+        },
+        {
+          "id": "78a42c4a",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Weather",
+            "showName": false,
+            "face": {
+              "kind": "weather",
+              "options": {
+                "look": "simple"
+              },
+              "weather": {
+                "place": "",
+                "latitude": null,
+                "longitude": null,
+                "useDeviceLocation": true,
+                "isSet": true
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "515d8b70",
+                    "kind": "weatherNow",
+                    "size": "full",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "6aa7b53e",
+                    "kind": "hourlyForecast",
+                    "size": "compact",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "108239ab",
+                    "kind": "dailyForecast",
+                    "size": "full",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "medium"
+            ]
+          }
+        },
+        {
+          "id": "5659b5d7",
+          "kind": "tray",
+          "section": "end"
+        },
+        {
+          "id": "6d969f78",
+          "kind": "indicators",
+          "section": "end"
+        },
+        {
+          "id": "5d632e0f",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Keyboard layout",
+            "showName": false,
+            "face": {
+              "kind": "keyboard",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "f43f641e",
+                    "kind": "keyboard",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "51f3e955",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "language"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "c9a6259c",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Wi-Fi",
+            "showName": false,
+            "face": {
+              "kind": "wifi",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "53049eee",
+                    "kind": "wifi",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "37104a6d",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "75a99571",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "wifi",
+                      "right": "network"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "546a42cc",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Bluetooth",
+            "showName": false,
+            "face": {
+              "kind": "bluetooth",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "667dbb42",
+                    "kind": "bluetooth",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "baf7dccb",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "748d5fff",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "bluetooth",
+                      "right": "addDevice"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "9da56a4c",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Sound",
+            "showName": false,
+            "face": {
+              "kind": "sound",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "2b70345e",
+                    "kind": "soundOutput",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "b69549ab",
+                    "kind": "soundInput",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "399e2d85",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "68f0b620",
+                    "kind": "soundMixer",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "e6c3e09e",
+                    "kind": "soundVolume",
+                    "size": "compact"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "f16f6cd8",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "sound",
+                      "right": "volumeMixer"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "40596647",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Clock",
+            "showName": false,
+            "face": {
+              "kind": "clock",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "d8f91eb8",
+                    "kind": "clock",
+                    "style": "time",
+                    "size": "full",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "23470cf7",
+                    "kind": "calendar",
+                    "style": "month",
+                    "height": {
+                      "fixed": true,
+                      "cells": 16
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "f358dafa",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "216ff5dd",
+                    "kind": "calendar",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    },
+                    "calendar": {
+                      "feedUrl": "",
+                      "showNextEvent": true,
+                      "refreshMinutes": 30
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "618d0f0d",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "03397f0b",
+                    "kind": "timer"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "6005b07c",
+                    "kind": "focus"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "317888fb",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "ad4c4ed2",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "focus"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "9e866c57",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Calendar",
+            "showName": false,
+            "face": {
+              "kind": "calendar",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "6b2b0b43",
+                    "kind": "dateHeader",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "00f5b5da",
+                    "kind": "calendar",
+                    "style": "month",
+                    "height": {
+                      "fixed": true,
+                      "cells": 16
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "428721eb",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "92280b26",
+                    "kind": "calendar",
+                    "style": "events",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "85999d21",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "d82cab50",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "36b46f6a",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Notifications",
+            "showName": false,
+            "face": {
+              "kind": "notifications",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "98b22cad",
+                    "kind": "notificationsList",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "13f10d04",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "6a7d5df4",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "notifications",
+                      "right": "focus"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "04d3ac7c",
+          "kind": "showDesktop",
+          "section": "end"
+        }
+      ]
+    },
+    {
+      "id": "allPresets",
+      "name": "All ready-made folders",
+      "icon": "\ue8a9",
+      "type": "taskbar",
+      "size": 48,
+      "show": "reserve",
+      "look": {
+        "material": "auto",
+        "opacity": 70
+      },
+      "folders": {
+        "material": "auto",
+        "opacity": 70
+      },
+      "previews": true,
+      "islands": [
+        {
+          "id": "44cc18a5",
+          "kind": "start",
+          "section": "start"
+        },
+        {
+          "id": "f14a7a15",
+          "kind": "apps",
+          "section": "start"
+        },
+        {
+          "id": "da482145",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Clock",
+            "showName": false,
+            "face": {
+              "kind": "clock",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "4ead66d2",
+                    "kind": "clock",
+                    "style": "time",
+                    "size": "full",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "a8ffc6a8",
+                    "kind": "timer"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "736fed5b",
+                    "kind": "stopwatch",
+                    "height": {
+                      "fixed": true,
+                      "cells": 2
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "0ef7c29d",
+                    "kind": "focus"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "adcc6a38",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "focus"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "0193babc",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Calendar",
+            "showName": false,
+            "face": {
+              "kind": "calendar",
+              "options": {
+                "form": "dayDate"
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "96aae78d",
+                    "kind": "dateHeader",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "7b357a95",
+                    "kind": "calendar",
+                    "style": "month",
+                    "height": {
+                      "fixed": true,
+                      "cells": 16
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "90cff59c",
+                    "kind": "calendar",
+                    "style": "events",
+                    "height": {
+                      "fixed": true,
+                      "cells": 12
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "5362ccd3",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "dateTime",
+                      "right": "calendar"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "f52e5c77",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Weather",
+            "showName": false,
+            "face": {
+              "kind": "weather",
+              "options": {},
+              "weather": {
+                "place": "",
+                "latitude": null,
+                "longitude": null,
+                "useDeviceLocation": true,
+                "isSet": true
+              }
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "2514b3ee",
+                    "kind": "weatherNow",
+                    "size": "full",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "11bc89f6",
+                    "kind": "hourlyForecast",
+                    "size": "compact",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "ecd42617",
+                    "kind": "dailyForecast",
+                    "size": "full",
+                    "weather": {
+                      "place": "",
+                      "latitude": null,
+                      "longitude": null,
+                      "useDeviceLocation": true,
+                      "isSet": true
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "6bcc1c4c",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Wi-Fi",
+            "showName": false,
+            "face": {
+              "kind": "wifi",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "fc85d932",
+                    "kind": "wifi",
+                    "height": {
+                      "fixed": true,
+                      "cells": 20
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "b1c2da4e",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "wifi",
+                      "right": "network"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "6b6bd027",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Bluetooth",
+            "showName": false,
+            "face": {
+              "kind": "bluetooth",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "e61759f6",
+                    "kind": "bluetooth",
+                    "height": {
+                      "fixed": true,
+                      "cells": 20
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "24f55966",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "bluetooth",
+                      "right": "addDevice"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "e691dc34",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Sound",
+            "showName": false,
+            "face": {
+              "kind": "sound",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "46db64c8",
+                    "kind": "soundOutput",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "5ad3d41c",
+                    "kind": "soundInput",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "a789038f",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "f776757b",
+                    "kind": "soundMixer",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "d4c5634d",
+                    "kind": "soundVolume",
+                    "size": "compact"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "11584c5d",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "sound",
+                      "right": "volumeMixer"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "934580aa",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Removable devices",
+            "showName": false,
+            "face": {
+              "kind": "removable",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "5c40d0ed",
+                    "kind": "removableDevices",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b23c8afd",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Timer",
+            "showName": false,
+            "face": {
+              "kind": "timer",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1f93fad7",
+                    "kind": "timer"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "07ac54a5",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Focus time",
+            "showName": false,
+            "face": {
+              "kind": "focus",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "e481cc2d",
+                    "kind": "focus"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "e82ff4a2",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Stopwatch",
+            "showName": false,
+            "face": {
+              "kind": "stopwatch",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "3a66279c",
+                    "kind": "stopwatch",
+                    "height": {
+                      "fixed": true,
+                      "cells": 10
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "3bd0e933",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Mobile hotspot",
+            "showName": false,
+            "face": {
+              "kind": "hotspot",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "0d6ebfb2",
+                    "kind": "hotspot",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "daf04c0d",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "mobileHotspot",
+                      "right": "network"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "579ecb2a",
+          "kind": "folderList",
+          "section": "start",
+          "folder": {
+            "name": "Power",
+            "showName": false,
+            "face": {
+              "kind": "power",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "801fe2ff",
+                    "kind": "signOut"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "0edceb3a",
+                    "kind": "lock"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "2f1a394e",
+                    "kind": "sleep"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "fa23b14d",
+                    "kind": "restart"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "170871e4",
+                    "kind": "shutDown"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "c38cdff4",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Mail",
+            "showName": false,
+            "face": {
+              "kind": "mail",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "4a3c0e4d",
+                    "kind": "mail",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "9eee1e64",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "System",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue9d9"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "543b3fd9",
+                    "kind": "performance",
+                    "reading": "cpu",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "5d729290",
+                    "kind": "performance",
+                    "reading": "memory",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "b477bb87",
+                    "kind": "performance",
+                    "reading": "disk",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "76abb4dd",
+                    "kind": "performance",
+                    "reading": "network",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "22d14bf0",
+                    "kind": "performance",
+                    "reading": "gpu",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "137b0930",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "66852173",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Processor",
+            "showName": false,
+            "face": {
+              "kind": "cpu",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1c41dbdb",
+                    "kind": "performance",
+                    "reading": "cpu",
+                    "style": "graph",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "e9187f7b",
+                    "kind": "performanceDetails",
+                    "reading": "cpu",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "48db12a8",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "73ec5875",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Graphics",
+            "showName": false,
+            "face": {
+              "kind": "gpu",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "4f0ca572",
+                    "kind": "performance",
+                    "reading": "gpu",
+                    "style": "graph",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "34f4c61d",
+                    "kind": "performanceDetails",
+                    "reading": "gpu",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "af8a6db7",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "d6753844",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Memory",
+            "showName": false,
+            "face": {
+              "kind": "memory",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "20eae415",
+                    "kind": "performance",
+                    "reading": "memory",
+                    "style": "graph",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "d7083513",
+                    "kind": "performanceDetails",
+                    "reading": "memory",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "b8c6c18f",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "d4e000a9",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Disk",
+            "showName": false,
+            "face": {
+              "kind": "disk",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "52d0ff76",
+                    "kind": "performance",
+                    "reading": "disk",
+                    "style": "graph",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "c1986fb7",
+                    "kind": "performanceDetails",
+                    "reading": "disk",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "fa8ac1b6",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "4efc80d5",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Network activity",
+            "showName": false,
+            "face": {
+              "kind": "networkActivity",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1ea4057e",
+                    "kind": "performance",
+                    "reading": "network",
+                    "style": "graph",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "ac73c913",
+                    "kind": "performanceDetails",
+                    "reading": "network",
+                    "size": "full",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "5f245134",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "taskManager"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "89bfbdd6",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Markets",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue9d2"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "6eb865d1",
+                    "kind": "markets",
+                    "size": "full",
+                    "market": {
+                      "symbol": "MSFT",
+                      "label": "",
+                      "detail": "",
+                      "range": "5y",
+                      "rangeYears": 3
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "d894acec",
+                    "kind": "markets",
+                    "size": "full",
+                    "market": {
+                      "symbol": "AAPL",
+                      "label": "",
+                      "detail": "",
+                      "range": "5y",
+                      "rangeYears": 3
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "cbb4aeba",
+                    "kind": "markets",
+                    "size": "full",
+                    "market": {
+                      "symbol": "NVDA",
+                      "label": "",
+                      "detail": "",
+                      "range": "5y",
+                      "rangeYears": 3
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "0606e6ed",
+                    "kind": "markets",
+                    "size": "full",
+                    "market": {
+                      "symbol": "^GSPC",
+                      "label": "S\u0026P 500",
+                      "detail": "",
+                      "range": "5y",
+                      "rangeYears": 3
+                    }
+                  }
+                }
+              ]
+            ],
+            "widths": [
+              "wide"
+            ]
+          }
+        },
+        {
+          "id": "db816d76",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "News",
+            "showName": false,
+            "face": {
+              "kind": "news",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "da5ba0e6",
+                    "kind": "rss",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    },
+                    "rss": {
+                      "address": "",
+                      "title": "",
+                      "isSet": false
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "82f04e96",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Drive",
+            "showName": false,
+            "face": {
+              "kind": "drive",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "14b05ee0",
+                    "kind": "drive",
+                    "size": "full",
+                    "drive": {
+                      "volume": "",
+                      "letter": "",
+                      "label": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "2adddbd9",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": false,
+                      "cells": 14
+                    },
+                    "pin": {
+                      "target": "",
+                      "name": "",
+                      "icon": ""
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "90bca381",
+          "kind": "folderList",
+          "section": "middle",
+          "folder": {
+            "name": "Network drive",
+            "showName": false,
+            "face": {
+              "kind": "networkDrive",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1e608b1a",
+                    "kind": "networkDrive",
+                    "size": "full",
+                    "drive": {
+                      "volume": "",
+                      "letter": "",
+                      "label": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "fc46e823",
+                    "kind": "folderContents",
+                    "height": {
+                      "fixed": false,
+                      "cells": 18
+                    },
+                    "pin": {
+                      "target": "",
+                      "name": "",
+                      "icon": ""
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "354c055f",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Notifications",
+            "showName": false,
+            "face": {
+              "kind": "notifications",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "6d4c0334",
+                    "kind": "notificationsList",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "1ce9eae4",
+                    "kind": "actions",
+                    "actions": {
+                      "left": "notifications",
+                      "right": "focus"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "df4e78b9",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Clipboard history",
+            "showName": false,
+            "face": {
+              "kind": "clipboard",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "08337d29",
+                    "kind": "clipboard",
+                    "height": {
+                      "fixed": true,
+                      "cells": 20
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "43d7f8db",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "clipboard"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "440740f5",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Contacts",
+            "showName": false,
+            "face": {
+              "kind": "contacts",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "46add60d",
+                    "kind": "contacts",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "9ae2708e",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Focus",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue821"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1f1fd06c",
+                    "kind": "clock",
+                    "size": "full",
+                    "clock": {
+                      "seconds": false,
+                      "timeZone": "",
+                      "label": "",
+                      "view": "month"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "2098c50c",
+                    "kind": "timer"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "0aba81f8",
+                    "kind": "focus"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "50ba2b6e",
+                    "kind": "doNotDisturb",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "b1153fb5",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "d02c68e9",
+                    "kind": "calendar",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    },
+                    "calendar": {
+                      "feedUrl": "",
+                      "showNextEvent": true,
+                      "refreshMinutes": 30
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "8051ff08",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Screen time",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\uf182"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "161ffc41",
+                    "kind": "screenTime",
+                    "size": "full"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "64228750",
+                    "kind": "screenTimeHistory",
+                    "size": "full"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "ef9c761e",
+                    "kind": "screenTimeApps",
+                    "height": {
+                      "fixed": true,
+                      "cells": 16
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "d080c28b",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Storage",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ueda2"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "3b9f1f02",
+                    "kind": "drive",
+                    "size": "full",
+                    "drive": {
+                      "volume": "\\\\?\\Volume{00000000-0000-0000-0000-000000000001}\\",
+                      "letter": "C:",
+                      "label": "Local Disk"
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "9970df62",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "446a0e0e",
+                    "kind": "removableDevices",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "7a35199e",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Connectivity",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue968"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "4ff9288b",
+                    "kind": "performance",
+                    "reading": "network",
+                    "style": "graph",
+                    "size": "compact",
+                    "performance": {
+                      "showGraph": true,
+                      "seconds": 1,
+                      "gpuAdapter": ""
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "19a3903b",
+                    "kind": "divider"
+                  }
+                },
+                {
+                  "island": {
+                    "id": "c2522c39",
+                    "kind": "airplaneMode",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "3f289092",
+                    "kind": "vpn",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "810e9b5a",
+                    "kind": "mobileHotspot",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "f6d0ee9d",
+                    "kind": "nearbyShare",
+                    "size": "compact",
+                    "switch": {
+                      "showLabel": false
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "d51dc9c0",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "To-do",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue9d5"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "1bf61e46",
+                    "kind": "todo",
+                    "height": {
+                      "fixed": true,
+                      "cells": 20
+                    },
+                    "todo": {
+                      "list": ""
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ff6eabfc",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Notes",
+            "showName": false,
+            "face": {
+              "kind": "icon",
+              "options": {},
+              "glyph": "\ue70b"
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "3107c4cd",
+                    "kind": "note",
+                    "height": {
+                      "fixed": true,
+                      "cells": 20
+                    },
+                    "note": {
+                      "note": ""
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "71b89701",
+          "kind": "indicators",
+          "section": "end"
+        },
+        {
+          "id": "e32fd718",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Keyboard layout",
+            "showName": false,
+            "face": {
+              "kind": "keyboard",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "2e2da22a",
+                    "kind": "keyboard",
+                    "height": {
+                      "fixed": false,
+                      "cells": 24
+                    }
+                  }
+                },
+                {
+                  "island": {
+                    "id": "a6991ed0",
+                    "kind": "actions",
+                    "actions": {
+                      "left": null,
+                      "right": "language"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "3ff9467e",
+          "kind": "folderList",
+          "section": "end",
+          "folder": {
+            "name": "Media",
+            "showName": false,
+            "face": {
+              "kind": "nowPlaying",
+              "options": {}
+            },
+            "lists": [
+              [
+                {
+                  "island": {
+                    "id": "eae6ecf1",
+                    "kind": "media",
+                    "size": "full"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "b74ff580",
+          "kind": "showDesktop",
+          "section": "end"
+        }
+      ]
+    }
+  ],
+  "defaultLayoutId": "default"
+}

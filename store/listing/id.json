@@ -1,0 +1,194 @@
+{
+  "language": "id-id",
+  "title": "Karpo",
+  "shortDescription": "Bilah tugas Windows, dengan seluruh harimu di dalamnya. Lihat rapat berikutnya, email baru, cuaca, dan musikmu sekilas, lalu buka folder penuh widget dengan sekali klik. Mulai gratis, tanpa iklan, tanpa akun.",
+  "description": [
+    "Karpo adalah bilah tugas untuk Windows 11 dan Windows 10 yang tampilannya persis seperti bawaan Windows. Bedanya: seluruh harimu ada di dalamnya. Rapat berikutnya, email terbarumu, cuaca, musikmu, dan seberapa keras PC-mu bekerja ada tepat di samping aplikasimu, dan semuanya terbuka dengan sekali klik.",
+    "",
+    "HARIMU, LANGSUNG DI BILAH TUGAS",
+    "• Rapat berikutnya dengan hitung mundur, plus tombol untuk bergabung",
+    "• Email baru begitu masuk, lengkap dengan jumlah yang belum dibaca",
+    "• Seluruh minggumu, sekali klik dari jam",
+    "• Akun Microsoft (Outlook.com, Microsoft 365), akun email IMAP apa pun, serta kalender dan kontak CalDAV dan CardDAV seperti iCloud, Fastmail, atau Nextcloud",
+    "",
+    "YANG KAMU CEK SEHARIAN, SEKILAS",
+    "• Cuaca saat ini, per jam, dan untuk seminggu",
+    "• Musikmu, dengan putar, jeda, dan lewati langsung di bilah tugas",
+    "• Prosesor, memori, grafis, jaringan, dan disk, dengan grafik langsung",
+    "• Jam untuk kota lain, timer, dan alarm",
+    "• Saham, feed RSS, notifikasi, file terbarumu",
+    "• Wi-Fi, Bluetooth, volume, kecerahan, dan baterai",
+    "",
+    "FOLDER YANG KAMU ISI DENGAN WIDGET",
+    "Kumpulkan widget dalam satu folder di bilah tugas. Sekali klik, folder terbuka jadi dashboard kecilmu sendiri: jam untuk tiga kota, agenda hari ini, kotak masukmu, dan prakiraan cuaca. Klik di tempat lain, dan folder langsung tertutup.",
+    "",
+    "TATA LETAK UNTUK SETIAP BAGIAN HARIMU",
+    "Bilah tugas lengkap untuk kerja, dengan kalender dan email-mu. Dock untuk malam hari, dengan musik dan cuaca. Cuma timer saat kamu perlu fokus. Ganti dengan dua klik, atau beri setiap layar tata letaknya sendiri.",
+    "",
+    "DI SETIAP LAYAR, DI TEPI MANA PUN",
+    "Karpo menaruh bilah tugas di setiap monitor. Masing-masing bisa berada di bawah, atas, kiri, atau kanan, dengan tata letaknya sendiri.",
+    "",
+    "SESUAIKAN SESUKAMU",
+    "Klik kanan bilah tugas dan pilih Ubah. Tambahkan widget dari daftar, seret ke tempat yang kamu mau, lalu ubah ukuran dan tampilannya langsung di bilah tugas. Semua pengaturan juga ada di sana, di bilah tugas itu sendiri.",
+    "",
+    "TAMPIL SEPERTI WINDOWS",
+    "Mulai, pencarian, aplikasi yang disematkan dan yang terbuka, baki sistem, dan jam tampil serta bekerja persis seperti milik Windows. Karpo mengikuti tema terang atau gelapmu, warna aksen, dan ukuran teksmu.",
+    "",
+    "PRIVASI SEJAK AWAL",
+    "Karpo tanpa iklan, tanpa pelacakan, tanpa analitik, dan tanpa akun. Karpo hanya membaca email dan kalendermu: Karpo tidak bisa mengirim email atau mengubah acara. Data masukmu dienkripsi oleh Windows khusus untuk pengguna Windows-mu, dan datamu tetap di PC-mu. Karpo tidak punya server sendiri.",
+    "",
+    "RINGAN UNTUK PC-MU",
+    "Karpo menampilkan bilah tugasnya sepersekian detik setelah dijalankan, dan hanya memakai sedikit sekali memori dan daya saat tidak sedang kamu lihat. PC-mu tetap cepat, baterainya pun awet.",
+    "",
+    "SELALU PILIHANMU",
+    "Keluar dari Karpo kapan saja, dan bilah tugas Windows kembali seperti semula. Mulai dan pencarian tetap milik Windows.",
+    "",
+    "MULAI GRATIS",
+    "Semua widget dan semua pengaturan ada di versi gratis, dengan hingga 20 widget per tata letak dan 2 tata letak. Karpo Pro, sekali beli di Karpo lewat Microsoft Store, menghapus kedua batas itu untuk selamanya. Tanpa langganan.",
+    "",
+    "Tersedia dalam 40 bahasa. Data cuaca oleh Open-Meteo.com."
+  ],
+  "features": [
+    "Rapat berikutnya dan email baru langsung di bilah tugas",
+    "Seluruh minggumu, sekali klik dari jam",
+    "Cuaca saat ini, per jam, dan untuk seminggu",
+    "Putar, jeda, dan lewati musik tanpa membuka aplikasinya",
+    "Grafik langsung untuk prosesor, memori, grafis, jaringan, dan disk",
+    "Folder yang terbuka jadi dashboard widget kecilmu sendiri",
+    "Tata letak untuk kerja, malam hari, dan fokus, diganti dengan dua klik",
+    "Bilah tugas di setiap monitor, di bawah, atas, kiri, atau kanan",
+    "Tambah, seret, dan ubah ukuran widget langsung di bilah tugas",
+    "Jam untuk kota lain, timer, alarm, dan saham",
+    "Wi-Fi, Bluetooth, volume, kecerahan, dan baterai sekilas",
+    "Bekerja dengan akun Microsoft, email IMAP, serta kalender CalDAV dan CardDAV",
+    "Tampil seperti Windows dan mengikuti tema serta warna aksenmu",
+    "Hanya membaca email dan kalendermu; datamu tetap di PC-mu",
+    "Tanpa iklan, tanpa pelacakan, tanpa akun",
+    "Hemat memori dan baterai",
+    "Bilah tugas Windows kembali seperti semula saat kamu keluar",
+    "Tersedia dalam 40 bahasa"
+  ],
+  "keywords": [
+    "bilah tugas",
+    "widget taskbar",
+    "kalender di taskbar",
+    "widget cuaca",
+    "taskbar vertikal",
+    "multi monitor",
+    "dock"
+  ],
+  "minimumHardware": [
+    "Windows 10 versi 2004 atau yang lebih baru, 64-bit (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Bilah tugas Windows, dengan seluruh harimu.",
+      "sub": "Rapat berikutnya dan email baru di samping aplikasimu, minggu dan kotak masuk sekali klik.",
+      "caption": "Bilah tugas Karpo dengan rapat berikutnya dan email belum dibaca di samping aplikasi, plus minggu, kotak masuk, dan daftar tugas yang dibuka dari jam."
+    },
+    {
+      "shot": "tour",
+      "label": "Bilah",
+      "headline": "Semua yang kamu cek, di satu bilah.",
+      "sub": "Cuaca, filemu, Pengaturan Cepat, dan harimu: satu tombol untuk masing-masing, tepat di samping aplikasimu.",
+      "caption": "Bilah tugas Karpo dengan label: aplikasimu, email baru, rapat berikutnya, file dan drive, cuaca dan kualitas udara, Pengaturan Cepat, dan harimu.",
+      "callouts": [
+        "Aplikasimu",
+        "Email baru",
+        "Rapat berikutnya",
+        "PC-mu",
+        "Cuaca dan kualitas udara",
+        "Folder",
+        "Pengaturan Cepat",
+        "Harimu"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Sekali klik",
+      "headline": "Setiap tombol membuka lebih banyak.",
+      "sub": "Setiap tombol di bilah membuka hal yang terkait: prakiraan cuaca, filemu, harimu, PC-mu.",
+      "caption": "Folder yang dibuka dari bilah tugas Karpo: rapat-rapat berikutnya, Pengaturan Cepat, berita, pasang surut, dan cuaca seminggu."
+    },
+    {
+      "shot": "files",
+      "label": "PC-mu",
+      "headline": "File dan PC-mu, sekali klik.",
+      "sub": "Ruang kosong, file terbarumu, dan grafik langsung untuk prosesor, memori, dan jaringan. Tanpa File Explorer atau Pengelola Tugas.",
+      "caption": "Folder yang dibuka dari bilah tugas: ruang kosong di drive, unduhan dan dokumen terbaru, serta grafik langsung untuk prosesor, memori, grafis, disk, dan jaringan.",
+      "callouts": [
+        "Ruang kosong tiap drive",
+        "Unduhan terbarumu",
+        "Folder mana pun",
+        "Grafik langsung"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Akun",
+      "headline": "Kalender, email, dan kontakmu.",
+      "sub": "Masuk dengan Microsoft atau tambahkan akun IMAP, CalDAV, atau CardDAV.",
+      "caption": "Akun yang terhubung ke Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Rapat Teams, Zoom, Google Meet, Webex dengan sekali klik.",
+      "callouts": [
+        "Kalender",
+        "Kontak",
+        "Email",
+        "Tugas To Do",
+        "Gabung sekali klik"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Folder",
+      "headline": "Folder yang kamu isi dengan widget.",
+      "sub": "Sekali klik, terbuka dashboard kecilmu sendiri.",
+      "caption": "Folder yang terbuka sebagai dashboard: jam dan timer, kalender bulanan dan agenda hari ini, cuaca dan matahari, emailmu dan file di folder Unduhan.",
+      "callouts": [
+        "Jam kota lain",
+        "Rapat hari ini",
+        "Hujan per jam",
+        "Email terbaru",
+        "Unduhan terbaru"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widget",
+      "headline": "Lebih dari 100 widget.",
+      "sub": "Kalender, email, cuaca, saham, file, timer, Pengaturan Cepat, dan PC-mu. Di bilah tugas atau di folder.",
+      "caption": "Beberapa widget Karpo: jam-jam dalam sehari, cuaca seminggu, kualitas udara, mode daya, setahun, saham, kontak, daftar tugas, catatan, alarm dan timer, baterai, Pengaturan Cepat, file-mu, dan PC-mu."
+    },
+    {
+      "shot": "side",
+      "label": "Di mana saja",
+      "headline": "Di tepi layar mana pun.",
+      "sub": "Bawah, atas, kiri, atau kanan, dan di setiap monitor yang kamu punya.",
+      "caption": "Bilah tugas Karpo di tepi kiri layar, dengan cuaca, kualitas udara, dan perjalanan matahari sepanjang hari yang dibuka di sampingnya."
+    },
+    {
+      "shot": "looks",
+      "label": "Tampilan",
+      "headline": "Tampil sesuai seleramu.",
+      "sub": "Warna dan font pilihanmu di bilah tugas dan di setiap folder, atau salah satu palet Karpo.",
+      "caption": "Satu layar dalam empat tampilan, dipotong berdampingan: tampilan Windows sendiri dan palet Paper, Harbor, dan Bloom dari Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Widget dan tata letak sebanyak yang kamu mau. Sekali beli, jadi milikmu selamanya, dengan pembaruan gratis untuk versi utama ini. Tanpa langganan.",
+    "keywords": [
+      "karpo pro",
+      "widget tanpa batas",
+      "tata letak tanpa batas",
+      "bilah tugas",
+      "pro"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "language": "cs-cz",
+  "title": "Karpo",
+  "shortDescription": "Hlavní panel Windows, na kterém máš celý svůj den. Příští schůzku, nové e-maily, počasí a hudbu máš pořád na očích a složky plné widgetů otevřeš jedním kliknutím. Začni zdarma, bez reklam a bez účtu.",
+  "description": [
+    "Karpo je hlavní panel pro Windows 11 a Windows 10, který vypadá úplně stejně jako ten, se kterým Windows přichází. Rozdíl? Je na něm tvůj den. Příští schůzka, nejnovější e-maily, počasí, tvoje hudba a to, jak moc tvůj počítač maká, jsou hned vedle tvých aplikací a každá z těch věcí se otevře jedním kliknutím.",
+    "",
+    "TVŮJ DEN PŘÍMO NA HLAVNÍM PANELU",
+    "• Příští schůzka s odpočtem a tlačítkem, kterým se k ní připojíš",
+    "• Nové e-maily hned, jak přijdou, i s počtem nepřečtených",
+    "• Celý tvůj týden po jednom kliknutí na hodiny",
+    "• Účty Microsoft (Outlook.com, Microsoft 365), jakýkoli e-mailový účet IMAP a kalendáře a kontakty CalDAV a CardDAV, třeba iCloud, Fastmail nebo Nextcloud",
+    "",
+    "CO SLEDUJEŠ CELÝ DEN, NA PRVNÍ POHLED",
+    "• Počasí teď, po hodinách i na celý týden",
+    "• Tvoje hudba: přehrávání, pauza a další skladba přímo na hlavním panelu",
+    "• Procesor, paměť, grafika, síť a disky s grafy v reálném čase",
+    "• Hodiny pro další města, časovače a budíky",
+    "• Akcie, kanály RSS, oznámení a tvoje nejnovější soubory",
+    "• Wi-Fi, Bluetooth, hlasitost, jas a baterie",
+    "",
+    "SLOŽKY, KTERÉ SI PLNÍŠ WIDGETY",
+    "Shrň widgety do složky na hlavním panelu. Jedním kliknutím ji otevřeš jako svůj vlastní malý dashboard: hodiny pro tři města, dnešní program, doručenou poštu a předpověď. Klikneš jinam a zmizí.",
+    "",
+    "ROZLOŽENÍ PRO KAŽDOU ČÁST DNE",
+    "Celý hlavní panel do práce s kalendářem a poštou. Dok na večer s hudbou a počasím. Jen časovač, když se potřebuješ soustředit. Přepínej dvěma kliknutími, nebo dej každé obrazovce vlastní rozložení.",
+    "",
+    "NA KAŽDÉ OBRAZOVCE, U KTERÉHOKOLI OKRAJE",
+    "Karpo dá hlavní panel na každý monitor. Každý může být dole, nahoře, vlevo nebo vpravo a mít vlastní rozložení.",
+    "",
+    "PODLE SEBE",
+    "Klikni pravým tlačítkem na hlavní panel a zvol Upravit. Přidávej widgety ze seznamu, přetahuj je, kam chceš, a měň jejich velikost a vzhled přímo na hlavním panelu. Najdeš tam i všechna nastavení, přímo v hlavním panelu.",
+    "",
+    "VYPADÁ JAKO WINDOWS",
+    "Start, hledání, připnuté a otevřené aplikace, oznamovací oblast a hodiny vypadají a fungují stejně jako ve Windows. Karpo se řídí tvým světlým nebo tmavým motivem, barvou zvýraznění a velikostí textu.",
+    "",
+    "SOUKROMÍ OD ZÁKLADU",
+    "Karpo nemá reklamy, sledování, analytiku ani účet. Tvoji poštu a kalendář jen čte: nemůže odeslat e-mail ani změnit událost. Tvoje přihlášení šifruje Windows jen pro tvého uživatele Windows a tvoje data zůstávají v tvém počítači. Karpo nemá žádné vlastní servery.",
+    "",
+    "ŠETRNÉ K TVÉMU POČÍTAČI",
+    "Karpo ukáže svůj hlavní panel zlomek vteřiny po spuštění, a když se na něj zrovna nedíváš, bere si jen velmi málo paměti a energie. Počítač tak zůstane svižný a baterie vydrží déle.",
+    "",
+    "VŽDY ROZHODUJEŠ TY",
+    "Karpo můžeš kdykoli ukončit a hlavní panel Windows se vrátí tak, jak byl. Start a hledání zůstávají ty z Windows.",
+    "",
+    "ZAČNI ZDARMA",
+    "Všechny widgety a všechna nastavení jsou už v bezplatné verzi, s až 20 widgety v rozložení a 2 rozloženími. Karpo Pro, jednorázový nákup v Karpo přes Microsoft Store, obě omezení natrvalo zruší. Bez předplatného.",
+    "",
+    "Ve 40 jazycích. Data o počasí poskytuje Open-Meteo.com."
+  ],
+  "features": [
+    "Příští schůzka a nové e-maily přímo na hlavním panelu",
+    "Celý týden po jednom kliknutí na hodiny",
+    "Počasí teď, po hodinách i na celý týden",
+    "Přehrávej, pozastav a přeskakuj hudbu bez otevírání aplikace",
+    "Grafy v reálném čase pro procesor, paměť, grafiku, síť a disky",
+    "Složky, které otevřou tvůj vlastní malý dashboard z widgetů",
+    "Rozložení do práce, na večer a pro soustředění, přepnutá dvěma kliknutími",
+    "Hlavní panel na každém monitoru, dole, nahoře, vlevo nebo vpravo",
+    "Přidávej, přetahuj a měň velikost widgetů přímo na hlavním panelu",
+    "Hodiny pro další města, časovače, budíky a akcie",
+    "Wi-Fi, Bluetooth, hlasitost, jas a baterie na první pohled",
+    "Funguje s účty Microsoft, e-mailem přes IMAP a kalendáři CalDAV a CardDAV",
+    "Vypadá jako Windows a řídí se tvým motivem a barvou zvýraznění",
+    "Poštu a kalendář jen čte; tvoje data zůstávají v tvém počítači",
+    "Bez reklam, bez sledování, bez účtu",
+    "Šetří paměť i baterii",
+    "Po ukončení Karpo se hlavní panel Windows vrátí tak, jak byl",
+    "Ve 40 jazycích"
+  ],
+  "keywords": [
+    "hlavní panel",
+    "widgety na hlavním panelu",
+    "kalendář na hlavním panelu",
+    "widget počasí",
+    "svislý hlavní panel",
+    "více monitorů",
+    "dok"
+  ],
+  "minimumHardware": [
+    "Windows 10 verze 2004 nebo novější, 64bitový (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Hlavní panel Windows s celým tvým dnem.",
+      "sub": "Příští schůzka a nové e-maily vedle aplikací, týden i doručená pošta na jedno kliknutí.",
+      "caption": "Hlavní panel Karpo s příští schůzkou a nepřečtenou poštou vedle aplikací a s týdnem, doručenou poštou a seznamem úkolů otevřenými z hodin."
+    },
+    {
+      "shot": "tour",
+      "label": "Panel",
+      "headline": "Vše, co sleduješ, na jednom panelu.",
+      "sub": "Počasí, tvoje soubory, rychlé nastavení a tvůj den: každé má své tlačítko hned vedle tvých aplikací.",
+      "caption": "Hlavní panel Karpo s popisky: tvoje aplikace, nová pošta, příští schůzka, soubory a jednotky, počasí a ovzduší, rychlé nastavení a tvůj den.",
+      "callouts": [
+        "Tvoje aplikace",
+        "Nová pošta",
+        "Příští schůzka",
+        "Tvůj počítač",
+        "Počasí a ovzduší",
+        "Složky",
+        "Rychlé nastavení",
+        "Tvůj den"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Jedno kliknutí",
+      "headline": "Každé tlačítko otevře víc.",
+      "sub": "Každé tlačítko na panelu otevře to, co k němu patří: předpověď, tvoje soubory, tvůj den, tvůj počítač.",
+      "caption": "Složky otevřené z hlavního panelu Karpo: příští schůzky, rychlé nastavení, zprávy, příliv a odliv a počasí na týden."
+    },
+    {
+      "shot": "files",
+      "label": "Tvůj počítač",
+      "headline": "Soubory i počítač na jedno kliknutí.",
+      "sub": "Volné místo, nejnovější soubory a grafy v reálném čase pro procesor, paměť a síť. Bez Průzkumníka souborů, bez Správce úloh.",
+      "caption": "Složka otevřená z hlavního panelu: volné místo na jednotce, nejnovější stažené soubory a dokumenty a grafy v reálném čase pro procesor, paměť, grafiku, disk a síť.",
+      "callouts": [
+        "Volné místo na jednotkách",
+        "Poslední stažené soubory",
+        "Libovolná složka",
+        "Grafy v reálném čase"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Účty",
+      "headline": "Tvé kalendáře, pošta a kontakty.",
+      "sub": "Přihlas se přes Microsoft nebo přidej účet IMAP, CalDAV či CardDAV.",
+      "caption": "Účty, ke kterým se Karpo připojí: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Schůzky Teams, Zoom, Google Meet, Webex jedním kliknutím.",
+      "callouts": [
+        "Kalendáře",
+        "Kontakty",
+        "Pošta",
+        "Úkoly z To Do",
+        "Připojit se jedním klikem"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Složky",
+      "headline": "Složky, které si plníš widgety.",
+      "sub": "Jedno kliknutí otevře tvůj vlastní malý dashboard.",
+      "caption": "Složka otevřená jako dashboard: hodiny a časovač, měsíc a dnešní program, počasí a slunce, tvoje pošta a soubory ze složky Stažené soubory.",
+      "callouts": [
+        "Hodiny dalších měst",
+        "Dnešní schůzky",
+        "Déšť po hodinách",
+        "Nejnovější pošta",
+        "Nově stažené soubory"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widgety",
+      "headline": "Přes 100 widgetů.",
+      "sub": "Kalendář, pošta, počasí, akcie, soubory, časovače, rychlé nastavení i tvůj počítač. Na panelu nebo ve složce.",
+      "caption": "Několik widgetů Karpa: hodiny dne, počasí na týden, kvalita ovzduší, režim napájení, rok, akcie, kontakty, seznam úkolů, poznámky, budíky a časovače, baterie, rychlé nastavení, soubory a počítač."
+    },
+    {
+      "shot": "side",
+      "label": "Kdekoli",
+      "headline": "U kteréhokoli okraje obrazovky.",
+      "sub": "Dole, nahoře, vlevo nebo vpravo, a na každém tvém monitoru.",
+      "caption": "Hlavní panel Karpo podél levého okraje obrazovky a vedle něj otevřené počasí, kvalita ovzduší a dráha slunce během dne."
+    },
+    {
+      "shot": "looks",
+      "label": "Vzhled",
+      "headline": "Vzhled přesně podle tebe.",
+      "sub": "Tvoje barvy a písma na hlavním panelu i v každé složce, nebo jedna z palet Karpo.",
+      "caption": "Jedna obrazovka ve čtyřech vzhledech, rozstříhaná vedle sebe: vzhled Windows a palety Paper, Harbor a Bloom od Karpa."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Kolik widgetů a rozložení chceš. Jeden nákup, tvůj natrvalo, s bezplatnými aktualizacemi této hlavní verze. Bez předplatného.",
+    "keywords": [
+      "karpo pro",
+      "neomezené widgety",
+      "neomezená rozložení",
+      "hlavní panel",
+      "pro"
+    ]
+  }
+}

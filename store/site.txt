@@ -1,0 +1,177 @@
+# The website's pictures (karpo.app's scripts/shots.ts reads them): Stage.cs's language, run with
+# `dotnet run scripts/stage/Stage.cs -- store site [scene]` on store/site.json, to artifacts/store/shots/site.
+# The Store's stage and its hour; the bar is the Store's `work` bar with folders of other widgets beside its own
+# (sports, markets, a desk of notes and timers), so the site shows more of what a folder can hold than the Store's
+# nine pages do. Never a right click on a pin: its jump list is the person's own.
+
+# The dock needs a moment after its first build before a click opens a folder.
+wait 3500
+
+scene bar
+# The bar alone, and where each of its buttons is: the site's pointer clicks them in turn. The markets' button by its
+# glyph: a click on the ticker beside it opens nothing.
+say sports above sports
+say markets above markets:-190,0
+say weather above weather
+say pc above pc
+say desk above desk
+say quick above quick
+say clock above clock
+wait 1000
+shot
+
+scene sky
+# The weather and the air, the sun's day.
+open weather
+wait 1500
+shot
+close
+
+scene sports
+# A league's table, a team's next matches.
+open sports
+wait 4000
+shot
+close
+
+scene markets
+# A share, an index, a coin and a currency, each over a range of its own.
+open markets:-190,0
+wait 3000
+shot
+close
+
+scene pc
+# This PC: the drive and the newest files, beside the processor, memory, graphics, disk and network.
+open pc
+wait 2500
+shot
+close
+
+scene desk
+# A note and a to-do list, two more clocks, a timer, a stopwatch, an alarm and focus.
+open desk
+wait 2500
+shot
+close
+
+scene day
+# The week and the inbox, opened from the date.
+open clock
+wait 1500
+shot
+close
+
+# The `extra` layout: a folder of what the Store's pages leave out, for the site's cards: what the PC is made of and
+# Windows' own buttons (lock, sleep, restart, shut down), beside the desktops, a search with the apps under it, the
+# Snipping Tool, the night light and the dark mode.
+scene windows
+layout extra
+wait 5000
+move windows
+click
+wait 8000
+shot
+close
+layout site
+wait 2500
+
+# The time and the date as headings, a calendar and the layouts; Windows' accessibility switches; its other switches.
+scene kit
+layout extra
+wait 5000
+move kit
+click
+wait 8000
+shot
+close
+layout site
+wait 2500
+
+# A league's round of games, what the graphics card and the disk are, another feed.
+scene scores
+layout extra
+wait 5000
+move scores
+click
+wait 8000
+shot
+close
+layout site
+wait 2500
+
+# Three more of the Store's layouts as they are (config.json's `evening`, `focus` and `slim`), each bar alone: with
+# the site's own bar, the four bars of "make it yours".
+scene lay-evening
+layout evening
+wait 6000
+shot
+
+scene lay-focus
+layout focus
+wait 6000
+shot
+
+scene lay-slim
+layout slim
+wait 6000
+shot
+layout site
+wait 2500
+
+# Edit mode, from the bar's menu ("Taskbar settings", its last row): the screen dimmed, the edit bar along the top, the
+# bar in edit mode's dress. Its pages one after another, a picture each (the site's pointer clicks through them):
+# the taskbar's own settings, which open with it; the list of widgets to add; the layouts; the appearance. Then Done.
+# The edit bar's buttons by where they are (artifacts/stage/config/stage-edit.json says, in English).
+scene edit
+move 1360,1656
+rclick
+wait 2000
+move 2724,1522 500
+wait 400
+click
+wait 5000
+shot edit-taskbar
+move 2300,64 400
+click
+wait 3500
+shot edit-add
+move 1017,64 400
+click
+wait 3500
+shot edit-layouts
+move 1440,64 400
+click
+wait 3500
+shot edit-looks
+move 2471,64 400
+click
+wait 2500
+
+# The same three layouts each with a folder open, whole screens: with the site's own bar and its desk, the four
+# arrangements the site's screen changes between under "make it yours".
+scene lay-evening-open
+layout evening
+wait 6000
+open eveningWeather
+wait 1500
+shot
+close
+
+scene lay-focus-open
+layout focus
+wait 6000
+open timer
+wait 1500
+shot
+close
+
+scene lay-slim-open
+layout slim
+wait 6000
+open slimComboToday
+wait 600
+shot
+close
+layout site
+wait 2500

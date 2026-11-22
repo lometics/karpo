@@ -1,0 +1,194 @@
+{
+  "language": "pl-pl",
+  "title": "Karpo",
+  "shortDescription": "Pasek zadań Windows, a na nim twój dzień. Najbliższe spotkanie, nowe e-maile, pogoda i muzyka na pierwszy rzut oka, a foldery pełne widżetów otwierasz jednym kliknięciem. Na start za darmo, bez reklam i bez konta.",
+  "description": [
+    "Karpo to pasek zadań dla Windows 11 i Windows 10, który wygląda dokładnie jak ten wbudowany w system. Różnica? Jest na nim twój dzień. Najbliższe spotkanie, najnowsze e-maile, pogoda, twoja muzyka i to, jak mocno pracuje twój komputer, są tuż obok twoich aplikacji, a każdą z tych rzeczy otwierasz jednym kliknięciem.",
+    "",
+    "TWÓJ DZIEŃ PROSTO NA PASKU ZADAŃ",
+    "• Najbliższe spotkanie z odliczaniem i przyciskiem, żeby do niego dołączyć",
+    "• Nowe e-maile, gdy tylko przychodzą, z liczbą nieprzeczytanych",
+    "• Cały twój tydzień po jednym kliknięciu w zegar",
+    "• Konta Microsoft (Outlook.com, Microsoft 365), dowolne konto pocztowe IMAP oraz kalendarze i kontakty CalDAV i CardDAV, np. iCloud, Fastmail czy Nextcloud",
+    "",
+    "TO, CO SPRAWDZASZ CAŁY DZIEŃ, NA PIERWSZY RZUT OKA",
+    "• Pogoda teraz, godzina po godzinie i na cały tydzień",
+    "• Twoja muzyka: odtwarzaj, wstrzymuj i przełączaj utwory prosto na pasku zadań",
+    "• Procesor, pamięć, grafika, sieć i dyski z wykresami na żywo",
+    "• Zegary dla innych miast, minutniki i alarmy",
+    "• Akcje, kanały RSS, powiadomienia i twoje najnowsze pliki",
+    "• Wi-Fi, Bluetooth, głośność, jasność i bateria",
+    "",
+    "FOLDERY, KTÓRE WYPEŁNIASZ WIDŻETAMI",
+    "Zbierz widżety w folderze na pasku zadań. Jedno kliknięcie i folder rozwija się w twój własny mały panel: zegary dla trzech miast, dzisiejszy plan, skrzynka odbiorcza i prognoza. Klikniesz obok i znika.",
+    "",
+    "UKŁAD NA KAŻDĄ PORĘ DNIA",
+    "Pełny pasek zadań do pracy, z kalendarzem i pocztą. Dok na wieczór z muzyką i pogodą. Sam czasomierz, gdy musisz się skupić. Przełączasz dwoma kliknięciami, a każdy ekran może mieć własny układ.",
+    "",
+    "NA KAŻDYM EKRANIE, PRZY KAŻDEJ KRAWĘDZI",
+    "Karpo umieszcza pasek zadań na każdym monitorze. Każdy z nich może stać na dole, u góry, po lewej lub po prawej i mieć własny układ.",
+    "",
+    "PO TWOJEMU",
+    "Kliknij pasek zadań prawym przyciskiem myszy i wybierz Edytuj. Dodawaj widżety z listy, przeciągaj je tam, gdzie chcesz, i zmieniaj ich rozmiar oraz wygląd prosto na pasku zadań. Wszystkie ustawienia też tam znajdziesz, w samym pasku zadań.",
+    "",
+    "WYGLĄDA JAK WINDOWS",
+    "Start, wyszukiwanie, przypięte i otwarte aplikacje, obszar powiadomień i zegar wyglądają i działają tak samo jak w Windows. Karpo dopasowuje się do twojego jasnego lub ciemnego motywu, koloru akcentu i rozmiaru tekstu.",
+    "",
+    "PRYWATNOŚĆ OD PODSTAW",
+    "Karpo nie ma reklam, śledzenia, analityki ani konta. Twoją pocztę i kalendarz wyłącznie odczytuje: nie może wysłać e-maila ani zmienić wydarzenia. Dane logowania Windows szyfruje wyłącznie dla twojego użytkownika Windows, a twoje dane zostają na twoim komputerze. Karpo nie ma własnych serwerów.",
+    "",
+    "LEKKIE DLA TWOJEGO KOMPUTERA",
+    "Karpo pokazuje pasek zadań ułamek sekundy po starcie i zużywa bardzo mało pamięci i energii, kiedy akurat na niego nie patrzysz. Komputer dalej działa szybko, a bateria wytrzymuje dłużej.",
+    "",
+    "TY DECYDUJESZ",
+    "Zakończ Karpo w dowolnej chwili, a pasek zadań Windows wróci taki, jaki był. Menu Start i wyszukiwanie to nadal te z Windows.",
+    "",
+    "NA START ZA DARMO",
+    "Każdy widżet i każde ustawienie są w darmowej wersji, która mieści do 20 widżetów na układ i 2 układy. Karpo Pro, jednorazowy zakup w Karpo przez Microsoft Store, znosi oba limity na zawsze. Bez subskrypcji.",
+    "",
+    "W 40 językach. Dane pogodowe: Open-Meteo.com."
+  ],
+  "features": [
+    "Najbliższe spotkanie i nowe e-maile prosto na pasku zadań",
+    "Cały tydzień po jednym kliknięciu w zegar",
+    "Pogoda teraz, godzina po godzinie i na cały tydzień",
+    "Odtwarzaj, wstrzymuj i przełączaj muzykę bez otwierania aplikacji",
+    "Wykresy na żywo: procesor, pamięć, grafika, sieć i dyski",
+    "Foldery, które otwierają twój własny mały panel widżetów",
+    "Układy do pracy, na wieczór i do skupienia, przełączane dwoma kliknięciami",
+    "Pasek zadań na każdym monitorze: na dole, u góry, po lewej lub po prawej",
+    "Dodawaj, przeciągaj i zmieniaj rozmiar widżetów prosto na pasku zadań",
+    "Zegary dla innych miast, minutniki, alarmy i akcje",
+    "Wi-Fi, Bluetooth, głośność, jasność i bateria na pierwszy rzut oka",
+    "Działa z kontami Microsoft, pocztą IMAP oraz kalendarzami CalDAV i CardDAV",
+    "Wygląda jak Windows i dopasowuje się do twojego motywu i koloru akcentu",
+    "Tylko odczytuje pocztę i kalendarz; twoje dane zostają na twoim komputerze",
+    "Bez reklam, bez śledzenia, bez konta",
+    "Oszczędza pamięć i baterię",
+    "Po zakończeniu Karpo pasek zadań Windows wraca taki, jaki był",
+    "W 40 językach"
+  ],
+  "keywords": [
+    "pasek zadań",
+    "widżety na pasku zadań",
+    "kalendarz na pasku zadań",
+    "widżet pogody",
+    "pionowy pasek zadań",
+    "wiele monitorów",
+    "dok"
+  ],
+  "minimumHardware": [
+    "Windows 10 w wersji 2004 lub nowszej, 64-bitowy (x64)"
+  ],
+  "recommendedHardware": [
+    "Windows 11"
+  ],
+  "copyright": "© 2026 Lometics GmbH",
+  "developedBy": "Lometics",
+  "screenshots": [
+    {
+      "shot": "day",
+      "label": "Karpo",
+      "headline": "Pasek zadań Windows, a na nim twój dzień.",
+      "sub": "Najbliższe spotkanie i nowe e-maile obok aplikacji, a tydzień i poczta o kliknięcie.",
+      "caption": "Pasek zadań Karpo z najbliższym spotkaniem i nieprzeczytaną pocztą obok aplikacji oraz tygodniem, skrzynką odbiorczą i listą zadań otwartymi z zegara."
+    },
+    {
+      "shot": "tour",
+      "label": "Pasek",
+      "headline": "Wszystko, co sprawdzasz, na jednym pasku.",
+      "sub": "Pogoda, twoje pliki, szybkie ustawienia i twój dzień: każde ma swój przycisk, tuż obok twoich aplikacji.",
+      "caption": "Pasek zadań Karpo z opisami: twoje aplikacje, nowa poczta, najbliższe spotkanie, pliki i dyski, pogoda i jakość powietrza, szybkie ustawienia i twój dzień.",
+      "callouts": [
+        "Twoje aplikacje",
+        "Nowa poczta",
+        "Najbliższe spotkanie",
+        "Twój komputer",
+        "Pogoda i powietrze",
+        "Foldery",
+        "Szybkie ustawienia",
+        "Twój dzień"
+      ]
+    },
+    {
+      "shot": "clicks",
+      "label": "Jedno kliknięcie",
+      "headline": "Każdy przycisk otwiera więcej.",
+      "sub": "Każdy przycisk na pasku otwiera to, co do niego należy: prognozę, twoje pliki, twój dzień, twój komputer.",
+      "caption": "Foldery otwarte z paska zadań Karpo: najbliższe spotkania, szybkie ustawienia, wiadomości, pływy i pogoda na tydzień."
+    },
+    {
+      "shot": "files",
+      "label": "Twój komputer",
+      "headline": "Twoje pliki i komputer o jedno kliknięcie.",
+      "sub": "Wolne miejsce, najnowsze pliki i wykresy na żywo dla procesora, pamięci i sieci. Bez Eksploratora plików i Menedżera zadań.",
+      "caption": "Folder otwarty z paska zadań: wolne miejsce na dysku, najnowsze pobrane pliki i dokumenty oraz wykresy na żywo dla procesora, pamięci, grafiki, dysku i sieci.",
+      "callouts": [
+        "Wolne miejsce na dyskach",
+        "Najnowsze pobrane pliki",
+        "Dowolny folder",
+        "Wykresy na żywo"
+      ]
+    },
+    {
+      "shot": "connect",
+      "label": "Konta",
+      "headline": "Twoje kalendarze, poczta i kontakty.",
+      "sub": "Zaloguj się kontem Microsoft albo dodaj konto IMAP, CalDAV lub CardDAV.",
+      "caption": "Konta, z którymi łączy się Karpo: Microsoft 365, Outlook.com, Gmail, iCloud, IMAP, CalDAV, CardDAV. Spotkania Teams, Zoom, Google Meet, Webex jednym kliknięciem.",
+      "callouts": [
+        "Kalendarze",
+        "Kontakty",
+        "Poczta",
+        "Zadania z To Do",
+        "Dołącz jednym kliknięciem"
+      ]
+    },
+    {
+      "shot": "folders",
+      "label": "Foldery",
+      "headline": "Foldery, które wypełniasz widżetami.",
+      "sub": "Jedno kliknięcie otwiera twój własny mały panel.",
+      "caption": "Folder otwarty jako panel: zegary i minutnik, miesiąc i dzisiejszy plan, pogoda i słońce, twoja poczta i pliki z folderu Pobrane.",
+      "callouts": [
+        "Zegary innych miast",
+        "Dzisiejsze spotkania",
+        "Opady co godzinę",
+        "Najnowsza poczta",
+        "Ostatnio pobrane"
+      ]
+    },
+    {
+      "shot": "widgets",
+      "label": "Widżety",
+      "headline": "Ponad 100 widżetów.",
+      "sub": "Kalendarz, poczta, pogoda, akcje, pliki, minutniki, szybkie ustawienia i twój komputer. Na pasku lub w folderze.",
+      "caption": "Kilka widżetów Karpo: godziny dnia, pogoda na tydzień, jakość powietrza, tryb zasilania, rok, akcje, kontakty, lista zadań, notatki, alarmy i minutniki, bateria, szybkie ustawienia, pliki i komputer."
+    },
+    {
+      "shot": "side",
+      "label": "Gdzie chcesz",
+      "headline": "Przy dowolnej krawędzi ekranu.",
+      "sub": "Na dole, u góry, po lewej lub po prawej, i na każdym twoim monitorze.",
+      "caption": "Pasek zadań Karpo wzdłuż lewej krawędzi ekranu, a obok otwarte pogoda, jakość powietrza i droga słońca w ciągu dnia."
+    },
+    {
+      "shot": "looks",
+      "label": "Wygląd",
+      "headline": "Wygląd taki, jaki lubisz.",
+      "sub": "Twoje kolory i czcionki na pasku zadań i w każdym folderze albo jedna z palet Karpo.",
+      "caption": "Jeden ekran w czterech stylach, pocięty obok siebie: styl Windows i palety Paper, Harbor i Bloom od Karpo."
+    }
+  ],
+  "addOn": {
+    "title": "Karpo Pro",
+    "description": "Tyle widżetów i układów, ile chcesz. Jeden zakup, twój na zawsze, z darmowymi aktualizacjami w ramach tej wersji głównej. Bez subskrypcji.",
+    "keywords": [
+      "karpo pro",
+      "nieograniczone widżety",
+      "nieograniczone układy",
+      "pasek zadań",
+      "pro"
+    ]
+  }
+}

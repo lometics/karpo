@@ -1,0 +1,164 @@
+{
+ "team": {
+  "id": "13",
+  "abbreviation": "LAL",
+  "displayName": "Los Angeles Lakers",
+  "name": "Lakers",
+  "location": "Los Angeles",
+  "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+  "recordSummary": "2-3",
+  "standingSummary": "3rd in Pacific Division"
+ },
+ "events": [
+  {
+   "id": "401909092",
+   "date": "2026-10-22T02:00Z",
+   "name": "Golden State Warriors at Los Angeles Lakers",
+   "shortName": "GS @ LAL",
+   "timeValid": true,
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/nba/game/_/gameId/401909092/warriors-lakers"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-22T02:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0.0",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Wed, October 21st at 10:00 PM EDT",
+       "shortDetail": "10/21 - 10:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "13",
+        "abbreviation": "LAL",
+        "displayName": "Los Angeles Lakers",
+        "shortDisplayName": "Lakers",
+        "location": "Los Angeles",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "9",
+        "abbreviation": "GS",
+        "displayName": "Golden State Warriors",
+        "shortDisplayName": "Warriors",
+        "location": "Golden State",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401909851",
+   "date": "2026-10-24T02:00Z",
+   "name": "LA Clippers at Los Angeles Lakers",
+   "shortName": "LAC @ LAL",
+   "timeValid": true,
+   "links": [
+    {
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/nba/game/_/gameId/401909851/clippers-lakers"
+    }
+   ],
+   "competitions": [
+    {
+     "date": "2026-10-24T02:00Z",
+     "timeValid": true,
+     "status": {
+      "displayClock": "0.0",
+      "period": 0,
+      "type": {
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Fri, October 23rd at 10:00 PM EDT",
+       "shortDetail": "10/23 - 10:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "13",
+        "abbreviation": "LAL",
+        "displayName": "Los Angeles Lakers",
+        "shortDisplayName": "Lakers",
+        "location": "Los Angeles",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "12",
+        "abbreviation": "LAC",
+        "displayName": "LA Clippers",
+        "shortDisplayName": "Clippers",
+        "location": "LA",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+          "rel": [
+           "full",
+           "default"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

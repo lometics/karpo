@@ -1,0 +1,83 @@
+{
+ "count": 5,
+ "items": [
+  {
+   "id": "86",
+   "displayName": "Real Madrid",
+   "type": "team",
+   "sport": "soccer",
+   "league": "esp.1",
+   "defaultLeagueSlug": "esp.1",
+   "abbreviation": "RMA",
+   "name": "Real Madrid",
+   "location": "Real Madrid",
+   "label": "Soccer Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "21128",
+   "displayName": "Real Madrid",
+   "type": "team",
+   "sport": "soccer",
+   "league": "esp.w.1",
+   "defaultLeagueSlug": "esp.w.1",
+   "abbreviation": "RMA",
+   "name": "Real Madrid",
+   "location": "Real Madrid",
+   "label": "Soccer Team",
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+     "rel": [
+      "full",
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "132407",
+   "displayName": "Real Madrid U19",
+   "type": "team",
+   "sport": "soccer",
+   "league": "global.u20.intercontinental_cup",
+   "defaultLeagueSlug": "global.u20.intercontinental_cup",
+   "abbreviation": "RMA",
+   "name": "Real Madrid U19",
+   "location": "Real Madrid U19",
+   "label": "Soccer Team"
+  },
+  {
+   "id": "7000",
+   "displayName": "Real Madrid Castilla",
+   "type": "team",
+   "sport": "soccer",
+   "league": "club.friendly",
+   "defaultLeagueSlug": "esp.2",
+   "abbreviation": "RMA",
+   "name": "Real Madrid Castilla",
+   "location": "Real Madrid Castilla",
+   "label": "Soccer Team"
+  },
+  {
+   "id": "132944",
+   "displayName": "Real Madrid III",
+   "type": "team",
+   "sport": "soccer",
+   "league": "club.friendly",
+   "defaultLeagueSlug": "club.friendly",
+   "abbreviation": "RM3",
+   "name": "Real Madrid III",
+   "location": "Real Madrid III",
+   "label": "Soccer Team"
+  }
+ ]
+}
