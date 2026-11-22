@@ -129,6 +129,10 @@ public static class FullscreenApps
     /// <summary>§708: what every top-level window of Chromium's own (views) is classed, a number after it.</summary>
     private const string Chromium = "Chrome_WidgetWin_";
 
+    /// <summary>§714: whether <paramref name="windowClass"/> is the desktop's own (Progman, a WorkerW): what Show desktop raises.</summary>
+    public static bool IsDesktop(string windowClass) =>
+        windowClass.Equals("Progman", StringComparison.OrdinalIgnoreCase) || windowClass.Equals("WorkerW", StringComparison.OrdinalIgnoreCase);
+
     /// <summary>
     /// The shell's own backdrops and bars, which are never an app to make way for. Progman and
     /// WorkerW are the desktop (the wallpaper host, and the layer icons sit on); the tray windows

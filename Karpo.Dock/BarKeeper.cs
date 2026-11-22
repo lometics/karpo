@@ -228,6 +228,22 @@ internal sealed class BarKeeper
     public IReadOnlyCollection<string> Fullscreen => full;
 
     /// <summary>
+    /// §714: whether the desktop is in front (it has the foreground) and stands over one of <paramref name="bars"/> in
+    /// the z-order. Show desktop (Win+D, the taskbar's corner, a three-finger swipe) raises the desktop's window past
+    /// every window, the always-on-top ones too: the bars are Karpo's windows, not Explorer's taskbar, so they went
+    /// under it with the apps. A click on the wallpaper gives the desktop the foreground and raises nothing: false.
+    /// </summary>
+    public bool DesktopOver(IEnumerable<nint> bars)
+    {
+        var desktop = windows.Foreground();
+        return DesktopInFront() && bars.Any(bar => windows.Under(bar, desktop));
+    }
+
+    /// <summary>§714: the desktop (Progman, a WorkerW) has the foreground.</summary>
+    public bool DesktopInFront() =>
+        windows.Foreground() is var foreground and not 0 && windows.Facts(foreground) is { } front && FullscreenApps.IsDesktop(front.Class);
+
+    /// <summary>
     /// The windows whose moves, shows, hides and end can change what the look finds: the foreground
     /// window and every full screen display's front (FrontWatch hooks their threads).
     /// </summary>

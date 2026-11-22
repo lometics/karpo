@@ -164,6 +164,9 @@ public sealed unsafe partial class Dock : IDisposable
 
     private long desktopRevealUntil;
 
+    /// <summary>§714: until when the bars are looked at again after the desktop came to the front (<see cref="DesktopCameToFront"/>).</summary>
+    private long desktopWatchUntil;
+
     /// <summary>
     /// After the dock switched or added a desktop: long enough for Explorer to
     /// have written the new list.
@@ -1333,6 +1336,11 @@ public sealed unsafe partial class Dock : IDisposable
                 case FrontWatch.WM_KARPO_FRONT:
                     frontWatch.Handled(moved: (nuint)wParam != 0);
                     Reconcile((nuint)wParam != 0 ? Stir.Moved : Stir.Front);
+                    // §714: the desktop came to the front: Show desktop may have raised it over the bars.
+                    if ((nuint)wParam == 0)
+                    {
+                        DesktopCameToFront();
+                    }
                     break;
                 // §619: a window minimized or restored: the app buttons' active plate read again (Front).
                 case FrontWatch.WM_KARPO_MINIMIZED:
@@ -1630,8 +1638,17 @@ public sealed unsafe partial class Dock : IDisposable
                 Rebuild();
                 break;
             case DESKTOP_RESTORE:
-                foreach (var bar in windows) bar.KeepAboveDesktop();
-                if (Environment.TickCount64 >= desktopRevealUntil) Kill(DESKTOP_RESTORE);
+                // The corner's own press keeps the bars up whatever stands where; Show desktop from anywhere
+                // else (§714) only where the desktop stands over a bar.
+                if (Environment.TickCount64 < desktopRevealUntil)
+                {
+                    foreach (var bar in windows) bar.KeepAboveDesktop();
+                }
+                else
+                {
+                    BarsOverDesktop();
+                }
+                if (Environment.TickCount64 >= Math.Max(desktopRevealUntil, desktopWatchUntil)) Kill(DESKTOP_RESTORE);
                 break;
             // appbar: the one look more after a reconcile that sent something, or a disturbance (BarKeeper).
             case RECONCILE:
@@ -3074,6 +3091,36 @@ public sealed unsafe partial class Dock : IDisposable
         desktopRevealUntil = Environment.TickCount64 + 600;
         foreach (var bar in windows) bar.KeepAboveDesktop();
         Arm(DESKTOP_RESTORE, 80);
+    }
+
+    /// <summary>
+    /// §714, the person (2026-11-22): "the taskbar does hide when doing win+d". Show desktop from the keyboard (or
+    /// Explorer's own corner, a touchpad swipe) tells nobody; what is heard is the desktop taking the foreground. It
+    /// raises the desktop's window over every window, Karpo's always-on-top bars with them (read live: Progman over
+    /// both karpo.dock windows in the z-order 30 ms after Win+D, and there until the next window came up). So the
+    /// bars are put back over it as the corner's own press does, now and for the 600 ms the shell may take to raise
+    /// it, and only where the desktop does stand over a bar: a click on the wallpaper moves nothing.
+    /// </summary>
+    private void DesktopCameToFront()
+    {
+        if (disposed || !keeper.DesktopInFront())
+        {
+            return;
+        }
+        desktopWatchUntil = Environment.TickCount64 + 600;
+        BarsOverDesktop();
+        Arm(DESKTOP_RESTORE, 80);
+    }
+
+    /// <summary>§714: the bars back over a desktop that stands over one of them (<see cref="BarKeeper.DesktopOver"/>); nothing otherwise.</summary>
+    private void BarsOverDesktop()
+    {
+        if (!keeper.DesktopOver(windows.Select(bar => (nint)bar.Hwnd)))
+        {
+            return;
+        }
+        appbarTrace.Write("Show desktop raised the desktop over the bars: they go back over it");
+        foreach (var bar in windows) bar.KeepAboveDesktop();
     }
     private static void ToggleShellDesktop()
     {

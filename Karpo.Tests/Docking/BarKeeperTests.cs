@@ -970,6 +970,47 @@ public sealed class BarKeeperTests
     }
 
     /// <summary>
+    /// §714, the person (2026-11-22): "the taskbar does hide when doing win+d". Show desktop raises the desktop over
+    /// every window, the bars with them (Progman over both karpo.dock windows, read live): the desktop in front and
+    /// over a bar is what the dock answers by putting its bars back. A click on the wallpaper gives the desktop the
+    /// foreground where it lies, under the bars; bars already back over it, and an app in front, ask for nothing.
+    /// </summary>
+    [Fact]
+    public void ShowDesktopRaisingTheDesktopOverABarIsSeenAndAClickOnTheWallpaperIsNot()
+    {
+        var world = Started();
+        var desktop = world.Open("Progman", One, Whole1, captioned: false);
+        var bar = world.Open("karpo.dock", One, Rect(0, 0, Band, 2160), captioned: false);
+        bar.Own = true;
+        var app = world.Open("Notepad", One, Rect(100, 100, 900, 700));
+        nint[] bars = [bar.Handle];
+
+        // The wallpaper clicked: the desktop has the foreground and stays at the bottom.
+        desktop.Bottom = true;
+        world.Activate(desktop);
+        Assert.True(world.Keeper.DesktopInFront());
+        Assert.False(world.Keeper.DesktopOver(bars));
+
+        // Show desktop: raised over everything.
+        desktop.Bottom = false;
+        world.Activate(desktop);
+        Assert.True(world.Keeper.DesktopOver(bars));
+
+        // The bars put back over it: nothing more to do.
+        world.Stack.Remove(bar.Handle);
+        world.Stack.Insert(0, bar.Handle);
+        Assert.True(world.Keeper.DesktopInFront());
+        Assert.False(world.Keeper.DesktopOver(bars));
+
+        // An app in front, the bar under it: not the desktop's doing.
+        world.Activate(app);
+        Assert.False(world.Keeper.DesktopInFront());
+        Assert.False(world.Keeper.DesktopOver(bars));
+        world.Settle();
+        Assert.Empty(world.Wrong());
+    }
+
+    /// <summary>
     /// Show desktop over a full screen app: the desktop comes to the front and the bars come back (it
     /// is not a full screen app, though it covers the display). Task view over it changes nothing.
     /// </summary>

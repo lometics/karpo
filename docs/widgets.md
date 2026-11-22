@@ -43476,3 +43476,25 @@ Tests: GoogleAuthTests (a Google account offered exactly where the build has the
 - **Now that it is public**, `master` is protected (no force push, no deletion; §711 said it could not be while the repository
   was private on the free plan) and GitHub scans every push for secrets and refuses one that holds any. The agents' settings
   for a checkout (`.claude\`) are each PC's own and no longer part of the repository.
+
+## §714 Show desktop leaves the bars where they are (2026-11-22)
+
+The person: "the taskbar does hide when doing win+d, maybe this can be fixed too".
+
+Show desktop (Win+D, Explorer's corner, a three-finger swipe) raises the desktop's window over every window, the
+always-on-top ones too. Explorer's taskbar goes up with it; Karpo's bars are Karpo's windows, so they went under it with the
+apps and stayed there until the next window came up. Read live on the person's PC, 30 ms after Win+D, top first: Themia's two
+surfaces, Progman (the foreground), then both `karpo.dock` windows, still WS_EX_TOPMOST and under it. Karpo's own Show
+desktop corner never had this: it puts the bars back itself for 600 ms after its press (`ToggleDesktop`).
+
+- **The rule** (`BarKeeper.DesktopOver`, `DesktopInFront`; `FullscreenApps.IsDesktop`): the desktop (Progman, a WorkerW) has
+  the foreground and stands over a bar in the z-order. A click on the wallpaper gives it the foreground where it lies, under
+  the bars: nothing.
+- **What the dock does** (`Dock.DesktopCameToFront`, on FrontWatch's foreground change): where the rule holds, every bar goes
+  back over the desktop as the corner's press does (`KeepAboveDesktop`: shown, the plan's stack applied again; never on a full
+  screen app's display), now and at each 80 ms look for the 600 ms the shell may take to raise it (the corner's
+  `DESKTOP_RESTORE` timer). One line in appbar.log each time it does: "Show desktop raised the desktop over the bars: they go
+  back over it". Nothing is written or moved while the desktop is not over a bar.
+- Themia's widgets, lifted for Show desktop, go directly above the desktop and under every other window (its [S-33f]), so the
+  bars put back are over them without either program answering the other.
+- Tests: `BarKeeperTests.ShowDesktopRaisingTheDesktopOverABarIsSeenAndAClickOnTheWallpaperIsNot`.
