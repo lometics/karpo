@@ -115,6 +115,8 @@ public sealed partial class MenuRulesTests
         "C:", "D:", "(C:)", "(D:)", "Ti", "Local", "UTC", "Do", "Teams", "Outlook.com", "Hotmail", "Nextcloud", "Fastmail", "iCloud", "Gmail",
         "Narrator", "Magnifier", "Sticky", "Keys", "Mono", "Live", "Captions", "Start", "Settings", "Copilot", "Win+X", "Alt+Tab", "ESPN",
         "NASDAQ", "USD", "EUR", "CHF", "MSFT", "AAPL", "To", "Calculator", "Documents", "Downloads", "Pictures", "Join", "Update",
+        // §717: an alarm's "AM or PM", which only a PC with a twelve-hour clock shows (GitHub's runner; not the PC Karpo is made on).
+        "AM", "PM",
     };
 
     /// <summary>
