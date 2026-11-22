@@ -35,10 +35,9 @@ through a short-lived branch and a pull request, and a release is a tag on `mast
    tests). Say what the change does and how you tried it. Merge it **squashed**, so `master` keeps one
    commit for one change; the branch is deleted on merge.
 
-Nobody force-pushes to `master` or rewrites what is on it. That is an agreement, not a lock: GitHub
-offers branch protection for a private repository only on a paid plan, and the organisation is on the
-free one (checked 2026-11-22). The maintainers may push small changes to `master` directly; everything
-else comes through a pull request.
+`master` is protected: nobody force-pushes to it or deletes it, and GitHub refuses a push that holds
+a secret. The maintainers may push small changes to `master` directly; everything else comes through
+a pull request.
 
 ## Releases
 

@@ -43472,3 +43472,7 @@ in `docs\accounts.md`; an address in an old `store\README.md`): "Clean it first"
   Commits are made as the maker's GitHub address, not a personal one.
 
 Tests: GoogleAuthTests (a Google account offered exactly where the build has the secret; `Offered`).
+
+- **Now that it is public**, `master` is protected (no force push, no deletion; §711 said it could not be while the repository
+  was private on the free plan) and GitHub scans every push for secrets and refuses one that holds any. The agents' settings
+  for a checkout (`.claude\`) are each PC's own and no longer part of the repository.
