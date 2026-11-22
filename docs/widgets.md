@@ -43584,6 +43584,9 @@ The person: "Yes, fix them", of the two tests left red since §711 (`MenuRulesTe
   one section fewer by default or the list behind a level of its own, and §655 says "no expander hiding one setting".
   `MenuRulesTests.Exceptions` has it with why. The settings panel's page, which scrolls, is as §655 made it.
 
+- **On GitHub's runner one more showed** once those were mended: an alarm's "AM or PM" row, which only a PC with a
+  twelve-hour clock has, read as a capital in mid-title (R8). "AM" and "PM" are among the words that keep theirs.
+
 Nothing in config.json changes.
 
 Tests: the two named above, and WinSearchHomeTests.SearchInAndItsCountsSayWhatTheyHold; all of `Karpo.Tests` green.
