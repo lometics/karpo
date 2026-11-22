@@ -160,6 +160,25 @@ public sealed class KarpoMenuTests
         Assert.All(owned.Things, thing => Assert.NotNull(thing.Delete!.Ask));
     }
 
+    /// <summary>
+    /// §716 (the person, 2026-11-22: "current version should not have google sign in enabled … or hidden i mean"):
+    /// a Karpo that cannot sign in to Google has no "Add a Google account" at all, where it had a greyed one. A
+    /// Microsoft account it cannot sign in to stays, greyed, saying why.
+    /// </summary>
+    [Fact]
+    public void AKarpoWithoutGoogleSignInNamesNoGoogleAccount()
+    {
+        var without = KarpoMenu.Accounts(new Config(), Services(Accounts with { CanSignIn = kind => kind != OptionAccountKind.Google }));
+        Assert.Equal(
+            [OptionAccountRows.YoursHeading, OptionAccountRows.Accounts, OptionAccountRows.AddHeading, OptionAccountRows.AddMicrosoft, OptionAccountRows.Form + "Mail", OptionAccountRows.Form + "Dav"],
+            without.Select(row => row.Key));
+        var neither = KarpoMenu.Accounts(new Config(), Services(Accounts with { CanSignIn = _ => false }));
+        Assert.DoesNotContain(neither, row => row.Key == OptionAccountRows.AddGoogle);
+        var microsoft = Assert.Single(neither, row => row.Key == OptionAccountRows.AddMicrosoft);
+        Assert.False(microsoft.Enabled);
+        Assert.NotNull(microsoft.Why);
+    }
+
     /// <summary>Public holidays: the calendars' level every calendar widget has (OptionHolidays.Rows), written to the same config.</summary>
     [Fact]
     public void ThePublicHolidaysAreTheCalendarsLevel()

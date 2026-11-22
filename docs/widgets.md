@@ -43529,10 +43529,34 @@ with their own settings.
     startup task is gone. The settings in `%LOCALAPPDATA%\Karpo` stay, as they are the person's and not the package's.
 - **The first version in the Store is 1.0.1.** The package first handed to Partner Center was 1.0.0, built before this
   fault was found. Partner Center takes no second package of the same name and version, and saves no submission without
-  a package, so the mended one could not take its place under that number. `v1.0.1` is the tag; the pipeline's package of
-  that tag is the one uploaded.
+  a package, so the mended one could not take its place under that number. (1.0.1 in turn was built with Google
+  sign-in, which §716 takes out; the Store's first version is 1.0.2.)
 - **Not tried**: a purchase that goes through (there is nothing to buy until the add-on is published), and a start by the
   startup task at sign-in.
 
 Tests: LicensingTests.TheStoreIsHandedListsWindowsMade (the source: a call of the Store is handed `WindowsStrings.Of`, nothing
 managed).
+
+## §716 The Store's Karpo offers no Google account until Google has verified Karpo (2026-11-22)
+
+The person, reading that the package's smoke check said "Google sign-in built in": "wait google sign in is build in?
+because i have not verified it for google yet", "current version should not have google sign in enabled. it should be
+removed", "or hidden i mean". The Google project is in Testing (`docsccounts.md`): only the accounts named there as test
+users can sign in, so everyone else would meet Google's refusal.
+
+- **No row for what cannot be done.** "Add an account" names a Google account only where this Karpo can sign in to one
+  (`OptionAccountRows.Offered`); it had a greyed row saying this Karpo has no registration with Google. A Microsoft
+  account it cannot sign in to stays as it was, greyed with its reason. A Google account already added stays listed.
+- **The Store's package is built without it** unless asked. `scripts\package.ps1` publishes with
+  `scripts\publish.ps1 -WithoutGoogle` (the property `KarpoGoogleSignIn=false`, which keeps the client secret out of
+  the build even on a PC whose `Local.Build.props` has it) and refuses a Karpo.exe whose smoke check says "built in";
+  `-WithGoogle` is the other way about, as §713 had it for every package. The person's own Karpo
+  (`scripts\publish.ps1`) is unchanged.
+- **The release workflow** asks for Google only where the repository's variable `GOOGLE_SIGN_IN` is "true", and gives
+  the build the secret only then. That variable is the one thing to set once Google has verified Karpo.
+- The README says Microsoft accounts and any IMAP mailbox, which is what this version signs in to; a Gmail mailbox
+  comes in over IMAP as before. The Store listing never named a Google account.
+- `v1.0.1`, tagged an hour earlier with Google sign-in in it, was taken back (the tag and its GitHub release); it was
+  never handed to the Store. The first version in the Store is 1.0.2.
+
+Tests: KarpoMenuTests.AKarpoWithoutGoogleSignInNamesNoGoogleAccount.

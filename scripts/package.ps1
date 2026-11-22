@@ -30,9 +30,11 @@ default Karpo is published first, with -Version and -Channel store.
 .PARAMETER Output
 Where the package goes; artifacts\package in the repository by default.
 
-.PARAMETER WithoutGoogle
-Packs a Karpo that was built without Google's client secret, which offers no Google account. Without
-this switch such a build is refused: the Store's Karpo is meant to have it.
+.PARAMETER WithGoogle
+Packs a Karpo that offers a Google account, which the build must have been given Google's client
+secret for. Without this switch the Store's Karpo is built and packed without Google sign-in, and one
+that has it is refused: Google has not verified Karpo yet (docs\widgets.md section 716), and until it
+has only the accounts named as test users could sign in.
 
 .EXAMPLE
 ./scripts/package.ps1 -Version 1.0.0
@@ -41,7 +43,7 @@ param(
     [Parameter(Mandatory)] [ValidatePattern('^\d+\.\d+\.\d+$')] [string] $Version,
     [string] $Published,
     [string] $Output,
-    [switch] $WithoutGoogle
+    [switch] $WithGoogle
 )
 
 $ErrorActionPreference = 'Stop'
@@ -71,7 +73,7 @@ function Run([string] $name, [string] $tool, [string[]] $arguments) {
 
 if (-not $Published) {
     $Published = Join-Path $Output 'published'
-    & (Join-Path $PSScriptRoot 'publish.ps1') -Output $Published -Version $Version -Channel store
+    & (Join-Path $PSScriptRoot 'publish.ps1') -Output $Published -Version $Version -Channel store -WithoutGoogle:(-not $WithGoogle)
 }
 $Published = [IO.Path]::GetFullPath($Published)
 if (-not (Test-Path (Join-Path $Published 'Karpo.exe'))) { throw "No Karpo.exe in $Published." }
@@ -83,11 +85,15 @@ if (-not ($said | Where-Object { $_ -match 'license: Free \(StoreMissing\), buil
     $said | Where-Object { $_ -match 'license|FAILED' } | ForEach-Object { Write-Host $_ }
     throw "The Karpo.exe in $Published was not built for the Store. Publish it with: scripts\publish.ps1 -Channel store"
 }
-# And it must have been given Google's client secret (Local.Build.props, or KARPO_GOOGLE_CLIENT_SECRET in the
-# environment; docs\widgets.md §713): the Store's Karpo without it would offer no Google account, and nothing else
-# would say so. -WithoutGoogle packs one all the same, for a fork or a trial that has no such secret.
-if (-not $WithoutGoogle -and -not ($said | Where-Object { $_ -match 'accounts: Google sign-in built in' })) {
-    throw "The Karpo.exe in $Published has no Google client secret, so it offers no Google account. Give the build one (Local.Build.props, or the environment's KARPO_GOOGLE_CLIENT_SECRET), or pack it as it is with -WithoutGoogle."
+# And it says whether it offers a Google account as this package was asked for (docs\widgets.md §713, §716):
+# without one unless -WithGoogle, since Google has not verified Karpo yet; with one where it was asked for, which
+# takes Google's client secret (Local.Build.props, or KARPO_GOOGLE_CLIENT_SECRET in the environment).
+$google = [bool]($said | Where-Object { $_ -match 'accounts: Google sign-in built in' })
+if ($WithGoogle -and -not $google) {
+    throw "The Karpo.exe in $Published has no Google client secret, so it offers no Google account. Give the build one (Local.Build.props, or the environment's KARPO_GOOGLE_CLIENT_SECRET), or pack it without -WithGoogle."
+}
+if ($google -and -not $WithGoogle) {
+    throw "The Karpo.exe in $Published offers a Google account, and this package was not asked for one. Publish it with scripts\publish.ps1 -WithoutGoogle, or pack it with -WithGoogle once Google has verified Karpo."
 }
 
 $images = Join-Path $repo 'package\Images'

@@ -331,9 +331,18 @@ public static class OptionAccountRows
                     Owned = new OptionOwned(null, things),
                 },
             new OptionRow(AddHeading, OptionRowKind.Heading, S.SettingsAccountsAddHeader) { Slot = slot },
-            .. Enum.GetValues<OptionAccountKind>().Select(kind => KindRow(kind, accounts)),
+            .. Enum.GetValues<OptionAccountKind>().Where(kind => Offered(kind, accounts)).Select(kind => KindRow(kind, accounts)),
         ];
     }
+
+    /// <summary>
+    /// §716: whether "Add an account" names <paramref name="kind"/>. A Google account is named only where this Karpo
+    /// can sign in to one: the build that was not given Google's client (§713) has no row for it, where it had a
+    /// greyed one saying why. Every other kind is always named, a Microsoft account greyed where it cannot be signed
+    /// in to.
+    /// </summary>
+    public static bool Offered(OptionAccountKind kind, OptionAccounts accounts) =>
+        kind != OptionAccountKind.Google || accounts.CanSignIn(kind);
 
     /// <summary>A kind signed in to in the browser — Microsoft, §687 Google —, signed in to again from its row.</summary>
     public static bool InBrowser(OptionAccountKind kind) => kind is OptionAccountKind.Microsoft or OptionAccountKind.Google;

@@ -129,8 +129,15 @@ keeps out:
 </Project>
 ```
 
-The release workflow takes it from the repository's secret `KARPO_GOOGLE_CLIENT_SECRET`, and
-`scripts\package.ps1` refuses to pack the Store's Karpo without it.
+**The Store's Karpo has no Google sign-in for now** (`docs\widgets.md` §716): Google has not verified
+Karpo, and until it has, only accounts named as test users could sign in. `scripts\package.ps1`
+builds and packs it without (and refuses one that has it), and "Add a Google account" is not in its
+menu. Once Google has verified Karpo:
+
+- in this repository, Settings › Secrets and variables › Actions › Variables: `GOOGLE_SIGN_IN` =
+  `true`. The release workflow then gives the build the repository's secret
+  `KARPO_GOOGLE_CLIENT_SECRET` and packs with `-WithGoogle`;
+- on your own PC: `./scripts/package.ps1 -Version 1.2.0 -WithGoogle`.
 
 ## Where things are
 

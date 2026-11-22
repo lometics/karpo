@@ -33,6 +33,11 @@ Whom the copy is for. None, the default: a build of the source, which nothing li
 own Karpo). "store": the Microsoft Store's package, which scripts\package.ps1 asks for; that exe run
 outside its package is the free version (Karpo.Core\Licensing.cs, LicenseBasis.StoreMissing).
 
+.PARAMETER WithoutGoogle
+Leaves Google sign-in out of this copy even where the build has Google's client secret
+(Local.Build.props): no "Add a Google account" in it. scripts\package.ps1 asks for this unless told
+-WithGoogle (docs\widgets.md section 716).
+
 .EXAMPLE
 ./scripts/publish.ps1
 #>
@@ -40,7 +45,8 @@ param(
     [string] $Output,
     [string] $Work,
     [ValidatePattern('^\d+\.\d+\.\d+$')] [string] $Version,
-    [ValidateSet('', 'store')] [string] $Channel = ''
+    [ValidateSet('', 'store')] [string] $Channel = '',
+    [switch] $WithoutGoogle
 )
 
 $ErrorActionPreference = 'Stop'
@@ -95,7 +101,7 @@ if (-not (Test-Path $vswhere) -or -not (& $vswhere -latest -prerelease -products
 try {
     try { [void]$turn.WaitOne() } catch [Threading.AbandonedMutexException] { }
     if (Test-Path $work) { Remove-Item $work -Recurse -Force }
-    Step 'Karpo.exe (native AOT)' 'Karpo.Dock\Karpo.Dock.csproj' @($(if ($Version) { "Version=$Version" }), $(if ($Channel) { "KarpoChannel=$Channel" }) | Where-Object { $_ })
+    Step 'Karpo.exe (native AOT)' 'Karpo.Dock\Karpo.Dock.csproj' @($(if ($Version) { "Version=$Version" }), $(if ($Channel) { "KarpoChannel=$Channel" }), $(if ($WithoutGoogle) { 'KarpoGoogleSignIn=false' }) | Where-Object { $_ })
 
     if (Test-Path $Output) { Remove-Item $Output -Recurse -Force }
     New-Item -ItemType Directory -Force $Output | Out-Null

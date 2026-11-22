@@ -16,7 +16,7 @@ working sit right beside your apps, and every one of them opens with a click.
 - **Private**: no ads, no tracking, no account; it only reads your mail and calendar, and your data stays on your PC
 - **Light**: there a fraction of a second after it starts, and easy on memory and battery
 
-Works with Microsoft and Google accounts, any IMAP mailbox, and CalDAV and CardDAV. In 40 languages.
+Works with Microsoft accounts, any IMAP mailbox (Gmail, iCloud and the rest), and CalDAV and CardDAV. In 40 languages.
 
 **Free to start.** Every widget and every setting is in the free version, with up to 20 widgets per
 layout and 2 layouts. Karpo Pro, one purchase in the Microsoft Store, lifts both for good. Karpo is on

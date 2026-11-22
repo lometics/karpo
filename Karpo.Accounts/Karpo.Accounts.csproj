@@ -28,12 +28,13 @@
     Google's client secret (Google\GoogleAuth.cs, docs\widgets.md §713) is not in the source: a build takes it from
     the property KarpoGoogleClientSecret, which Local.Build.props sets on the PC Karpo is made on (the file is not in
     the repository) and the environment's KARPO_GOOGLE_CLIENT_SECRET sets in the release workflow. Without either
-    the build has none and offers no Google account; everything else is the same.
+    the build has none and offers no Google account; everything else is the same. §716: KarpoGoogleSignIn=false
+    (scripts\publish.ps1 -WithoutGoogle) leaves it out of a build that would have had it.
   -->
   <PropertyGroup Condition="'$(KarpoGoogleClientSecret)' == ''">
     <KarpoGoogleClientSecret>$(KARPO_GOOGLE_CLIENT_SECRET)</KarpoGoogleClientSecret>
   </PropertyGroup>
-  <ItemGroup Condition="'$(KarpoGoogleClientSecret)' != ''">
+  <ItemGroup Condition="'$(KarpoGoogleClientSecret)' != '' and '$(KarpoGoogleSignIn)' != 'false'">
     <AssemblyMetadata Include="KarpoGoogleClientSecret" Value="$(KarpoGoogleClientSecret)" />
   </ItemGroup>
   <ItemGroup>
