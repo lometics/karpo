@@ -109,7 +109,11 @@ jobs:
           name: Karpo_${{ needs.package.outputs.version }}_x64
           path: package
 
-      - uses: microsoft/microsoft-store-apppublisher@v1.1
+      # The Microsoft Store Developer CLI (msstore), put on the PATH. It takes a loose .msix as it is, given
+      # the app's Store ID; it clones the last published submission, swaps the package, commits, and waits
+      # for Partner Center to take the commit (not for certification). It refuses while a submission is
+      # still in certification, and it deletes a draft left open in Partner Center.
+      - uses: microsoft/microsoft-store-apppublisher@v1.4
 
       - name: Sign in to the Store
         shell: pwsh
@@ -118,8 +122,14 @@ jobs:
           SELLER: ${{ secrets.STORE_SELLER_ID }}
           CLIENT: ${{ secrets.STORE_CLIENT_ID }}
           SECRET: ${{ secrets.STORE_CLIENT_SECRET }}
-        run: msstore reconfigure --tenantId $env:TENANT --sellerId $env:SELLER --clientId $env:CLIENT --clientSecret $env:SECRET
+        run: |
+          msstore reconfigure --tenantId $env:TENANT --sellerId $env:SELLER --clientId $env:CLIENT --clientSecret $env:SECRET
+          if ($LASTEXITCODE -ne 0) { throw "msstore reconfigure failed ($LASTEXITCODE): are the four STORE_ secrets this repository's, and is the Entra application a Manager in Partner Center?" }
 
+      # Never --verbose here: it writes the upload's address, which is a key to it, into a public log.
       - name: Submit the package
         shell: pwsh
-        run: msstore publish "package/Karpo_${{ needs.package.outputs.version }}_x64.msix" -id $env:STORE_PRODUCT
+        run: |
+          $package = Join-Path $env:GITHUB_WORKSPACE "package\Karpo_${{ needs.package.outputs.version }}_x64.msix"
+          msstore publish $package --appId $env:STORE_PRODUCT
+          if ($LASTEXITCODE -ne 0) { throw "msstore publish failed ($LASTEXITCODE): a submission still in certification refuses a new one; the package is on this tag's GitHub release for Partner Center > Karpo > Packages." }

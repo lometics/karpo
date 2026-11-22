@@ -73,21 +73,41 @@ C++ build tools and the Windows SDK). To run it, with Developer Mode on:
 
 ### Letting a tag submit to the Store
 
-Once, by an owner of the Partner Center account. It works only after Karpo's first submission has
-been made and published by hand in Partner Center; the Store's tools update an app, they don't
-create one.
+Set up once, by the owner of the Partner Center account. It works only after Karpo's first submission
+has been made **and published** by hand in Partner Center: the Store's tools update an app that is
+live, they don't create one.
 
-1. Partner Center › Account settings › Tenants: associate a Microsoft Entra ID tenant with the
-   account.
-2. Account settings › User management › Microsoft Entra applications: add an application and give it
-   the **Manager** role. Note its tenant ID and client ID, and make a key (the client secret, shown
-   once).
+1. Partner Center › ⚙ Account settings › Tenants: associate a Microsoft Entra ID tenant with the
+   account (or create one there).
+2. Account settings › User management › Microsoft Entra applications: add an application **from
+   here** (one made in the Entra admin center is not authorized) and give it the **Manager** role.
+   Note its tenant ID and client ID, and add a key: the client secret, shown once.
 3. In this repository, Settings › Secrets and variables › Actions:
-   - secrets `STORE_TENANT_ID`, `STORE_SELLER_ID` (Partner Center › Account settings › Legal info or
-     Developer settings), `STORE_CLIENT_ID`, `STORE_CLIENT_SECRET`;
+   - secrets `STORE_TENANT_ID`, `STORE_CLIENT_ID`, `STORE_CLIENT_SECRET`, and `STORE_SELLER_ID`: the
+     number Partner Center calls Seller ID or Publisher ID (Account settings › Legal info, or
+     Developer settings › Identifiers);
    - variable `STORE_SUBMIT` = `true`.
 
 Until then, and whenever `STORE_SUBMIT` is not `true`, a tag stops at the GitHub release.
+
+What the `store` job does (`msstore publish <the .msix> --appId 9MXKV2VWR2CP`, the Microsoft Store
+Developer CLI): it copies the last published submission, replaces its package with the tag's, commits
+it for certification and ends when Partner Center has taken it. Certification goes on without it; its
+result comes by email and stands in Partner Center. Things to know:
+
+- **One submission at a time.** While one is in certification the job fails, and the tag's package
+  waits on its GitHub release: tag again with the next number once the Store is done, or upload that
+  package by hand.
+- **A draft left open in Partner Center is deleted** by the job. And a submission the job made should
+  not be edited in Partner Center before it is certified: the Store's tools can't touch it afterwards.
+- **Publishing follows the last submission's choice.** The first one says "don't publish until I
+  select Publish now"; while that stands, every update waits for that button after certification.
+  Change it in Partner Center (Submission options) once, to publish as soon as certification passes.
+- The Store's tools update **free** apps only. Karpo is free; Karpo Pro is an add-on, which a tag does
+  not touch.
+- Whether a personal (individual) Partner Center account offers "Microsoft Entra applications" at all
+  is not written down by Microsoft. Where it doesn't, the package from the GitHub release is uploaded
+  by hand, which is one drag.
 
 What a tag does **not** change: the Store listing's words and pictures (`store\README.md`), the price
 and the age rating. Those are edited in Partner Center, and the next update carries them on.

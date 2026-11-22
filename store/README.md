@@ -183,6 +183,15 @@ with the folder it names (`artifacts/store/import/karpo-store`). It fills, per l
 | Developed by | `developedBy` | 255 |
 | Store logos | `tile-300x300.png`, `hero-3840x2160.png` | |
 
+Two things the first import (2026-11-22) taught:
+
+- **Burmese has no Store listing.** Partner Center answered 400 for the `my-mm` column and stopped there, with every
+  language after it unsaved. `fill-csv.mjs` leaves it out (`unlisted`); the package still declares Burmese, and Karpo
+  speaks it. If an import stops part-way, import again a CSV that holds only the columns still missing.
+- **The folder import opens one upload for each picture at the same moment** (361 of them), and Partner Center's
+  firewall then refused every request from that PC's address for a while (403, the whole site). Importing a few
+  languages at a time (a CSV with only their columns, the same folder) keeps under it.
+
 Fields it doesn't know are left as exported and listed. Check Partner Center's preview of one
 language before submitting. Short, sort and voice titles are Xbox fields: leave them empty.
 
