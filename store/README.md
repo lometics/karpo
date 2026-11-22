@@ -205,26 +205,22 @@ language before submitting. Short, sort and voice titles are Xbox fields: leave 
 
 ## Submission options
 
+Both answers hold 500 characters at most; these are the ones handed in on 2026-11-22.
+
 **Restricted capability `runFullTrust`, why it's needed:**
 
-> Karpo is a desktop (Win32) app packaged with the Desktop Bridge. It runs as a full-trust desktop
-> process to show its own taskbar: it registers an AppBar with SHAppBarMessage, lists top-level
-> windows to show running apps, and shows the notification area's and the apps' icons. It changes
-> nothing outside its own windows except, when the user turns on "Hide the Windows taskbar", hiding
-> it through documented APIs; Windows' taskbar comes back when Karpo quits.
-
-(Out of date in two places since it was written: Karpo hides Windows' taskbar whenever it runs, with no setting for it,
-§465; say that, and that it comes back when Karpo ends.)
+> Karpo is a desktop (Win32) app packaged as MSIX. It runs as a full-trust process to show its own taskbar: it registers
+> an AppBar (SHAppBarMessage), lists top-level windows to show running apps, and shows the notification area's icons.
+> While it runs it hides the Windows taskbar through documented APIs, because it stands in its place; the Windows
+> taskbar comes back when Karpo quits. It starts with Windows through windows.startupTask, which the user can turn off.
 
 **Restricted capability `unvirtualizedResources`, why it's needed:**
 
-> Karpo replaces the Windows taskbar, so it has to work with the user's real settings and apps rather than with a
-> package's private copies of them. It starts every app the user clicks on its bar, and those apps must see their own
-> real settings and files, not Karpo's package view of them. It writes a few Windows settings for Windows itself to read:
-> which notification-area icons are shown, night light, colour filters and nearby sharing from its quick settings, and
-> where the Windows taskbar stands. And its own settings file is one the user can open in File Explorer and back up.
-> Registry and file system write virtualization are therefore turned off; Karpo writes nothing outside the current
-> user's own profile and registry hive.
+> Karpo replaces the Windows taskbar, so it must work with the user's real settings and apps, not a package's private
+> copies. It starts every app the user clicks, and those apps must see their own real files and settings. It writes a few
+> Windows settings for Windows to read: shown notification-area icons, night light, colour filters, nearby sharing, the
+> taskbar's place. Its settings file is one the user can open and back up. It writes nothing outside the current user's
+> profile and registry hive.
 
 **Notes for certification:**
 
@@ -248,3 +244,12 @@ full-width". Keep the resource promise plain and numberless: Karpo is light on m
 ## Concepts
 
 Pictures tried before any is chosen for the listing: `concepts.json` (each one's words and layout given in full) over the captures of `concepts.txt` (`dotnet run scripts/stage/Stage.cs -- store concepts [scene]`), in English alone. `node store/compose.mjs --concepts [id ...]` renders them to `artifacts/store/concepts`, numbered. One that is chosen moves to `listing/<lang>.json` and `pictures` in `compose.mjs`, and is translated. The `combo`, `slim` and `standard` layouts of `config.json` are built like the person's own bar: buttons wearing two faces (the weather and the air, Wi-Fi and the sound, the date and the bell), folders for the files and for the PC.
+
+## Where it stands
+
+- **2026-11-22: Karpo 1.0.2 handed in for certification** (submission 1), from the GitHub release `v1.0.2`, with a
+  listing in 39 languages, free in every market, "don't publish until I select Publish now". It has no Google sign-in
+  (`docs\widgets.md` §716).
+- **Karpo Pro** (`karpo-pro`, $4.99) is filled in and waits: Partner Center takes an add-on only once its app is
+  published, and asks for the account's tax and payout details before anything is sold. Its listing is English only.
+- After certification: Publish now, then submit the add-on. A later version is a tag (`CONTRIBUTING.md`, "Releases").
