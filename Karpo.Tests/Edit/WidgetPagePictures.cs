@@ -107,7 +107,7 @@ public sealed unsafe partial class SceneTreeTests
                 pages.Add(One(ListKind.WeatherNow.New(), inFolder: true));
                 return (new SettingsContent(pages), PanelPage.Widget, []);
             case "winsearch":
-                // §655: Search in with the way to Searching Windows, When nothing is typed, How many each shows.
+                // §655: Search in with the way to Searching Windows, When nothing is typed, Items per section.
                 pages.Add(One(ListKind.WinSearch.New(), inFolder: true));
                 return (new SettingsContent(pages), PanelPage.Widget, []);
             case "kinds":

@@ -130,11 +130,12 @@ public sealed class MenuConventionTests
         var config = new Config();
         var bar = BarLooks.Rows(config, new BarSpot("\\\\.\\DISPLAY1", "One"), dark: true, LooksScope.Taskbar);
         var numbers = Menus().Append((What: "bar", Rows: bar)).SelectMany(menu => OptionRows.Flat(menu.Rows).Select(row => (menu.What, Row: row))).Where(each => each.Row.Kind == OptionRowKind.Number).ToList();
+        // §717: and Windows search's counts, a number per section under the heading that names them ("Items per section").
         string[] counts = [MarketRows.Years];
         foreach (var (what, row) in numbers)
         {
             var said = $"{what}: {row.Key} says {row.Shown}";
-            Assert.True(row.Unit != OptionUnit.None || counts.Contains(row.Key), said);
+            Assert.True(row.Unit != OptionUnit.None || counts.Contains(row.Key) || (row.Key.StartsWith(OptionRows.WinSearchHomeMost, StringComparison.Ordinal) && row.Group == WinSearchWords.HomeCounts), said);
             Assert.True(row.Said is not null || row.Shown == OptionUnits.Say(row.Unit, row.Value), said);
         }
         Assert.Equal("4 px", OptionUnits.Say(OptionUnit.Pixels, 4));

@@ -1,7 +1,7 @@
 // §655: Windows search's home — what the line shows before anything is typed — and its page. The sections are one registry
 // (WinSearchHomeInfos.All) the dock's and the ghost's home sources answer; what a line shows is its own order, switches and
 // counts, a thing shown once, a section with nothing left out; the page sets them plainly (Search in with the way to
-// Windows' Searching Windows, When nothing is typed an ordered list, How many each shows a count each), writing only what
+// Windows' Searching Windows, When nothing is typed an ordered list, Items per section a count each), writing only what
 // is not the default; Top apps are the apps opened most; the home's sections read what Karpo already reads, Start's source
 // told once and let go; the split's breakpoint. Nothing here reads this PC, opens anything or draws.
 
@@ -207,6 +207,28 @@ public sealed class WinSearchHomeTests
         item.WinSearch!.SetHome(WinSearchHomeInfos.Defaults);
         item.Normalize();
         Assert.Null(item.WinSearch);
+    }
+
+    /// <summary>
+    /// §717 (the menu rules' R4): "Search in" says how many sources are asked, as Show from says it, and "Items per section"
+    /// how many the sections shown show together; both follow what is set.
+    /// </summary>
+    [Fact]
+    public void SearchInAndItsCountsSayWhatTheyHold()
+    {
+        var item = ListKind.WinSearch.New();
+        item.Normalize();
+        var all = WinSearchSourceInfos.All.Count;
+        string? Said(string group) => Rows(item).Where(row => row.Group == group).Select(row => row.GroupSummary).Distinct().Single();
+        // Every source but the web's is asked until the person says otherwise.
+        Assert.Equal(S.DockMenuShowFromSome(all - 1, all), Said(WinSearchWords.SearchIn));
+        Assert.True(Rows(item).Single(row => row.Key == OptionRows.WinSearchSource + WinSearchSourceInfos.Web).Set!(1));
+        Assert.Equal(S.DockMenuShowFromAll, Said(WinSearchWords.SearchIn));
+        // The counts of the sections shown, added up; one more file, one more.
+        var shown = WinSearchHomeInfos.Shown(null).Sum(info => info.Shown);
+        Assert.Equal(S.DockEditShownCount(shown), Said(WinSearchWords.HomeCounts));
+        Assert.True(Rows(item).Single(row => row.Key == OptionRows.WinSearchHomeMost + WinSearchHomeInfos.Files).Set!(7));
+        Assert.Equal(S.DockEditShownCount(shown + 1), Said(WinSearchWords.HomeCounts));
     }
 
     // --- The dock's sections -----------------------------------------------------------------------------------

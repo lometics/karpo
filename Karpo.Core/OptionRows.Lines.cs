@@ -462,8 +462,9 @@ public static partial class OptionRows
     /// then the way to Windows' Searching Windows page, where what Windows indexes is chosen (the person, 2026-11-09:
     /// "windows indexing settings should not show up on the bottom in the search widget. it should be linked in the
     /// configuration."). "When nothing is typed": the home's sections, those shown in their order, dragged into another,
-    /// taken out by their ×, the others added from "Add a section" (the toggles row's ordered list). "How many each
-    /// shows": a count per section shown. Everything at its default is written as none (WinSearchOptions).
+    /// taken out by their ×, the others added from "Add a section" (the toggles row's ordered list). "Items per
+    /// section" (§717; "How many each shows" until then): a count per section shown. Everything at its default is
+    /// written as none (WinSearchOptions).
     /// </summary>
     private static void WinSearchRows(WidgetItem item, OptionDevices? devices, List<OptionRow> rows)
     {
@@ -475,6 +476,9 @@ public static partial class OptionRows
             item.WinSearch = kept.Empty ? null : kept;
             return changed;
         }
+        // §717 (R4): the level says what it holds at its row's end, as Show from says it: "All", or "10 of 11".
+        var asked = WinSearchSourceInfos.All.Count(source => WinSearchSourceInfos.On(search, source.Id));
+        var searched = asked == WinSearchSourceInfos.All.Count ? S.DockMenuShowFromAll : S.DockMenuShowFromSome(asked, WinSearchSourceInfos.All.Count);
         foreach (var source in WinSearchSourceInfos.All)
         {
             rows.Add(Toggled(WinSearchSource + source.Id, OptionSlot.Subject, source.Glyph, source.Title, WinSearchSourceInfos.On(search, source.Id),
@@ -486,6 +490,7 @@ public static partial class OptionRows
             {
                 Group = WinSearchWords.SearchIn,
                 GroupGlyph = OptionGlyphs.Search,
+                GroupSummary = searched,
             });
         }
         var index = WindowsPages.SearchingWindows;
@@ -495,6 +500,7 @@ public static partial class OptionRows
             Slot = OptionSlot.Subject,
             Group = WinSearchWords.SearchIn,
             GroupGlyph = OptionGlyphs.Search,
+            GroupSummary = searched,
             Set = _ =>
             {
                 devices?.Open?.Invoke(index.Uri);
@@ -542,7 +548,10 @@ public static partial class OptionRows
             });
         }
 
-        // How many each section shown shows.
+        // How many each section shown shows. §717: the level's row says how many that is together ("38 shown", R4) and
+        // wears a figure, not the Rows icon of the line's own height under it (R13); a count's unit is its heading's
+        // ("Items per section"), so its stepper says the bare number.
+        var together = S.DockEditShownCount(shown.Sum(info => WinSearchHomeInfos.Count(search, info.Id)));
         foreach (var info in shown)
         {
             var id = info.Id;
@@ -552,7 +561,8 @@ public static partial class OptionRows
                 Glyph = info.Glyph,
                 Slot = OptionSlot.Subject,
                 Group = WinSearchWords.HomeCounts,
-                GroupGlyph = OptionGlyphs.Rows,
+                GroupGlyph = OptionGlyphs.Figure,
+                GroupSummary = together,
                 Value = count,
                 Least = WinSearchHomeInfos.Fewest,
                 Most = info.Most,

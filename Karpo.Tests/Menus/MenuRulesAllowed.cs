@@ -22,6 +22,9 @@ public sealed partial class MenuRulesTests
         ["R4 Target › File"] = "a pin's kind not in force: the tick on the one in force says it (§425)",
         ["R4 Target › Website"] = "a pin's kind not in force: the tick on the one in force says it (§425)",
         ["R4 Target › Settings page"] = "a pin's kind not in force: the tick on the one in force says it (§425)",
+        // §717: Windows search's home is the person's own list, seven sections until they order it (§655: "no expander
+        // hiding one setting"), each a row of the menu's first level as a toggles row's toggles are: 12 DIP of it scroll.
+        ["R2 [line WinSearch]"] = "its home's sections are a list of the person's own, seven by default (§655)",
     };
 
     internal static readonly HashSet<string> Allowed = new(StringComparer.Ordinal)

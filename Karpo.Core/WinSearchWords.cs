@@ -58,7 +58,7 @@ public static class WinSearchWords
         WinSearchSourceInfos.Calendar => S.CoreWinSearchCategoryEvents,
         WinSearchSourceInfos.Contacts => S.CoreWinSearchCategoryPeople,
         WinSearchSourceInfos.Notes => S.CoreWinSearchCategoryNotes,
-        WinSearchSourceInfos.Karpo => S.CoreWinSearchSourceKarpo,
+        WinSearchSourceInfos.Karpo => S.CoreWinSearchCategoryKarpo,
         WinSearchSourceInfos.Calculator => S.CoreWinSearchSourceCalculator,
         WinSearchSourceInfos.Web => S.CoreWinSearchOptionWeb,
         _ => id,

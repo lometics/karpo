@@ -223,7 +223,7 @@ public sealed class OptionRowsTests
         ["CameraOptions.Mute"] = OptionRows.CameraMute,
         // §652: Windows search's sources, a switch each under "Search in".
         ["WinSearchOptions.Sources"] = OptionRows.WinSearchSource,
-        // §655: its home's sections, an ordered list under "When nothing is typed", and a count each under "How many each shows".
+        // §655: its home's sections, an ordered list under "When nothing is typed", and a count each under "Items per section".
         ["WinSearchOptions.Home"] = OptionRows.WinSearchHome,
         ["WinSearchOptions.HomeMost"] = OptionRows.WinSearchHomeMost,
         // §496: how many days the agenda lists.

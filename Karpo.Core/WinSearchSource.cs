@@ -100,7 +100,7 @@ public static class WinSearchSourceInfos
         new(Calendar, WinSearchWords.Calendar, [WinSearchCategory.Events]),
         new(Contacts, OptionGlyphs.Contact, [WinSearchCategory.People]),
         new(Notes, OptionGlyphs.Note, [WinSearchCategory.Notes]),
-        new(Karpo, OptionGlyphs.Settings, [WinSearchCategory.Karpo]),
+        new(Karpo, OptionGlyphs.Taskbar, [WinSearchCategory.Karpo]),
         new(Calculator, OptionGlyphs.Calculator, [WinSearchCategory.Answer]),
         new(Web, OptionGlyphs.Globe, [WinSearchCategory.Web], On: false),
     ];

@@ -324,7 +324,7 @@ public sealed partial class MenuRulesTests
             var page = PanelGroups.Page(PanelPage.Widget, name, "", MenuCorpus.Arranged(item, place));
             var headings = page.Rows.Where(row => row.Kind == PanelRowKind.Heading).Select(row => row.Text).ToList();
             // §655: What it shows may be several sections where each is a level of its menu or a list put in order (Windows
-            // search's Search in, When nothing is typed, How many each shows), so: one heading at least, none twice, Size the last;
+            // search's Search in, When nothing is typed, Items per section), so: one heading at least, none twice, Size the last;
             // What it shows itself is then the one before Size (the levels are its sections, or it is theirs).
             var sized = headings.IndexOf(S.DockEditSizeTitle);
             var parts = headings.Count - (sized >= 0 ? 1 : 0);

@@ -43560,3 +43560,30 @@ users can sign in, so everyone else would meet Google's refusal.
   never handed to the Store. The first version in the Store is 1.0.2.
 
 Tests: KarpoMenuTests.AKarpoWithoutGoogleSignInNamesNoGoogleAccount.
+
+## §717 The Windows search widget's menu keeps the menu rules (2026-11-22)
+
+The person: "Yes, fix them", of the two tests left red since §711 (`MenuRulesTests.EveryMenuKeepsTheRules`,
+`MenuConventionTests.EveryNumberSaysItsUnit`), both the Windows search widget's menu (§655) against the menu rules of
+§411. What each rule got, with as few new words as there could be: one English title is new, nothing was translated anew.
+
+- **R4, "Search in" said nothing of what it holds.** Its row says how many sources are asked, as Show from says it:
+  "All", or "10 of 11" (`dock.menu.showFrom.all`, `.some`).
+- **R13 and R14, the Karpo source.** It wore the gear Windows settings wears on the same level, and its name, "Karpo's
+  settings, widgets and layouts", was cut beside its switch. It is "Karpo" now, the name its results' group already has
+  (`core.winSearch.category.karpo`), as Apps, Email, Calendar, Contacts and Notes are named by theirs, and wears the
+  taskbar's icon. `core.winSearch.source.karpo` is gone from all 40 languages. What the source finds is unchanged.
+- **R7, R4 and R13, "How many each shows".** A sentence for a title, no value at its end, and the Rows icon of the
+  line's own height two rows under it. It is "Items per section" in English (the other 39 languages keep their words:
+  some already had a noun, German's "Anzahl je Abschnitt" among them, the rest say the same thing as a clause), says
+  how many that is together ("38 shown", `dock.edit.shownCount`) and wears a figure (`OptionGlyphs.Figure`).
+- **A number's unit.** A section's count is a bare number under the heading that names it, as a chart's Years is:
+  the test takes Windows search's counts under that heading for counts.
+- **R2, not mended: an exception.** The menu's first level is 402 DIP of 390 with the seven sections the home shows
+  by default, each a row of the first level as a toggles row's toggles are, so 12 DIP of it scroll. Mending it means
+  one section fewer by default or the list behind a level of its own, and §655 says "no expander hiding one setting".
+  `MenuRulesTests.Exceptions` has it with why. The settings panel's page, which scrolls, is as §655 made it.
+
+Nothing in config.json changes.
+
+Tests: the two named above, and WinSearchHomeTests.SearchInAndItsCountsSayWhatTheyHold; all of `Karpo.Tests` green.

@@ -15,7 +15,7 @@
 // configuration so you have to actually expand to configure"): a level that is all What it shows holds (the tray's icons, the
 // status icons) is the section itself, its heading the level's name, its rows on the page. §655: so is each of several
 // where they are all What it shows holds — levels, and lists put in order (OptionRow.Ordered) under their group's name —:
-// Windows search's Search in, When nothing is typed and How many each shows, three plain sections, nothing folded.
+// Windows search's Search in, When nothing is typed and Items per section, three plain sections, nothing folded.
 //
 // §567: no Look: a widget, a folder and a line have no look of their own; Karpo's one Appearance is theirs.
 //
